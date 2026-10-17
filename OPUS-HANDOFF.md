@@ -1,31 +1,2380 @@
 # Unison implementation handoff
 
-Last updated: 2026-10-16T20:48:21Z. Comparison admission/workspace last checked
-absent at2026-10-16T20:43:10Z; recheck before any runtime. Implementation HEAD before the initial handoff:
+
+## Consolidated review candidate — latest 2026-10-17
+
+Checkout /Users/alexy/src/unison-sol-review-20261017, branch
+integration/sol-consolidated-review, combines all current feature/cache/report,
+producer auditor, integration regressions and qualified component-source owner
+fix. No GitHub PR merged. Production source initially matched sourceecad82f3; the qualified cold-start
+follow-up below subsequently changes Update only.
+new merges reconcile navigation and original regression harnesses only. This
+section supersedes earlier scattered branch-current statements below; historical
+raw/sealed receipts remain unchanged.
+
+Frozen IO-request candidate remains separately at
+/Users/alexy/src/unison-sol-integration-20261017 with exact requeste60975f3,
+queue01a14991-ce52, admission path
+/private/tmp/unison-sol-properties-admission-86df187d7c95.json. Do not substitute
+this newer checkout/binary into that request or dispatch without a fresh grant.
+No owned job/resource is active. Remaining runtime acceptance needs new IO
+coordination; incomplete private fields are not a deployment gate. No full-goal
+completion/production activation/benchmark/camera/SDK claim follows from merge.
+
+
+## Current integration candidate — 2026-10-17
+
+This local branch combines managed-cache/local-report source6b4d5204 (PR11) and
+independent RPC auditor sourcea3725eb5/current5f350db6 (PR10). No GitHub PR is
+merged, no old run/admission is replayed, no original sealed receipt rewritten.
+The code merged without conflicts; only these navigation documents required
+combining parallel history. Later paragraphs saying store/namespace/UI are
+pending are historical; local opt-in report cache is implemented and qualified
+on its exact branch. Remote cache routing remains absent. Candidate validation
+is still required before making any combined-source qualification claim.
+
+Current zero owned jobs/resources. Standing8/8 applies. Next inspect required
+SOL acceptance against current integrated code/evidence, then run appropriate
+current-source checks. No runtime/media/SDK/transport admission is created.
+
+## Latest namespace successor — 2026-10-17
+
+Source ed67f0eb is pushed as draft PR9:
+https://github.com/querygraph/unison/pull/9 (base PR8), no merge authorized.
+
+Branch `feat/component-cache-namespace`, sibling worktree
+`/Users/alexy/src/unison-component-namespace-20261017`, based on PR8, adds one-use
+macOS component-cache-v0 directory provision/open. Fresh refuses EEXIST; reopen
+requires trusted device/inode. Actual mkdir survives later sync failure with no
+rollback/retry. Scoped synchronous callback rechecks parent/name/FD, closes once
+and propagates the same uncertainty carrier; nested failures retain known manifest
+and namespace FDs plus all borrowed directories. No production namespace installed.
+
+Current stock/Ox Make/fullselftests/Dune/1272SRCchecks PASS,67namespace+9real-native/
+80loader+7real-native checks/compiler plus existing component/DNG/126worker/archive
+suites; exact receipt component-cache-namespace-actual-20261017.json and contract
+doc/component-cache-namespace.md. All nine workers/groups/token sets closed.
+First actual61854/d0ad68/1 intentionally stopped after five passed steps because a
+fresh Root RPC grant appeared; after actual RPC closure,18854/f0c867/0 finished
+only four unstarted steps. No test replay or competing build during that RPC.
+
+IMPORTANT main RPC admission53a52254 was consumed ONCE meanwhile: actual owner
+91491/7ec39a/exit1/no session; all8probe commands0, final auditor KeyError(cancel_reason).
+Main frozen342sources remain unchanged; independent Root resource-failure closure
+adoption f01c0b94 explicitly released Photo scheduling hold. Main's outside-frozen
+saved-only auditor verifies exact producer schemas/8ledgers/expected fixture hashes
+in memory/current lstat without payload rehash, original exit1/result preserved;
+its separate functional adoption is not inferred. See main OPUS and
+doc/component-remote-actual-saved-audit.md there. No replay or old-grant reuse.
+
+Next cache work: durable namespace identity binding, quota-admitted stage creation
+and capture/adoption/report routing. This optional cache integration does not make
+incomplete MakerNotes a deployment gate. No new media/SDK/transport authorization.
+
+## Latest managed-loader successor — 2026-10-17
+
+Source commit `3d35cf81` is pushed as draft PR8:
+https://github.com/querygraph/unison/pull/8 (base PR7). No merge authorized.
+
+Branch `feat/component-cache-loader`, worktree
+`/Users/alexy/src/unison-component-loader-20261017`, stacked on PR7, adds strict
+macOS digest-leaf metadata opening/authentication/normal-close and retained
+uncertainty in DngComponents. `Update.load_component_owner_index` takes trust
+from the loaded archive hint; off/missing hints touch no directory. Matching
+UIX/UDI and UCR metadata is fully authenticated and loader-owned FDs retire
+before successful return. Nested close errors retain known manifest FDs;
+original failure and all uncertain identities survive, without numeric retry.
+Last-known identity survives a failed final stat. Directory remains borrowed.
+
+Actual parent35813/42bf8f/0/no session: current stock/Ox Make/fullselftests/Dune,
+1272SRCchecks,80loader+7unmodified-native checks/compiler, existing56component/
+1005checkpoint/27publicationfault/13readerfault/1391DNG/29archivefault/126worker
+controls and14archive-probe calls (2compiles+12runtime phases) PASS; all nine workers/groups/
+tokens closed. Earlier failed fixture exception expectation and missing owner-only
+Ox API annotation preserved, corrected before current evidence. An earlier full
+pass predates the final identity-retention fix and is not the current source proof.
+See tests/qualification/component-cache-loader-actual-20261017.json and
+doc/component-cache-loader.md.
+
+No source-photo/SDK/Adobe/transport or production namespace/write was invoked.
+No bootstrap directory, automatic capture/adoption or normal report-path routing
+is implemented yet. This is an isolated successor, not a main merge or new IO
+admission. Main's342RPC closure remains frozen; latest Root defer was independently
+read, no admission/workspace exists at last check, and no current Photo liveness
+is inferred from that historical defer receipt.
+
+Latest checkpoint: opt-in all-scanned validation implemented; current stock/Ox Make+Dune and local scan-RPC/fake-driver controls PASS/CLOSED.
+
+<!-- Parallel historical checkpoint retained from RPC auditor branch. -->
+## Latest future RPC auditor source — 2026-10-17
+
+Source a3725eb5 is pushed as draft PR10:
+https://github.com/querygraph/unison/pull/10, base feat/semantic-dng-oxcaml.
+No merge or future transport execution authorized.
+
+Branch feat/component-rpc-producer-audit, worktree
+/Users/alexy/src/unison-component-rpc-audit-20261017, based on main a2ddb287,
+fixes the actual final-auditor field mismatch for future runs. New independently
+pinned producer_schema.py validates REAL separate client/supervisor shapes and
+server wait/cancel/pump proof; audit.functional retains raw binding and fresh
+synthetic-file SHA readback. Runtime inventory343 here; originalmain342 remains
+unchanged, and historicalplan/admission are not repinned/reused.
+
+22coordinator+8readback+6saved control groups PASS, actual batch93347/15fd98/0 and
+finalcoordinator9b669b/0/no sessions/allgroupsCPUclosed. Full simulated worker passes
+real-shaped receipts; restoring the original lookup reproduces exit1/KeyError.
+Current producer AST field extraction, eight historical metadata projections,
+mandatory-helper source pin and existing failedprefix/unknown controls qualify
+this source fix. All318C/OCaml production files unchanged; no rebuild/liveRPC/
+SDK/media/EXIO/new runtime plan or admission. Exact evidence:
+tests/qualification/component-rpc-producer-audit-source-actual-20261017.json and
+doc/component-rpc-producer-audit-successor.md.
+
+Main consumedV1 and its originalfailedbytes/sealedreferences remain untouched.
+Root already separately adopted all8saved functional cases, originalexit1 and
+zero new payload reads/replay; f3bc1d0f adoption is reconciled in main. Any current
+pending/awaiting message below is historical. No new runtime is required merely
+to correct that old report and no successor dispatch is inferred.
+
+## Current actual RPC and namespace state — 2026-10-17
+
+RPC V1 admission53a52254 is CONSUMED, not awaiting dispatch. Actual owner tool
+91491/7ec39a/exit1/NOsession, coordinator62256/worker62257: all8probe commands0,
+raw8client/supervisor/server/pump settlements pass, workerreaped1/othersabsent,
+CPU8+EXIOclosed. Final auditor failed KeyError(cancel_reason): original fabricated
+controls added that field but actual client/supervisor producers omit it. Original
+WORKER-RESULT completeFALSE/exit1 and OWNER-RETURN088ef9fb remain unchanged.
+Independent Root adoption f01c0b94 reparsed8prefixes, freshly reacquired EXIO/Photo8
+and explicitly RELEASED scheduling hold. No replay/new grant is authorized.
+
+Saved-only auditor outside frozen342 closure (tests/component_remote/saved_*)
+now checks exact producer schemas,8rawledgers/reports/in-run beforeafter hashes,
+expected fixture hashes computed IN MEMORY and current16lstat fences. It does NOT
+open/re-hash generated payload or turn original ownerexit1 into0. Actual metadata
+outputaudit e27a2d/0; six original control groups/13negative-schema variants actual
+90276/474f52/0, bothcontainedgroups/CPUclosed. Savedresult d6d94f4c is separate
+source-bound functional evidence. Root has now separately adopted all8saved
+cases in UNISON-COMPONENT-RPC-V1-SAVED-RECEIPT-FUNCTIONAL-ADOPTION-20261017.json,
+with342pins and0payload reads/replay/newadmission. Exact local reconciliation:
+tests/qualification/component-remote-root-saved-functional-adoption-20261017.json.
+This preserves original exit1 and does not claim a new independent payload hash. See doc/component-remote-actual-saved-audit.md and qualifications
+component-remote-actual-saved-audit-20261017.json plus root-closure-adoption.
+Main frozen342runtime sources/request/plan remain byte-identical; old slot never
+runs again. Next audit tooling fix must be versioned, preserve the original run
+and qualify REAL producer schemas, not require a new native run merely for a
+reporting correction.
+Sealed return: doc/component-remote-return-20261017.json,9590B
+SHA2ce13be049b9ede3fab46015d1f1d865145e10d8806c40d34cffc457879f7098.
+PR2's description now distinguishes original exit1 from saved-only evidence.
+
+Latest namespace source ed67f0eb is draft PR9
+https://github.com/querygraph/unison/pull/9, branch feat/component-cache-namespace,
+worktree /Users/alexy/src/unison-component-namespace-20261017, based on PR8.
+One-use fixed-child mkdir or trusted dev/inode reopen; retained mkdir effects,
+scoped close and nested known/uncertain/all-borrowed directory evidence. Current
+stock/Ox Make/fullselftests/Dune/1272SRCchecks,67namespace+9unmodified-native/
+80loader+7unmodified-native checks/compiler plus existing suites PASS. Controller
+61854/d0ad68/1 stopped safely before next job on fresh RPC admission after5passed
+steps; after actualRPCclosed,18854/f0c867/0 completed only4unstartedsteps. All9
+workers/groups/token setsclosed. See that branch's component-cache-namespace-
+actual-20261017.json and doc/component-cache-namespace.md. No production namespace,
+photos/SDK/transport or automatic cache activation. Durable namespace identity
+binding and capture/adoption/report routing remain optional cache follow-ons,
+not private-field-completeness deployment gates. No merges authorized.
+
+Previous loader successor: `3d35cf81`, draft PR8
+https://github.com/querygraph/unison/pull/8, branch `feat/component-cache-loader`,
+worktree `/Users/alexy/src/unison-component-loader-20261017`, stacked on PR7.
+Strict macOS UIX/UDI/UCR digest-leaf reads now use the actual loaded archive hint
+through Update.load_component_owner_index. Borrowed directory, no discovery or
+creation; owned leaf FDs close once, with original failure/last-known identity/
+known ancestor retention on close uncertainty and no numeric retry/finalizer.
+Current stock/Ox Make/fullselftests/Dune and1272SRCchecks passed; percompiler
+80loader+7unmodified-native checks and existing component/DNG/126worker suites;
+14archive-probe calls (2compiles+12runtime phases). Actual35813/42bf8f/0/no session,
+all nine contained workers/groups/tokens closed. Earlier failed fixture exception
+expectation and missing Ox owner-only annotation and pre-identity-fix pass are
+preserved; current proof uses final002 builds/controls. See that worktree's
+component-cache-loader-actual-20261017.json and doc/component-cache-loader.md.
+No namespace bootstrap, automatic capture/adoption/normal report routing or
+media/SDK/transport/production/power-loss qualification. Main runtime342RPC pins
+remain unchanged; that pending RPC slot has since been consumed and closed as
+recorded above. Do not reuse its admission or act on historical readiness.
+
+Previous worker successor: `5537ec16`, draft PR7
+https://github.com/querygraph/unison/pull/7, branch
+`feat/component-owned-worker-refresh`, worktree
+`/Users/alexy/src/unison-component-owned-worker-20261017` (stacked on PR6).
+Worker refresh now authenticates the retained record against the trusted owner
+entry and derives its decoder inventory there. Stock/Ox Make/fullselftests and
+116 worker checks/compiler passed, actual67532/754d9e/0/no session; all contained
+groups/tokens closed. See that worktree's qualification receipt and handoff.
+Subsequent indexed routing also passed current stock/Ox Make/fullselftests/Dune
+and126workerchecks/compiler,1272current source checks, actual19704/4509e5/0/no
+session; all five contained workers/groups/tokens closed. Exact owner/path/
+generation miss or stale entry freshly extracts; a hit authenticates and
+refreshes; missing selected record errors and foreign/corrupt records fail
+without silent fallback. Changed-input/cancellation controls pass. See
+component-indexed-worker-refresh-actual-20261017.json and
+doc/component-worker-cache-routing.md in that successor. No media/SDK/transport
+or automatic managed namespace selection/normal scan installation claimed.
+This remains separate from main's frozen RPC source/admission closure.
+
+User design clarification, 2026-10-17: SOL.md now explicitly separates release
+qualification from later field refinement. Qualified pixel/metadata separation
+may ship with exact opaque preservation; incomplete small-field mapping is not
+a global deployment gate. Immutable decoder/policy revisions compose across
+independent components, read only affected regions when input bindings permit,
+and recompute dependent roots while retaining old views. Interpretation alone
+does not prove stability or authorize hash exclusions. Automatic routing remains
+an implementation follow-on; this documentation change authorizes no deployment.
+
+Historical checkpoint: opt-in all-scanned validation implemented; current stock/Ox Make+Dune and local scan-RPC/fake-driver controls PASS/CLOSED.
+Older checkpoints below retain their original scopes and pending-state history.
+Implementation HEAD before the initial handoff:
 `50da86f34fef8b407689d63c4fd021d2bb9e1438`.
 
 ## Read this first
+
+Retained old-production-code archive compatibility now PASS/CLOSED on PR6:
+actual12014/2441f7/0,13directcalls with currentstock/Ox producers and pre-component-
+RPC stock5.2.0 Update/Proplist/nativeobjects from pinnedreceiptf24467a3. Old code
+has no newhintregistration/API. Old read preserves exactarchivebytes, rewrite
+removes hint; currentcoldreload givescachemiss with immutableUIXpayloadunchanged.
+Allgroups/tokensclosed; oldsource/objects/originalCLI hash unchanged. The original
+CLI was NOT invoked; no network/fullsync/data-bearingroots/SDK/photos. Test-only
+successor; current productionSRC1272pins rebound to priorfourbuilds, not rebuilt.
+`tests/qualification/component-archive-legacy-actual-20261017.json`. No automatic
+capture/reuse, managednamespace or broad old-version compatibility is implied.
+
+Draft PR6 https://github.com/querygraph/unison/pull/6 is stacked on PR5,
+`feat/component-archive-hints` against `feat/component-owner-index`.
+Qualified source/evidencef171539b; all owned handles/grants are closed. PR4 and
+PR5 remain separate review levels; main frozen342RPC source is unchanged. No
+actual old-binary compatibility or automatic cache capture/reuse is claimed.
+
+Archive-hint successor `feat/component-archive-hints` in
+`/Users/alexy/src/unison-component-archive-20261017`, based on PR5c372213a, is
+qualified. Endpoint-local default-off componentownercache UAX/0 tail afterlegacy
+paths; privatekey removed beforelegacypropertyserialization. No format23/version/
+feature change. Reference derivation requires normallycompleted publication,
+not renameeffectalone; caller settlesFDs before local adoption. Existingarchive
+commit persists hint. Missing/malformed/off hints decline without blobdiscovery.
+Focused63243/2ab595/0 incl1391DNG+29archivepubfault checks/compiler passed.
+StockMake passed in77348/e17590/1; linked001import/002privateUtilsymbol/003missing
+maxthreadsPref failedclosed, preserved; test-only fixes, productionunchanged.
+Actual stocklinked00458999/8ec8ad/0 and full96641/27b99d/0 PASS/CLOSED. Current
+stock/Ox Make/fullselftests/Dunecompile1272SRCpins;56component/1005checkpoint/
+27publicationfault/13readerfault/110workerchecks percompiler pass. Both linked
+archiveprobes14directcalls/6phases each pass; all8adoptedworkers/groups/tokensclosed.
+`tests/qualification/component-archive-hints-actual-20261017.json`, contract
+`doc/component-archive-hints.md`. No oldbinary/remote/SDK/media/automaticcapture/
+managednamespace/hardwarepowerloss orlegacyclosefault qualification. Main frozen
+342RPC untouched/no runtime admission inferred; new source not merged to main.
+
+Manifest storage/publication successor on PR5 qualified. Borrowed-FD UIX write/
+read with pre/post-loader stability; owner-only native immutable publication,
+one attempt even afterfailedrename, actual-effectgetter. Sourcehelpers open/dup/
+close noFDs. Actualfocused56956/e8cf00/0 and full85962/0cfdd3/0 PASS/CLOSED;
+initialnativefixture94862/954705/0 preserved, separatefinal negativecompilefiles
+qualify cache+manifest contexts. Current56component+1005checkpoint+27publication
+fault+13readerfault+1248DNG+110workerchecks/compiler, freshstock/Ox Make/fullselftests/
+Dunecompile and1272current sourcepins match. All7observedworkers/groups/tokens
+closed. Receipt `tests/qualification/owner-manifest-publication-actual-20261017.json`.
+No quota reservation/namespace installation/trusted-state commit/crash-safe pointer/
+automaticrouting or actualPhoto/media/SDK/transport. Entry presence and FDsettlement
+still owner duties; new native fault scope is underlying unchanged core, not a
+separate UIXpostrename injector. Main frozen342RPC unchanged/no runtime grant.
+
+UIX/0 reference-manifest successor on PR5 is qualified. Header80B+32/reference,
+max32848B; prior trusted manifestSHA+ownerbinding+exactlimits required before
+entry resolution. Each referencedUDI independently digest/canonical/keyorder/
+aggregatebudget checked; cancellation and loadererrors propagate without partial
+ledger. Existing UDI decoder factored, unchanged UDI wire bytes. Actualfocused
+41977/9e212a/0 and full46659/898c87/0 PASS/CLOSED, all7workers/groups/tokensclosed.
+Current56component+1005checkpoint+27publicationfault+13readerfault+1234DNG+
+110workerchecks/compiler, freshstock/Ox Make/fullselftests/Dunecompile and1272
+sourcepins match. DNGcount includes framingvector truncations, not extra cameras.
+`tests/qualification/owner-index-manifest-actual-20261017.json`. No filesystem
+publication/durability/automaticrouting/archiveauthority, photos, SDK or transport.
+
+Draft PR5 https://github.com/querygraph/unison/pull/5 is stacked on PR4,
+`feat/component-owner-index` against `feat/component-cache-input-binding`.
+Qualified source/evidence0bfb4c9f; exact current scope and corrected source-rebind
+history below. PR4 remains separate/ready, main frozen342RPC untouched. No
+owned build/test handles or CPU/IO resources remain; no new runtime admission.
+
+Owner-index successor `feat/component-owner-index` in sibling
+`/Users/alexy/src/unison-component-index-20261017` is qualified on PR4 base835df2fc,
+leaving PR4 stable/ready. Bounded immutable trusted ledger (1024entries/8MiBencoded
+payload pervalue), exactroot/path/currentgeneration selection, pure olddigest
+replacement/removal and selected authenticated metadata/fullinput refresh.
+No inferred newestgeneration, globalCAS, namespace/persistence/automaticrouting,
+archiveadvancement/nativequota refund. Owner serializes adoption/retainedmemory.
+Focused14748/ba6934/0 and initialselector48015/b12b44/0 closed. Firstcontroller
+23119/d88402/0 had worker001reaped1 on OxMake001 temporarycomment/sourcepin
+mismatch; firstseal refused beforewrite/commit. Correctedactual70919/48638c/0,
+OxMake002+worker002 PASS/CLOSED. Selectedcurrent stockMake001/OxMake002/bothDune001
+1272sourcechecks match. Percompiler56component+1005checkpoint+27publicationfault+
+13readerfault+1071DNG+110workerchecks PASS. All7selectedworkers/groups/tokensclosed,
+originalfailurepreserved. `tests/qualification/owner-index-actual-20261017.json`.
+No SDK/photos/EXIO or RPC; main frozen342 unchanged/no transport grant inferred.
+
+Reader retirement follow-up qualified: read/iter/digest refuse expired readers
+BEFORE caller cancellation/iteration code can execute. Focused99430/44f833/0 and
+full44086/b80c8b/0 closed. Current56component+1005checkpoint+27publicationfault+
+13readerfault+1051DNG+110workerchecks percompiler PASS. Fresh stock/Ox Make+
+fullselftests/Dunecompile and1272current sourcepins matched. All7observedworkers,
+groups/tokensclosed. Receipt `tests/qualification/reader-retirement-actual-20261017.json`.
+PR4 handoff conflict resolved; main reviewed342RPC unchanged/no runtime grant.
+No automatic namespace/selection/activation, photos/SDK/transport or merge.
+
+Borrowed positional reader is now qualified: POSIX `with_borrowed_fd` borrows
+callerFD without opens/dup/closes or position changes, expires after callback,
+bounded64KiB pread with short/EINTR/cancel/EOF/EIO handling. Known-entry tests
+borrow record/index readers. Actualfocused4732/5c6873/0, fault32180/55eba7/0,
+full60005/7f8b98/0 closed; all7workers/groups/tokensclosed. Percompiler52component+
+1005checkpoint+27publicationfault+13readerfault+1051DNG+110workerchecks PASS,
+freshstock/Ox Make/fullselftests/Dunecompile1272current sourcepins match. First
+modefilter count refusal82216/96d6fa outer0/twoworkers1 preserved closed; exact
+native count2->4 corrected, no productionfaultswitch. Evidence
+`tests/qualification/borrowed-reader-actual-20261017.json`. Qualified macOS only;
+Windows explicitrefusal source/Linux runtime unqualified. Legacy channelcleanup
+unchanged. Still no managed namespace/automaticselection/SDK/media/transport.
+
+Partial-knowledge upgrade is now tested through actual authenticated cache reuse:
+unsupported replacement invalidates old private descendants while preserving
+pixel/full-byte identity and retaining the previous usable checkpoint. Focused
+1051DNGchecks/compiler actual8636/1547ac/0 closed; allchildgroups/tokensclosed.
+Test-only change, production unchanged;318sourcepins perprior4builds rebound
+(no build rerun). Receipt `tests/qualification/dng-cache-partial-upgrade-actual-20261017.json`.
+Root RPC readiness request01a148b7-6db0 remains separate; no runtime grant inferred.
+
+Authenticated capture-to-refresh integration is qualified: `with_cache_capture`
+requires complete trusted metadata, full-current-input/current-parser verification
+and derives decoder provenance only from the owner entry. Focused1047checks per
+compiler44609/428946/0 and fullcontroller93249/2fc314/0 closed: stock/Ox Make+
+fullselftests/Dunecompile/productionlinked110workerchecks percompiler,1272current
+sourcepins match. All6workers/groups/tokensclosed. Receipt
+`tests/qualification/dng-cache-reuse-actual-20261017.json`. Orphan/changedinput
+refuse beforecallback. No media/SDK/transport/automatic namespace or selection.
+
+Known-entry lookup final record recheck now has targeted race+ablation proof.
+Existing readercallback redirects equal-byte record afterrecordauth/duringindex
+check; normalcode refusesbeforeresultdelivery. Copied filtered variant removing
+onlyfinalrecordcheck reaches exactescaped-resultassertion onstock/Ox. Normal1043
+DNGchecks/compiler PASS42365/6e723a/0, worker73695reaped0/groupsabsent/tokensclosed.
+Initialdriver expecteduncaughtexit1 instead ofactual2 preserved; corrected only
+expectedcode, guardassertionunchanged. Receipt
+`tests/qualification/dng-cache-lookup-race-actual-20261017.json`. Production source
+unchanged;1272currentSRCpins rebound againstprior4builds, no fullrebuild claim.
+Managednamespace opening/automaticselection/recoveryscan remainopen; no SDK/media/EXIO.
+
+Known trusted-entry recovery lookup implemented: actual no-follow presence must
+match provided borrowedreaders; nativeFD/name/private/size/epoch checks around
+bounded record/index authentication. Complete/record-only/entry-only/missing
+classifications; foreignindex, wrongreader and equalbyte symlinkredirect refuse.
+No opens/closes/cleanup/scan; resultisnot producerterminal/resourceclosure/current
+source eligibility. Focused48730/287b5e/0 and all4builds+workers53905/09f4fb/0 PASS,
+allgroups/tokensclosed,1272SRCchecks. Receipt
+`tests/qualification/dng-cache-recovery-actual-20261017.json`. Managednamespace
+opening/automaticselection/recoveryscan/eviction stillopen; no media/SDK/EXIO/mainpins.
+
+Explicit quota-bound paired capture now implemented. Native admission binds two
+fresh distinct empty stages in actual reservednamespace before writes; seal pins
+same produceridentities with aggregatebounds. Failed/unsynced reservation cannot
+admitpayload. Record/index stage+readback then one-use record-first entry-second
+publication; entrycollision preserves record-only orphan/foreigntarget/entrystage/
+consumedquota, no replay/refund. No FDopens/closes; caller retains settlement.
+Focused52173/4a12f1/0 and all4builds+workers84836/be254d/0 PASS, allgroups/tokensclosed,
+1272SRCchecks. Receipt `tests/qualification/dng-cache-capture-actual-20261017.json`.
+Managedlookup/recoveryscanning/automaticactivation stillopen; no mainpins/media/SDK/
+EXIO. PR3 remains stacked/unmerged; this is metadata capture, not a photo render.
+
+macOS monotonic cache quota API now implemented: borrowed0700directory, identical
+immutable no-follow configuration, atomic emptydirectory slots charged2MiB each,
+max4096/8GiB; one attempt/ticket, no slot reclamation. Lostconfig over slots and
+settings mismatch refuse. Two real processes race finalslot: exactlyone granted,
+bothwaited0; injectedpostmkdir directoryEIO retains consumedslot/no replay/refund.
+Currentstock/Ox41component+1005checkpoint+26fault+110worker checks/compiler PASS;
+all4current Make+selftests/Dune builds PASS,1272SRCchecks. Actualfocused51354/88ab45/0,
+fullcontroller86525/7cd749/0, allgroups/tokensclosed. Receipt
+`tests/qualification/component-metadata-quota-actual-20261017.json`. Original tiny
+fixtures only; no media/SDK/EXIO/mainpins. Managed lookup/routing/recovery remains
+unimplemented; quota is conservative payload admission, not physicaldisk/RSS cap.
+
+Separate stacked draft PR now open: https://github.com/querygraph/unison/pull/3,
+`feat/component-cache-input-binding` against `feat/semantic-dng-oxcaml`; qualified
+code/evidence throughf06f005a. No merge/mainRPC sourcechange. PR explicitly leaves
+managed lookup/quota/automatic selection unimplemented and does not grant runtime
+transport. All currentbuild/test owners closed; no resources held.
+
+Current owner-entry/source integration qualified:stock/Ox Make+fullselftests and
+Dune compile allPASS,1272SRC checks;110production-linked workerchecks/compiler
+alsoPASS. Commonactualcontroller41172/e6f14a/0/no session, all5workers/groups/CPU
+tokensclosed. Receipt `tests/qualification/dng-owner-entry-current-builds-actual-20261017.json`.
+Currentfork handoff/source-review evidence merged into isolatedbranch (ada13312),
+documentation/evidence only,0production sourcechanges from that merge. Preparing
+separate stacked draft againstfeat/semantic-dng-oxcaml; no mainRPCpinschanged or
+automatic cache enabled. Managedlookup/quota and actual newRPC remain open.
+
+UDI/0 entry now has borrowed-FD staging/readback and macOS immutable publication.
+CapturedentrySHA verified againstentirestage before nativeexclusive rename; exact
+postpublishreadback passes, unrelatedstagebytes/overwrite refuse. Shared bounded
+metadatawriter factored; privatepermissions now reject specialmodebits too. Both
+DNG/core focused suites passed commoncontroller98587/e40f51/0, allworkers/groups/
+tokensclosed; receipt `tests/qualification/dng-owner-entry-publication-actual-20261017.json`.
+Preserved preexecPython syntaxrefusal bb6df9/1 acquired0resources. Managednamespace/
+lookup/quotas and currentfull-build successor remain open; no media/SDK/EXIO/mainpins.
+
+UDI/0 owner-index entry codec now implemented in DngComponents: root/path/
+generation+input+orderedoutcomes bound to checkpoint/recorddigests; trusted-entry
+digest required on load, record loading rechecks references and private schemas.
+Metadata-only/portable; ComponentHash.checkpoint_root exposes bounded historical
+tree without currentinputauthority. Focusedstock/Ox controls passed23340/397bf5/0,
+worker45920reaped0/groupsabsent/tokensclosed; entryencode adds0source reads. Receipt
+`tests/qualification/dng-owner-entry-actual-20261017.json` includes truncation/tamper/
+wrongroot-path-generation/record/provenance controls. Managed owner-index namespace,
+atomic entry publication/lookup/quota and full-build successor remain outstanding.
+No media/SDK/EXIO/mainRPCpins changed.
+
+Record publisher now has original postrename/pre-sync fault proof plus all4current
+builds. Test-onlyfsyncshim (no production switch) proves directoryEIO afterrename
+retains published/exactbytes/no replay; stageEIO/EINTR leave unpublished and no
+retry. Focused20280/4c5cc4/0:41component+988checkpoint+21nativefaultchecks/compiler;
+repeated41setup is not extraindependentcoverage. Currentstock/Ox Make+selftests+
+Dune compile allPASS under commonactualcontroller66861/b6ab3a/0,1272productionSRC
+checks. Production-linked110workerchecks/compiler alsoPASS89713/f7593d/0. Allgroups/
+tokensclosed, no media/SDK/EXIO. Three exact receipts:
+`component-record-publication-fault-actual-20261017.json`,
+`component-record-publication-builds-actual-20261017.json`,
+`component-record-publication-worker-actual-20261017.json` in tests/qualification.
+Native record publication is qualified for these originals; persistent owner-index
+and automatic diskcache selection remain unimplemented. MainRPCpinsunchanged.
+
+macOS immutable-record publisher now implemented: independently authenticated
+readback + borrowedprivate0700directory/0600stage/fullnative/no-followbinding,
+stagefsync/exclusiverename/publishedidentitycheck/directoryfsync. No FDopens/dups/
+closes/retention; caller owns settlement. Native ticket records rename success
+before runtime/postrenameerrors, forbidsreplay, owner-onlynonportableAPI. Focused
+stock/Ox41core+988checkpointchecks each PASS58876/7a5f21/0,worker39556reaped0/groups
+absent/tokensclosed; extra negativeSafespawnticket control passes. Receipt
+`tests/qualification/component-record-publication-actual-20261017.json` preserves
+Darwinfeaturemacro and Oxowner-interface failures before finalsuccess. Actualtiny
+fixtures only, no media/SDK/EXIO/mainpinschanged. Fullbuilds/postrenamefailure
+injection/ownerindex integration still open; no hardwaredurability/productionclaim.
+
+Worker decoder refresh connected: `SemanticWorkers.refresh_components` restores
+trusted checkpoint+prioroutcomes, selects currentdecoders offowner, reports reused/
+invalidatedIDs and optionally captures refreshedmetadata. Unchangedinventory runs
+zero decoders; upgrade runs once within localizedbudget and preservespixels.
+Currentstock/Ox fullMake+selftests passed21922/e903fb/0+48701/08525e/0; worker110checks
+each passed6404/e45bad/0. Allworkers/groups/CPUtokensclosed;318sourcepins/build checked.
+Receipt `tests/qualification/component-worker-refresh-actual-20261017.json`.
+No media/SDK/EXIO/mainRPCsourcechanges. Namespace/ownerindex publication and current
+Dune successor remain outstanding; no automatic diskcache selection yet.
+
+Sibling composition qualified with actual sequential checkpoint upgrades: A→B and
+B→A produce identical checkpointbytes/layoutroots/pixelprojections; initial decoder
+order also commutes. Eachstep retains its independent sibling and charges only
+8192Bfullverification+130B or5Baffectedwork. Stock/Ox114DNGchecks each passed
+15700/95452e/0,worker34661reaped0/groupsabsent/tokensclosed. Receipt
+`tests/qualification/dng-decoder-composition-actual-20261017.json`. Production
+source unchanged from4a387823; fullbuild successor/index publication still open.
+
+Owner-inventory decoder refresh now implemented: trusted prior outcomes checked
+against restored schemas; unchanged targets reused, changed/removed reset;
+invalidatedparentpreventsdescendantreuse; currentbindingsapplyparentfirst. Base
+fallback schemas preserved so removalcheckpoint restores. Private/opaque leaf
+reset nowallowed (needed for decoders returning no children). Stock/Ox103DNGchecks
+each PASS80431/99049c/0,worker33969reaped0/groupsabsent/tokensclosed. Receipt
+`tests/qualification/dng-decoder-refresh-actual-20261017.json` preserves earlier
+narrowpass. Child-onlyupgrade charges8192+113B, parentupgrade8192+243B; no pixel
+reread beyond full inputverification. No disk/index publication or currentfullbuild
+successor yet. Existing publicationhelpers suppresscloseerrors, so not silently
+repurposed for the new retained-ownership store contract. No media/SDK/EXIO.
+
+Worker extraction now supports explicit optional capture_checkpoint (defaultfalse).
+Only successful live extraction exports bounded immutable checkpoint metadata;
+ordinary observations/restore returnNone, export adds no inputreads. Owner can
+retain its digest directly from extraction rather than trusting loaded bytes.
+Currentstock/Ox Make+selftests PASS actual76341/586683/0+80217/dea3a3/0; worker
+capture→restore controls106checks/compiler PASS53028/f3513e/0, allgroups/tokensclosed.
+Receipt `tests/qualification/component-worker-capture-actual-20261017.json`.
+Both318production sourcepins rechecked. No media/SDK/EXIO; automatic owner-index/
+namespace publication and current Dune successor checks remain outstanding.
+
+Borrowed-descriptor record staging/readback now implemented in ComponentHash.
+Fresh empty private0600 singlylinked regular outputs only; bounded writes+fsync+
+identity/sizecheck, explicit intendeddigest; bounded reader requires trusteddigest
+and ownerbinding. No pathnameopen/FDclose/namespace/indexpublication. Stock/Ox
+focused controls passed actual18467/4ae3fb/0, worker29828reaped0/groupsabsent/
+tokensclosed; original tiny disposable outputs only. Receipt
+`tests/qualification/component-record-storage-actual-20261017.json`. Independent
+readback before publication remains caller duty; failedstage staysowned, no retry.
+Atomic namespace/owner-index implementation and current full-build successor open.
+
+Persistent-record codec UCR/0 now implemented in ComponentHash: bounded record
+contains owner binding/raw checkpoint digest/exactlength/checkpoint, and unpack
+requires a separately trusted whole-record digest plus expected owner binding.
+Focusedstock/Ox41component+971checkpointchecks/compiler PASS (971includes every
+record/checkpoint-vector truncation, not971independentfixtures). Actual9682/5b7669/0,
+worker29241reaped0/groupsabsent/tokensclosed. Receipt
+`tests/qualification/component-owner-record-actual-20261017.json`. No filesystem
+publication/index or automatic persistence yet; full builds for this codec source
+remain outstanding. Prior full-build receipts retain their exact historical scope.
+
+Current accumulated cache/worker source now also passes Dune compilation under
+stock and Ox:actual36274/4d657c/0 and73981/8cc961/0, both worker groups/tokens
+closed,318currentproductionpins rechecked perbuild. Receipt
+`tests/qualification/component-cache-dune-actual-20261017.json`. Together with
+prior current Make+selftests and102workerchecks/compiler, both build systems are
+covered. Persistent store remains unimplemented; its concrete owner trust/index,
+atomic publication/quota/crash and uncertain-close contract is now in
+`doc/component-checkpoints.md`. Existing merge-base checksums are not same-UID
+authentication and must not silently promote arbitrary checkpoint bytes to trust.
+
+Restore-specific lifecycle successor now passes102workerchecks/compiler against
+the unchanged qualified stock/Ox production artifacts. New controls cover queued
+restore cancellation with zero read reports, changed input, insufficient budget,
+invalid digest/negative budget/oversized envelope preentry refusals, borrowed-FD
+preservation and successful recovery through filesystem admission. Actual
+37203/771174/0; worker26351reaped0/groupsabsent/allCPUtokensclosed. Receipt
+`tests/qualification/component-worker-restore-lifecycle-actual-20261017.json`.
+No media/SDK/EXIO, production source unchanged from the prior full builds.
+
+Worker restoration is connected: `SemanticWorkers.restore_components` takes bounded
+checkpoint bytes and separately trusted owner digest, verifies current input/base
+on a worker, returns immutable summaries/no fresh decoder approvals, and follows
+existing CPU/IO/descriptor/cancellation settlement. Both current full Make builds
+and selftests passed:stock25726/d3c966/0,Ox89779/00509e/0. Production-linked worker
+controls91checks/compiler passed62679/94caa6/0; all groups/tokens closed. Receipt
+`tests/qualification/component-worker-checkpoint-actual-20261017.json`. No media,
+SDK/EXIO or main RPC pin changes. Durable owner store, automatic decoder/cache
+selection and Dune successor qualification remain outstanding.
+
+Accumulated checkpoint/DNG restoration/replacement source4d42753b now passes
+current full Make builds+selftests on stock5.2.0 and OxCaml, each3semanticworkers.
+Actualstock90151/b8a560/0 andOx28025/35ef1b/0; both workers genuinelyreaped0,
+othergroupmembersabsent and allUnison8tokensclosed. Rechecked318currentproduction
+sourcepins perbuild. Receipt
+`tests/qualification/component-cache-integration-make-actual-20261017.json`.
+Dune successor checks, automatic decoder provenance selection, persistent owner
+store/worker integration and merge into main remain outstanding. No media/SDK/EXIO.
+
+Private decoder replacement now has an explicit DNG API with expected-old-schema
+guard, immutable success-only publication and shared private-fragment validation.
+Stock/Ox94DNGchecks each/58calls passed, including stale/unsupported retention,
+historical-view preservation and localized130B replacement after8192B restore.
+Actual91068/d77ad7/0; worker19920reaped0/groupsabsent/tokensclosed. Receipt
+`tests/qualification/dng-private-replacement-actual-20261017.json`. No media/SDK/EXIO;
+automatic registry comparison/store integration and successor full builds remain.
+
+DNG checkpoint restore is now connected through `DngComponents.with_checkpoint`:
+fresh bounded DNG description, owner-authenticated metadata/full-input verification,
+current base-partition validation, then live callback. Historical private views
+remain explicit; owner decoder-provenance invalidation/store selection are still
+outstanding. Focused stock/Ox88DNGchecks each/58calls passed; actual12756/7b2a9c/0,
+worker19181reaped0/groupsabsent/tokensclosed. See
+`tests/qualification/dng-checkpoint-restore-actual-20261017.json`. No media/SDK/EXIO
+or automatic persistence; full builds for this successor still required.
+
+Checkpoint adapter groundwork: `ComponentHash.validate_base` now checks restored
+views against the current normalized parser partition without payload reads.
+Private/opaque refinements are allowed; altered base geometry/schema/roles and
+embedded pixel/standard claims refuse. Focused stock/Ox:41component+461checkpoint
+checks each,23calls; actual94856/6f91b4/0, worker18727reaped0/groupsabsent/tokensclosed.
+Receipt `tests/qualification/component-checkpoint-base-actual-20261017.json`.
+Full builds and DNG provenance/restore/store integration remain outstanding for
+this successor; earlier full-build receipts cover their exact historical sources.
+
+Isolated follow-up: frozen DNG decoder bindings now refuse child-before-parent
+order before file inspection, including nonadjacent ancestor relations while
+allowing textual-prefix siblings. Focused stock/Ox controls pass83checks each,
+58contained calls; actual83442/f7df5a/0, worker17995reaped0/groupsabsent/tokensclosed.
+Receipt `tests/qualification/dng-decoder-order-actual-20261017.json` preserves the
+initial interface-template mismatch failure and corrected successor. No main RPC
+source change, media/SDK/EXIO or persistent DNG checkpoint adapter integration.
+
+## CURRENT IN THIS WORKTREE: checkpoint core isolated from reviewed RPC main
+
+Branch `feat/component-cache-input-binding`, worktree
+`/Users/alexy/src/unison-component-cache-20261017`, based on mainee9015fc. Main
+`/Users/alexy/src/unison` and its342 frozen RPC execution pins remain unchanged.
+No RPC admission/review receipt observed during this work; do not dispatch without
+the exact Root file/fresh guard. This checkpoint core is NOT integrated into main.
+
+`ComponentHash.checkpoint` exports bounded UCH0 metadata; `with_checkpoint` requires
+the owner's prior trusted metadata digest and recognized root schema, validates
+canonical geometry and hashes the COMPLETE current input before cached subrange
+hashes can reach a fresh session callback. No epoch-only or IO-free reuse; a hash
+computed from an untrusted blob is not authenticated provenance. No automatic
+store/archive/writer/RPC/worker-cache integration supplied. `reset_private_view`
+invalidates one refined private/opaque subtree without reads or loss of raw-byte
+coverage, refusing any pixel/standard claim. Old snapshots/unaffected nodes stay
+immutable; replacement decoder reads/rechecks only that parent.
+
+Actual focused62449/361452/0/no session:41existing+454checkpointchecks/compiler,
+23containedcalls, positive portable immutable checkpoint capture/3negative live
+capability captures. Make+selftests stock87017/2f0ab0/0 and Ox8061/883242/0;
+Dune compilechecks stock81918/bfd974/0 and Ox12462/24ae26/0. All groups/tokens
+closed,1272 current src checks. No EXglobal/SDK/media. Preserved added-control
+failure13554/daa76b/outer0/child1 conflated provenance with identical leaf semantics;
+final controls distinguish implementation provenance and changed meaning schema.
+Receipt `tests/qualification/component-checkpoint-core-actual-20261017.json`43272B
+SHAb5e08611d797ad50a8cde78a8adfba0aba32755d5f92080e3ca692b25c256f00.
+Contract `doc/component-checkpoints.md`. Still needed: trusted persistent owner
+record and publication/recovery, DNG decoder invalidation and worker/cache wiring,
+then integration after the frozen RPC window is resolved. Full-input verification
+can be avoided only with a separately qualified immutable/preservation witness.
+
+<!-- Parallel historical checkpoint retained from RPC auditor branch. -->
+The chronology below retains historical pending states. Current scheduling and
+actual consumed-run status above supersede old readiness/absence notices.
+
+Latest isolated integration08b4be45 (metadata merge10ace908) is qualified and
+pushed to draftPR4: complete trusted cache capture -> full-current-input/base
+verification -> scoped decoderrefresh.1047DNGchecks and110workerchecks percompiler,
+freshfourbuilds/fullMakeselftests,1272sourcepins, all sixworkers/tokensclosed.
+Main frozen342RPC pins still pass. Fresh readiness
+`doc/component-remote-ready-after-cache-reuse-20261017.json`53c00072 sent to Root
+queue01a148b7-6db0 requesting exact already-reviewed eightcase transport scheduling.
+Workspace/admission absent at that observation; no current grant, dispatch or
+Photo liveness inferred. Do not wait on complete MakerNote mapping to deploy a
+qualified exact-preserving partial view; automatic cache selection remains open.
+
+Latest user design clarification is recorded in SOL.md under "Rehashing is
+incremental refinement": deploy qualified pixel/metadata separation with exact
+opaque coverage; version each field refinement, invalidate only its dependency
+closure, preserve prior usable views and avoid mandatory archive-wide upgrades.
+This is a design requirement, not a new deployment or runtime qualification.
+
+Stacked draft PR4 is open: https://github.com/querygraph/unison/pull/4,
+replacing PR3 after a mistaken temporary base-ref push automatically marked it
+merged. Base was restored with an exact lease to03f4ef6c; isolated cache source
+remains separate. Current reuse integration/evidence is08b4be45,1047DNGchecks
+percompiler and fresh four-build/worker qualification as indexed above.
+Historical PR3: https://github.com/querygraph/unison/pull/3. PR4 carries
+
+`feat/component-cache-input-binding` against `feat/semantic-dng-oxcaml` (not master).
+Current owner entries/staging/publication now have stock/Ox Make+selftests+Dune
+and110workerchecks/compiler PASS; all5workers/groups/grants closed underactual
+controller41172/e6f14a/0. Isolated receipt
+`tests/qualification/dng-owner-entry-current-builds-actual-20261017.json`, code/
+evidence f06f005a, handoff a6aed151. Newer isolated quota API6e7c82bd is qualified;
+see [current evidence index](doc/current-qualification-status.md). Managedlookup/
+recovery/automaticrouting remain open. Main342frozen RPC sourcepins freshly pass checked_plan; requestd0f80794/
+pland7a9f46d unchanged, workspace/admission absent. Freshsource readiness
+`doc/component-remote-ready-after-cache-builds-20261017.json` requests separate
+Root scheduling after explicitIOrelease; does NOT rehashruntimeartifacts, grant
+runtime or infer Photo processliveness. No currentlyowned Unison resources.
+
+Latest isolated cache successor is pushed through `e3c60795` on
+`feat/component-cache-input-binding`. It now includes worker capture/restore/
+decoder refresh, owner-bound record staging/readback and macOS borrowed-FD
+exclusive immutable-record publication. Sibling upgrades commute across restored
+checkpoints. Current stock/Ox Make+selftests and Dune compile pass; focused
+41component+988checkpoint+21originalnativefault checks/compiler and110workerchecks
+pass, allgroups/tokensclosed. Postrename directoryEIO retains published state;
+stageEIO/EINTR not retried; test shim is absent from production. See isolated
+`doc/component-checkpoints.md` and `component-record-publication-*` receipts.
+Still not merged into main:342reviewed RPC source pins unchanged. Persistent
+trusted owner-index/automatic diskcache selection and actual RPC transport remain
+open; no resources held, no media/SDK/transport run or new admission inferred.
+
+Isolated component-cache successor is now pushed through `c55a90de` on
+`feat/component-cache-input-binding`. It adds current-parser partition validation,
+DNG authenticated restore, explicit guarded private-view replacement and worker
+restore through existing resource ownership. Current stock/Ox Make builds and
+full selftests pass; focused DNG94checks/compiler, worker102checks/compiler pass.
+All actual workers/groups/CPU grants closed. See that branch's qualification
+receipts and handoff for exact source scopes. Not merged into main; main's342RPC
+source pins remain unchanged. Durable store/automatic decoder selection/Dune
+successor checks remain outstanding; no new media/SDK/transport admission inferred.
+
+User design requirement: incomplete mapping of smaller fields does not block a
+qualified pixel/metadata-separation release. SOL.md specifies refinements as
+versioned component change sets, deterministic sibling composition, localized
+invalidation, verified unaffected-hash reuse and atomic new-view publication.
+Unknown fields remain exact opaque hashes; this is a design contract, not a claim
+that persistent cache/worker integration is finished.
+
+## CURRENT: RPC sources accepted; IO deferred; checkpoint core on isolated branch
+
+Root receipts now independently rehashed/adopted in
+`tests/qualification/component-remote-source-review-adoption-20261017.json`1685B
+SHA604e49e5da278fcbc0b8a166c331489de4f6c25b84089076dda6844c26d2534b.
+Source review64fa9095 accepts342 pins/six prerequisites with no findings. Scheduling
+defer681324f5 explicitly prioritizes the operator's Capitola Smart Preview build
+owning EXglobal; no runtime admission/Unison hold was created. Do not infer present
+process liveness from that historical receipt; only Root's explicit IO release and
+fresh exact admission can schedule this run. Standing CPU8/source work allowed.
+Main342 pins/plan/argv still unchanged, workspace/admission absent at last check.
+
+Independent cache work is committed/pushed on `feat/component-cache-input-binding`
+at569395d9, retained worktree `/Users/alexy/src/unison-component-cache-20261017`
+(git-worktree lock is evidence retention only, NOT a resource hold). NOT merged
+into main, preserving RPC pins. Generic `ComponentHash` now has bounded checkpoint
+metadata export/restore with prior trusted owner digest, recognized root schema
+and complete current-file SHA verification; no epoch-only/IO-free shortcut or
+automatic store. Private-subtree reset lets replacement decoders rehash their
+parent while keeping unrelated pixels and previous snapshots.
+
+Isolated qualification:41existing+454checkpointchecks/compiler (includes every
+metadata-vector truncation),23contained calls, portable metadata checkpoint capture
+and3negative live-capability captures. Make+selftests actual87017/2f0ab0/0,
+8061/883242/0; Dune compilechecks81918/bfd974/0,12462/24ae26/0; focused62449/361452/0.
+All groups/Unison8 closed;1272 src checks, no EXglobal/SDK/media. An initial added
+test incorrectly equated implementation provenance with leaf meaning; preserved,
+then split into provenance/stable-contract/changed-schema assertions. Receipt in
+that worktree `tests/qualification/component-checkpoint-core-actual-20261017.json`
+43272B SHAb5e08611d797ad50a8cde78a8adfba0aba32755d5f92080e3ca692b25c256f00.
+Contract `doc/component-checkpoints.md` there. Next independent work: trusted owner
+record/store/recovery, DNG frozen-decoder invalidation and owner/worker cache wiring.
+Integrate only after resolving or explicitly superseding the reviewed RPC request;
+do not silently invalidate main's342 pins. No own jobs or resource leases active.
+
+## CURRENT: runtime readiness sent; no admission observed yet
+
+Frozen342 runtime pins / pland7a9f46d / requestd0f80794 remain UNCHANGED.
+`doc/component-remote-readiness-v1.json`2548B
+SHA8b4e7b4183aec81a76a4690e74e8726740ca088b687ac09f4850f95730758687
+now asks Root to schedule ONE finite run AFTER source acceptance, superseding only
+the earlier source-only coordination intent. Source review/admission not found
+at latest read of both legacy Photo and lightroom coordination locations; proposed
+admission `/private/tmp/unison-component-remote-admission-v1.json` and workspace
+`/private/tmp/u-cr-cf119542138e` absent at readiness observation. Queue01a14837-0d67.
+Do not infer a grant; if one arrives, freshcheck exact pins/deadline/unusedworkspace
+and execute the existing exact command ONCE, promptly return actual tool terminal.
+No resources or Photo hold is created by readiness; standing8/8 remains.
+
+Separate nonruntime `tests/component_remote/readback.py`+`readback_controls.py`
+added metadata-only independent readback. Eight original fabricated controls
+ACTUAL initialexec4fa3ff/0/NOsession, child6465reaped0/groupsabsent/CPUclosed.
+No canonical IO lock, RPC or media; never authenticates parent tool terminal,
+rehashes functional inputs or authorizes FD release. Runtime342 pins unchanged.
+Receipt `tests/qualification/component-remote-readback-controls-actual-20261017.json`
+1771B SHAcbc3c712a03c75a028649db1fdff9e990dbf2a8ac83377df1ff2d92f7ba5b01b.
+If Root review finds a source issue, preserve frozenv1 and prepare an immutable
+successor; do not mutate reviewed bytes or recreate an admission. Actual RPC
+transport and persistent binding still remain unqualified.
+
+## CURRENT: component RPC coordinator frozen for SOURCE REVIEW ONLY
+
+`tests/component_remote/` now contains bounded qualified-close IO, exact plan
+contract, inactive generated case, retained call kernel, independent prefix/
+functional auditor and one-use parent/worker coordinator. Existing EXglobal then
+Unison00..07 only; worker inherits9 descriptions and checks exact canonical IDs
+plus policy.300s owner observation/260s new-call horizon/30s call observation;
+unknown retains objects/FDs, no broad aggregate kill. Shared direct-child capture
+retains close uncertainty and separate proxy owner; old benchmark wrapper is not
+used. Intents/raw outcomes precede verification, failed cases stop successors,
+pure audit cannot substitute for actual parent terminal or release locks.
+
+Final original disposable/fabricated18controls ACTUAL initialexec3503c7/exit0/
+NOsession; direct child4856 actuallyreaped0, groupothersabsent beforeleaderreap.
+All direct groups reaped0/othersabsent/Unison8closed; no EXglobal/RPC/SDK/media.
+343 source pins matched before/after; runtime closure342 files. Receipt
+`tests/qualification/component-remote-coordinator-controls-actual-20261017.json`
+43053B SHA16d52c2cad736a21f000effb0797cdb380f27b31d3aec2e0181f761446a1da5b.
+Raw result `/private/tmp/unison-component-remote-controls-gdrylkza/RESULT.json`.
+
+Frozen plan `doc/component-remote-plan-v1.json`44341B
+SHAd7a9f46d7a5e6da4476ff54409a98ffbe4fa7ea5e64a3727c59dd7bbca77b0ad.
+Request `doc/component-remote-request-v1.json`2531B
+SHAd0f80794b5fe2eae1f03efcff5a3594a4cb1da5b838d2f8e7ad5b8f6d4af7a49.
+Workspace `/private/tmp/u-cr-cf119542138e` is planned/UNSTARTED, no admission yet.
+The request is explicitly SOURCE REVIEW ONLY, not runtime-ready grant or Photo
+hold; do not dispatch from these files. Ask Root for source review, preserve pins,
+then announce readiness before requesting a fresh exact finite IO admission.
+No old consumed grant applies. Contract: `doc/component-remote-probe.md`.
+
+## Prior checkpoint: production-linked remote probe built; coordinator pending
+
+`tests/report/remote_probe.ml` now installs real generated roots, negotiates and
+propagates preferences, calls the production local/remote component API and
+checks supported/unsupported/no-capability/disabled outcomes. Unsupported must
+be exact `not TIFF`, not a transport/admission failure. Cleanup attempts every
+known root and pool shutdown, retaining original+all cleanup failures. The final
+local marker explicitly does not substitute for external client/server waits.
+
+Build-only driver `tests/report/build_remote_probe.py` passed actual41349/c92921/0
+NOsession, outerchild1211reaped0/othersabsent/CPUgrantclosed. Ten contained calls:
+two stock/Ox production-linked compiles, six exact argc/path/mode refusals and
+two offline preference parses. No roots installed/connection/media/SDK/EXIO in
+these controls.320 source pins+474 linked artifacts reverified; production src
+unchanged from293ee8be. Final raw result directory:
+`/private/tmp/unison-component-remote-probes-n_sc3ooj`.
+Stock probe SHAae6c322ef69733d67c2c5e7fa2312e93a161813fb81a6df93e60f611020f9ff1;
+Ox SHA cf53558789a16c7b0a9240efdc9b44ea1ef45a64e6d53146a928b4b3287d6bd3.
+Receipt `tests/qualification/component-remote-probe-build-actual-20261017.json`
+40941B SHA8ca7b040e2ac969e6ba9f9fda744463d71657f610b9c7c6d877e8583f1f3d1f9.
+
+`doc/component-remote-probe.md` defines the proposed eight-case matrix and required
+external contract. It is NOT a runnable admitted coordinator or scheduling grant.
+Next implement owned strict-loopback intent/outcome recording, combined raw
+client/supervisor/server/pump/worker/group/FD audit and unknown retention, qualify
+disposable failure accounting, then freeze exact command/workspace/pins and seek
+fresh Root EXIO admission. No runtime mode was exercised, no new-RPC/mixed-version
+claim, no consumed-grant reuse; all resources closed. Persistent binding remains
+open independently of this reporting qualification.
+
+## Prior checkpoint: bounded remote component protocol implemented
+
+`semantic-components-v0` / `semanticComponentsV0` now provides a separate SIC/0
+path for the fixed empty-decoder DNG component contract. Explicit details remain
+off by default. Remote calls require both the new feature and an enabled built-in
+DNG profile; replies bind exact contract+fresh32-byte nonce, max2048B, five fixed
+role slots. Unsupported views are innerError, malformed wire is outerError.
+SIR0/SIR1/SDE bytes and transfer/archive decisions unchanged. Peer hashes never
+become local source/preservation capabilities. Source admission spans encoding/
+queued output, with no nested core admission; the declared model envelope is
+8*1MiB+256KiB estimate, not RSS cap. Spec `doc/component-report-v0.md`.
+
+Current Make+selftests stock17636/f77624/0 and Ox99727/bc9286/0 PASS. Dune compile
+checks stock27170/d7d233/0 and Ox84596/1efd9e/0 PASS;1272 production-source checks.
+Final report suites stock7161/8e36a6/0 and Ox9480/d24ba2/0 passed25 named controls
+each, including independent byte vector/every truncation/substitution/malformed
+fields. Linked local/refusal/cache owner controls stock33153/a0c271/0 and
+Ox47843/6bea84/0 passed. All groups/Unison8 grants closed; no EXglobal, SDK/media.
+Initial Ox codec+Make failures are preserved: partial Buffer.add_string closure
+was local when List.iter required global. Explicit function fixed inference;
+no portability/ownership annotation weakened.
+
+Receipt `tests/qualification/component-remote-source-actual-20261017.json`47872B
+SHAc1d9491f6525c203c3eed4ea1dfd577ef4c5bdf1df60863b02f15b165832f074.
+Actual new-command RPC, mixed-version and failure transport trials NOT yet run.
+Next prepare a production-linked finite remote probe with existing supervised
+loopback server/client journal proofs, freeze current binaries/source/command,
+then seek a separate Root EXIO admission. No existing consumed admission applies.
+Persistent component-cache identity/dependency binding also remains open; no
+complete MakerNote requirement should block otherwise qualified baseline use.
+
+## Prior checkpoint: explicit local component details wired and qualified
+
+The off-default local `semanticcomponents` preference now appends component
+comparisons to explicit semantic details with enabled profiles. Existing owner
+admission/worker/FD settlement carries a frozen empty decoder set, full-file read
+budget equal to opened size, and compact observation plus source stats. Both
+base-report and component snapshots enter one-shot stale-display invalidation.
+Remote roots refuse explicitly without RPC; ordinary scan/transfer decisions
+and SIR0/1 encodings are unchanged. Persistent identity reuse and negotiated
+remote component reporting remain open.
+
+Current stock Make+selftests actual18607/872a61/0 and Ox Make+selftests
+86930/71c590/0 passed. Dune stock95297/0b5754/0 and Ox54906/66e0ab/0 passed
+(Dune compile checks; full selftests ran through Make). All1272 production-source
+checks bind current bytes. Final owner controls stock48678/275d19/0 and
+Ox16614/d30cd2/0 passed default-off/explicit preference, local hash comparisons,
+remote refusal, opaque/pixel separation, source snapshots, unsupported/missing
+paths, settled permits and prior one-shot UI-cache controls. All contained groups
+reaped and canonical Unison8 grants closed; no EXglobal/Photo media/SDK.
+
+An initial owner control failed because max_payload0 violates existing admission;
+its failed child1/group closure is preserved. Positive minimum1 fixed the bounded
+summary envelope before the final builds; no broad runtime admission change.
+Receipt `tests/qualification/component-owner-local-actual-20261017.json`42356B
+SHAe3fe24387cf26d9f6e4cdcb77e0d7795896f73b0e686bfbc51e8e22574ab32a5.
+Contract and usage: `doc/component-workers.md`. Next: bounded negotiated remote
+component reporting and qualified persistent input/dependency binding, without
+turning summaries into transfer/merge authority.
+
+Latest implementation continuation: `SemanticReport.render_components` now
+provides a local advisory comparison of explicit versioned component observations.
+Exact full bytes are reported independently; unequal schema contracts suppress
+component comparisons; omitted/None lanes stay unknown. Five role comparisons
+include encoded pixels, standard/private metadata, structural and opaque bytes.
+Malformed digests/counts/duplicate lanes refuse, schema text is terminal-escaped.
+No wire bytes, RPC/UI dispatch, archive or transfer authority changed. New five
+controls plus the existing report suite passed stock actual95503/9475c8/0 and
+Ox actual3630/77408e/0, both child groups reaped and canonical CPU grants closed.
+Receipt: `tests/qualification/component-report-focused-actual-20261017.json`.
+That focused checkpoint preceded the full builds/local wiring recorded above.
+
+Latest user design clarification: separate pixel/metadata hashing is already a
+valuable baseline; incomplete mapping of smaller fields must not block otherwise
+qualified deployment. SOL.md now explicitly defines progressive-rehash acceptance:
+meaning and stability are separate versioned claims; refinements declare affected
+IDs/dependencies/old and new roots, compose deterministically across siblings,
+retain the prior view on incompatible claims, and invalidate only affected leaves
+and ancestors. Unknown bytes remain exact/hash-covered. Old schema roots support
+common-version comparison or exact fallback. This is a design update, not a claim
+that persistent cross-session reuse or deployment is already qualified.
+
+## CURRENT: typed component worker API qualified and integrated
+
+`SemanticWorkers.components` is now implemented on main via7b900ada, cherry-picked
+from tested isolated source9327553e. Explicit owner-frozen decoders and component/
+decoder read budget use the existing source FD/domain/CPU/local-filesystem gate
+and queue lifecycle. Compact immutable full/layout hashes, five optional counted
+role projections, decoder outcomes and original stats cross completion; no
+session/reader/snapshot capability escapes. Unsupported returns an explicit
+format Error; operational/budget failures fail the job, negative budget refuses
+before FD admission. Ordinary jobs do not add a component pass.
+
+Final focused actual86825/c76ad0/0/no session passed87checks/compiler,4 contained
+production-linked compile/runtime calls and334 linked artifact pins. Twelve
+separately opened FD jobs on configured2worker pool match full/pixel identities;
+private refinement runs off owner, read observer on owner. Baseline/refined charges
+8192/8321B versus measured delivered8280/8409B include88B DNG geometry. Successful
+IO-gated execution, operational failures, negative admission, queued/late cancel,
+completed-before-shutdown suppression and descriptor/permit/queue/localIO recovery
+passed. This is functional configured-worker parity, not compute overlap/speedup.
+Earlier00180checks and00284checks passed/closed with narrower coverage.
+
+Four full builds: Make pair actual38881/087acc/0; Dune+fullselftests(workers3)
+pair actual13072/c40426/0. All groups/canonicalUnison8 closed,1272 current compiled
+production-source checks matched. No EXglobal/SDK/media/camera/Photo lease used.
+Receipt `tests/qualification/component-domain-workers-actual-20261017.json`75212B
+SHAf701bc011ca6a40f24a4e4affd00efc93fb5288c271c864bc4a0b0b8443a35cc.
+After cherry-pick, all320 qualified source files were byte-rebound to main in
+`tests/qualification/component-workers-main-rebind-20261017.json`31585B
+SHAb2ab28ca1521538952a4c64cead65753bb3eba2fa4b22faedb00dfefd9457fa3.
+Contract: `doc/component-workers.md`.
+
+The isolated checkout/branch is now committed, not unbuilt; retained for evidence.
+No jobs/resources active. Main src changed AFTER accepted layout receiving, so
+old receiving binaries/receipts remain historical and must not be treated as
+fresh source pins or reused grants. Component RPC/UI consumers, persistent reuse/
+archive binding and representative real-camera qualification remain open; complete
+private grammar is not a baseline deployment gate. Next focus is an owner report
+consumer and qualified persistent identity binding, without broadening prior
+receiving/SDK/pixel/resource claims.
+
+## CURRENT: layout reschedule actual PASS/CLOSED and independently adopted
+
+Root's distinct scheduling successor `/private/tmp/unison-layout-receiving-admission-rescheduled-80c9c19d3f48.json`
+7394B SHAdcc2d5cb9beccc2dc606b1a8c454340797e6eb035913d8cc917dc817ec207758
+was dispatched exactly once after fresh request/plan/38sources/sixprereqs/
+interpreter/build/unusedworkspace/deadline checks. Guard1792208390.9865868 and
+START1792208391.2983081 were BEFORE deadline1792208728.243482. Do NOT call
+this consumed run expired-unstarted merely because its deadline is now past.
+Owner74328/worker74331; actual owning session11517/initiala15b7d returned
+terminal85a4a8/exit0/NOsession. Prompt terminal/release evidence sent Root.
+
+All18 rows/54 CLI seed-update-noop calls completed, stock/Ox×ordinary/receiver
+clone/semantic×workers1/2/3. Six semantic rows/twelve updates actually selected
+`org.firstpair.dng-layout/0`; generated opaque private references into changed
+XMP stayed exact, full donor outputs/old bases/no-op epochs passed. Parent
+strict54call audit and independent prefix54/zero-no-creation checks passed;
+all38postsourcepins matched/unresolvedempty. Worker74331reaped0/othersabsent,
+CPU8+EXglobal closed. No SDK/camera/pixels/physical savings/quiet timing claims.
+
+Workspace `/private/tmp/unison-layout-receiving-rescheduled-80c9c19d3f48`:
+OWNER-TERMINAL502B SHAa48d9c8c3365783aaa51d3644a991dd41ea88baa6323c3c2dbd82d97a38ba0d5;
+OWNER-RETURN3668B SHA079cf8825eea2a44d2900e4b3989b951673ec405fc44de4b7dcaae702cb86d58.
+Metadata-only auditbf505c/1 initially refused Root's reschedule schema; preserved
+001REFUSED. Exact unchanged semantic fields and scheduling-only namespace changes
+were verified, and an explicitly recorded projection fed the strict v1 auditor.
+Root originals/raw evidence unchanged; native execution never repeated.
+Independent return audit3082B SHA290afa8f922aa2e6ee86af79bff4e34595d41206809953bd06479ceaf589ce46.
+
+Local qualification `tests/qualification/layout-receiving-rescheduled-actual-20261017.json`
+4183B SHA184db278ca5eef73ce1ec99914752e9110dc1641c9a899655bce6b22480b09f7.
+Root independently ADOPTED actual terminal transcription/raw functional+process
+proofs and freshly acquired/closed EXglobal+Photo8: acceptance1084B
+SHA48e864bf524a4027d787f0180ac94bce6fb1d6c186784c4e278ecfb6f211d45e under
+`/Users/alexy/src/lightroom/.private/photo/coordination/UNISON-LAYOUT-RESCHEDULE-80c9c19d3f48-ACTUAL-ACCEPTANCE.json`.
+Root did NOT personally poll our tool; that distinction is explicit. Adoption
+`tests/qualification/layout-receiving-root-adoption-actual-20261017.json`1575B
+SHAc22be7827e9bde67d5a37141d1b15df3225867f1d020aa7a9ec17592bfb59138.
+No hold, replay or successor. Original209266ba remains expired-unstarted.
+
+## Historical isolated preparation: now superseded by qualification above
+
+To preserve the reviewed receiving source while scheduling was pending, created
+owned checkout `/Users/alexy/src/unison-component-workers-20261017`, branch
+`feat/dng-component-workers`, based ond8e13624. Only its
+`src/semanticWorkers.{ml,mli}` are modified so far; no build/runtime ran there.
+The proposed explicit Components operation takes frozen decoders/read budget,
+uses existing FD/CPU/IO/cancellation lifecycle and returns compact immutable
+projections/outcomes/stats, never session/reader/snapshot capabilities. Its
+operational ComponentHash.Invalid errors are intended to fail, not become
+unsupported. This code is UNVERIFIED and not in main/draft PR; do not claim it
+implemented/qualified yet. Next: focused production-linked worker tests (parallel
+parity, read observer, queued/late cancellation, failure/FD/budget settlement)
+and stock/Ox builds, then merge only after verification. Same existing canonical
+Unison00..07 pool; sibling checkout has real sharedPhoto policy paths. No new
+pool, SDK/media/EXIO grant or running process. Main receiving code remained frozen.
+
+## Historical predecessor: V1 issued, then expired unstarted
+
+Root DID issue `/private/tmp/unison-layout-receiving-admission-v1.json`7342B
+SHA209266ba0d44d1e588bd1fd50ef1d8df2995f61ab024732e4bfd7de21af261c9,
+with Root reviewd9044047 and exact requesta1b0dc64/plan77f87fab/38 code pins.
+Issued1792207049.53455, deadline1792207649.53455. Discovery during later source
+work at1792207724.68364 was AFTER expiry. Actual preexec guard00c0d2/exit2/no
+session refused before executor/CLI/payload/CPU/IO acquisition; original grant
+and absent workspace preserved. No runtime parent or worker existed to report.
+Owner refusal `/private/tmp/unison-layout-receiving-v1-EXPIRED-OWNER-20261017.json`
+920B SHA9d1c46236475c675047869d5c760b11e4564d07e7b7308d2b8ba629bd12ecc59.
+Repo `tests/qualification/layout-receiving-v1-expired-actual-20261017.json`
+1614B SHA65f778b8bb1c94365b4b32338d3257fdaf48ab2f00d0f143cde981f9a4d4d7c0.
+
+Root notified promptly queue01a147e8-8281 and asked for separately scheduled
+fresh successor/workspace, preserving the expired original. DO NOT dispatch
+209266ba, extend it or mistake old “not admitted” snapshots below for current
+state. Root may independently reschedule; reconcile any existing successor
+before preparing/launching another. Poll scheduling metadata promptly during
+future source work; late queue delivery is not a reason to miss a known window.
+No active Unison runtime/resources; original38 execution pins remain unchanged.
+
+## Latest partial-field decoder prototype: generated DNG nesting qualified
+
+`tools/dng-fields/privateIfdFields.{ml,mli}` creates a trusted compiled child
+plugin for up to32 selected ASCII fields in a bounded classic private directory.
+The owner supplies byte order and explicit signed parent-relative value-base
+translation. Inline/outlined values are checked; selected aliases, invalid
+ASCII/count/type/bounds and overflow refuse. Unknown entries and next links are
+not followed. Shared reader/budget errors propagate. Schema/code declarations
+are framed into provenance, also included in child schemas so private projection
+versions change while unrelated pixel hashes/nodes remain unchanged.
+
+It is NOT installed in Unison, a vendor-family router, an actual model-field
+mapping or a stability/ignore policy. No real camera/SDK or source-photo reads.
+All leftover bytes stay opaque/hash-covered. This is a concrete community/
+piecemeal child-decoder mechanism without requiring complete private grammar.
+README states address-space, trust, budget and confidence limits explicitly.
+
+Actual final31242/09d1b6/0/no session,47 contained calls,59 original checks per
+stock5.2/Ox5.2+ox compiler. Both private byte orders within actual DNG nesting
+passed; one first refinement charged6201B (4096 initial +57 decoder +2048 parent
+rehash), preserved full SHA and pixel projection/node; separate code-version
+branch changes private projection. Earlier00145checks/compiler core-only passed
+and is historical. Evidence
+`tests/qualification/private-ifd-fields-prototype-actual-20261017.json`9611B
+SHAaaaaa9a9bcf5023e4d83bb2a03e907b9960e2b60220aa9c8ef99cddbc8b0fc16.
+All owned groups/CPU8 closed; production src and pending receiving38 pins are
+untouched. No physical IO/RSS/performance, real-camera or production claim.
+
+## Latest supplement: independent request/raw-log receiving auditor
+
+`tests/layout_receiving_result_audit.py` is a pure post-run consumer outside the
+frozen38-source receiving worker closure. It requires the requested layout mode,
+packet size (including frozen8192 default), admitted binary/compiler SHA maps,
+runner source map and per-call client path consistency; it reruns the existing
+strict54-call audit and reparses captured SDE logs for all six semantic rows.
+Each must prove two `org.firstpair.dng-layout/0` updates with matching reported
+write/payload/window counters. This prevents an optional-mode flag or cached
+counter from substituting generic receiving evidence for layout qualification.
+
+Requested and resolved executable paths are retained as observations, with byte
+identity bound by admitted SHA. The runner resolves macOS /var and compiler
+symlinks; the pure auditor neither re-resolves filesystem names nor claims to
+prove physical aliases. The caller still authenticates request/result/raw
+process receipts and collects the actual owner terminal separately. The helper
+cannot acquire or release resources or grant execution authority.
+
+Final controls actual exec_command185857/exit0/no session:4 unittest methods,
+13 original negative mutations; explicit/default packet cases and canonical-name
+observations passed. Fake54-call records only, no actual sync/media/SDK/EXIO.
+All child/group/CPU8 closed. Evidence
+`tests/qualification/layout-receiving-result-audit-controls-actual-20261017.json`
+10258B SHAdf82335ffdf07c07af915e617146c26741a449b0a5549d039678fddd0d229012;
+helper6081B SHAc36c8cd48d2b2ca33fb88c40b29bca38804ca83750ec884b760e27dea5556a9f.
+Earlier001..003 smaller fake controls passed/closed and are retained.
+
+Existing requesta1b0dc64/plan77f87fab and all38 execution pins are unchanged.
+Fresh metadata1792206860.263437 observed admission/workspace still absent;
+this is scheduling metadata, not a fabricated owner terminal or an admission.
+No actual receiving START/resources. Root source-review request remains the
+same queued01a147d5-8cd6; supplement does not replace, renew or dispatch it.
+
+## Latest: exact-layout production receiving request prepared, NOT dispatched
+
+New optional `SYNC_LAYOUT_ONLY_CONTROLS=1` routes only through the separately
+admitted shared8 `sync-functional` IO job. It uses the existing18 rows/54 CLI
+seed-update-noop lifecycle. Original generated DNGs include128 opaque bytes and
+an unknown IFD-shaped scalar, both deliberately referencing changed XMP. The
+semantic rows must select `org.firstpair.dng-layout/0`; exact output, unchanged
+old bases and no-op epochs are checked by the existing runner. Optional audit
+checks reject missing/changed private witnesses and wrong profile/update counts.
+Default fixtures and property-removal runs remain independent.
+
+Source controls actual93255/bd07e2/0/no session:8 contained calls,197 preference
+boundary checks per stock/Ox compiler linked to338 actual production artifacts,
+original tiny fixture checks, seven fake layout-audit refusals, exact manual
+route and CPU-only refusal controls. All groups/CPU8 closed. Receipt
+`tests/qualification/layout-receiving-source-controls-actual-20261017.json`
+4359B SHA7db703c799b2df265cf9a665a13d5e184c7dd7ff33b63babbbe50868f9d4981f.
+New `tests/dng_layout_preferences.ml` qualifies current all-three-profile alias
+and peer capability omission; old v1-only preference fixture remains historical.
+These are preference controls, NOT actual old-peer receiving/transport proof.
+
+Fresh Make+full selftests for both stock/Ox actual24573/212cf6/0/no session,
+workers3 per endpoint/jobs2/Adobe validation off;950 captured source hashes
+matched and all groups/CPU8 closed. Build receipts are under
+`/private/tmp/unison-layout-receiving-{stock,ox}-selftest-20261017-001/RESULT.json`.
+Repo evidence `tests/qualification/layout-receiving-build-selftests-actual-20261017.json`
+3961B SHA72a1d4221d3b1fd6bbe784fb92556317cf32f635d3ea3e23914d7d65d189f7e6.
+
+Fresh exact request `doc/layout-receiving-request-v1.json`10738B
+SHAa1b0dc643605c7fcecbfe4952d25cf14df839fae45fbcc82086a9d8e33d1491b,
+plan `doc/layout-receiving-plan-v1.json`8889B
+SHA77f87fab838911aa98aa3543cd9b9506c6360d4f73177ebdc959cc61e67d57a1;
+38 execution pins/six prerequisites. Workspace
+`/private/tmp/unison-layout-receiving-2a6cbd4b84be4d9c900b92271b38a530`
+and admission `/private/tmp/unison-layout-receiving-admission-v1.json` absent at
+preparation. Actual matrix NOT started, no live grants/resources. Root must
+publish a fresh exact admission/deadline; use once only after fresh checks.
+Limits:Unison00..07+existingEXglobal,300s observation/30s CLI/8GiB conservative
+logical planning budget (not measured physical cap), no SDK/media/compiler in
+actual matrix. Unknown retains real owners/grants; no replay/automatic successor.
+This advances the operation-specific receiving qualification, not complete
+camera understanding or semantic merge/rendering authority. Standing8/8 remains.
+
+## Latest: owner-frozen nested DNG dispatch is implemented
+
+`DngComponents.freeze_decoders` now validates up to64 immutable ordered bindings
+before file inspection. `with_snapshot` hashes the DNG once and applies private/
+opaque parent then child decoders within the same shared-budget session. Every
+outcome records target, decoder and implementation SHA. Missing/unsupported
+knowledge retains the prior view. Private plugins cannot introduce pixel or
+standard roles or target those leaves; operational errors propagate. No registry
+mutation, peer code, subprocess capability or persistent skip is added.
+
+Final generated stock/Ox controls actual46167/114660/0/no session passed80 checks
+each and58 contained calls. The8192B fixture plus only parent/nested/decoder
+reads charged8435B; pixel/standard/full hashes stayed unchanged and the refined
+view changed. Duplicate/invalid/provenance/count refusals, distinct outcomes,
+operational error propagation and Ox safe-domain capture of the frozen abstract
+handle passed. The earlier001/002 controls passed with narrower scopes and are
+retained. Four full Make/Dune builds actual78758/ced55a/0/no session passed;
+1896 captured source hashes and current binary pins were rechecked. All groups
+and Unison8 tokens closed. No real media, SDK or EXglobal IO was used.
+
+Evidence: `tests/qualification/frozen-dng-decoders-actual-20261017.json`,16665B,
+SHA392edbe4ecb8dff563c116a0943d1befe8c8a160efd559ff4fd282f4a70d09aa.
+The frozen dispatch mechanism is ready; actual vendor modules, component worker/
+archive integration and qualified persistent reuse remain open. Complete private
+field interpretation is not a baseline deployment gate. The next receiving
+qualification should exercise the new exact-layout profile in production paths;
+retained-camera/SDK/bulk IO still needs a separately coordinated exact admission.
+Older “freeze decoders next” notes below are historical. No active owner/resources.
+
+## Latest DNG component adapter and inspector: generated controls PASS/CLOSED
+
+Current `DngComponents.describe` consumes bounded claims from the existing
+DngSemantic graph parser: classic/BigTIFF, both byte orders; inline/outlined
+standard/private values; encoded image-unit ranges; structural descriptors and
+padding. Unrecognized values conservatively private, unclaimed gaps opaque;
+no vendor meaning/stability claim. Physical aliases refuse independently claimed
+components; at most480 regions keeps core node/gap accounting bounded. XMP is
+optional for observations, existing transfer profile requirements unchanged.
+`semantic-inspect --components` now reports full SHA/layout view and five counted
+optional role projections. No components means null, never empty-pixel identity.
+Value schemas bind type/count/byte order; image lanes cover encoded unit bytes,
+not complete raw/preview classification or rendering dependencies/equivalence.
+
+Actual focused80459/a5ba17/0/no session:57 contained calls,68 new DNG checks per
+stock/Ox plus49 layout and4scalar/8private strict-profile regressions each;
+new JSON and legacy inspector calls passed. Four full Make/Dune builds actual
+34054/c92ae0/0/no session,1896 source hashes rechecked. Retained-inspector
+launcher builds stock/Ox actual7600/8f2137/0,zero input executions in those build
+receipts. All owned groups/CPU8 closed; no real media/SDK/EXglobal acquired.
+Receipt `tests/qualification/dng-components-actual-20261017.json`19712B
+SHAee43db2e1b7688b49d3da6ce914cd8d563c31d36f597463e53f1babd51e5f06a.
+Earlier001 outlined-only and002 inline controls passed/retained as historical;
+003 is current integration evidence. No active process/resources/new grant.
+
+Next: owner-frozen actual vendor child decoders and persistent versioned cache
+with qualified input/preservation bindings; worker/archive integration and
+actual remote/camera qualification remain open. No exhaustive private mapping
+release gate; unknown bytes stay exact. Older core-only status below is historic,
+not a claim the DNG adapter is still missing. No consumed admission replay.
+
+## Latest incremental component core: implemented and qualified, not DNG-bound yet
+
+New `ComponentHash` MLmodule supplies typedphysicalpartitions/roles, fullSHA plus
+schema-boundview/layout hashes andlogicalroleprojections. UnclaimedgapsOpaque;
+allbytescovered. Pixel/standardmetadata/privatemetadata/structural/opaque lanes
+separate; missingprojectionNone/counts preventconstant-empty-pixelidentity.
+Initialonepassfeedsleaf+ancestorcontexts. Refinementrereadsonlyparentspan,
+verifiesitsrawSHA, retainsunaffectednodes/pixelhashes andcomposesancestorviews.
+Nestedtrustedcompiledplugins receiveparent-boundedreaders/subreaders, shareone
+chargedrequestbudget andcarryownerpinnedimplementationSHA provenance. Explicit
+unsupported preservesoldopaqueview. No writes/registries/processloading/FDowner
+ortransformationauthority. Session/readerexpiry andcross-sessionrefinement refuse.
+Callerownsimmutablesnapshot; fstatnotclaimedhostilewriterproof/persistentcache.
+
+Actualfinalstock/Oxfocused77520/8c9155/0/no session:41checks each,22containedcalls,
+3expectedOxcompile refusals forescapingsession/snapshot/reader. 8192initial bytes
++onlyparent/nested/decoderreads matchindependentdeliveredstats; pixelnodephysical
+reuse, modelversionbranchchangesviewnotpixels, budget/partition/count/depth/
+sourcechange/emptyprojection/refusal checksPASS. Twoinitialcompilerfailures
+(recordlabelambiguity859460/1, fixtureparenthesesf7d98f/1) preserved/closed;
+intermediate003..005passedwithnarrowerAPIs, final006iscurrent.
+Fourfullstock/OxMake+Dunebuildowner55663/5c886a/0/no session passed;1880sourcehash
+checks/currentbinarypinsmatch, allgroups/CPU8closed. Receipt
+`tests/qualification/component-hash-core-actual-20261017.json`9920B
+SHAabdf37ef85a6d896e2e44d5ea8927e2299b01c579968619b2b044919f8fe706b.
+Contracts/framing `doc/component-hashes.md`. NoSDK/media/EXIO/activeUnisonowner.
+StillNOTintegratedDNGfragments/frozennesteddecoderdispatch, publicinspector,
+cross-session/persistentcache orsyncidentity. Thosearenext; donotclaimrealcamera
+pixel/componenthashingdeployed ormarkfullgoalcomplete. ExistingexactlayoutSDE
+source9359215 remainsseparatequalifiedstep, no consumedgrantreuse.
+
+## Latest partial-knowledge transfer implementation: DNG layout profile
+
+`DngLayout` org.firstpair.dng-layout/0 /dng-layout-exact-v0 isimplemented as a
+separatelynegotiatedfallback afterstrict1/0 foroptinsemanticdng. Defaultoff stays.
+The existingboundedDNGwalk nowhasexplicitlayout_only policy: typedunknown/private
+declaredvalueextents acceptedwithoutinterpretinghiddenpointers; all complement
+andfullfilebytes hash-covered. Strictprofiles unchanged, noMakerNoteSafetybypass.
+Exactplan/materializer stillsameprofile/size/layout/complement+basis/stagecheck+
+fullactualdonorSHA. No reloc/ignore/merge/semantic-equivalence authority inferred.
+Existingreconcile/cache paths explicitlyonly0/1; no newlayoutentrythere.
+
+ImmutableFormatExtension.span_semantics defaultsOpaque_spans; strictbuiltins
+explicitKnown_metadata. Workersconsumefrozenhandleannotation; peerdecodedproof
+alwaysOpaque. No wire/archiveencodingchange. CoreclassifyUninterpreted_regions
+separateslayoutconfinementfromKnownmetadata; inspector/ownerreportcoveragewarning
+updated. Existingstandalone strictclassificationfixtures explicitlylabeltheir
+knownmetadata contract. Fullheader/modefilter/Make+Dune integration qualified.
+
+Actualfocusedowner93568/7dddd6/0/no session,43containedmodefilter/compiler/runtime
+calls:49layoutchecks/compiler +oldstrict4scalar/8private safetychecks/compiler.
+Classic+BigTIFF/bothorders, opaqueLONG/IFD-shapedrefsintoXMP, exactdonorstageSHA,
+opaquechangefallback, corrupttargetSHArefusal, noop0writes, nomergeauthority.
+Actualfourfullbuildowner74559/0d2fc9/0/no session; stock/Ox Make+Duneallpassed,
+1864capturedsourcehashchecks/currentbinarypins match, allgroups/CPU8closed.
+Stocklegacykernel+read-onlyinspector actual52614/ebaacf/0 passed; no conformance/
+fuzz campaign/SDK/camera/EXIO. Qualification
+`tests/qualification/dng-layout-exact-source-actual-20261017.json`6984B
+SHAf44cbccabc3dde2357051b71559789f6d6697a0592746416657eae64c05b1e35.
+Usage/scope `doc/dng-layout-exact.md`. ThisdoesNOTyetimplementpixelcomponentforest,
+nestedchildplugins orincrementalcache. Those and newremote/mixed-version/fault/
+separatelyadmittedcamera receivingqualification remainnext, notexhaustiveprivate-
+fieldgating. NoactiveUnisonowner/currentresourcehold/newpayloadgrant.
+
+## Latest hash production successor: opt-in EVP with Make/Dune qualification
+
+Opaqueproductionnativecontext +shared `src/semanticHash_evp.h` nowimplemented.
+Defaultplatform unchanged; explicit SEMANTIC_HASH_BACKEND=openssl, optional
+absoluteSEMANTIC_OPENSSL_INCLUDE/LIB selectinstalledOpenSSL3 viaMake/Dune.
+Noinstallation/download/providerfallback. `doc/hash-backends.md` documentsusage.
+Makeheaderdependency +Dunegeneratedflagsexecutable/rules qualified. Fourstock/Ox
+Make/Dune OpenSSLbuilds +defaultplatformstockDunebuild PASS. Actualmatrixsession
+18121/262249/0/no session; worker17617reaped0/groupclosed/CPU8closed. Eleven
+configuration/buildchildren (threeexpectedinvalidconfigexits2), allsettled.
+Object/configreadback actual97c5f9/0: fivecontainednmchildren verifiedprivateEVP
+symbols+EVP_MD_fetch inselectedobjects, CommonCrypto onlyinplatformobject;
+2310capturedsourcehashchecks pass. BothproductionOpenSSLcomponent35420/839063/0
+anddefaultplatform77359/5103e3/0 passed8calls each (2expectedOxnegativecompiles).
+NoSDK/media/EXIO. Receipt
+`tests/qualification/openssl-production-backend-actual-20261017.json`.
+Initialharnesswrongsavehelper FileExistsError actuale5f933/1 closed; rawfailure
+preserved, correctedfreshmatrix succeeded. This closes the previouslyuncommitted
+WIP checkpoint below as opt-in macOS qualification, notLinux/Windows/FIPS/RSS/
+scaling/defaultbackendreplacement. Next priority: actualhierarchicalpartial-
+knowledge/componenthashbaseline, not more exhaustiveprivatefieldgating.
+
+## Authoritative user steering: gradual nested knowledge, deployable partial coverage
+
+User explicitly directs a hierarchy: standardmetadata/pixels first, MakerNotes
+learned piecemeal, plugins inside DNG and nested/community subplugins. They then
+confirmed separatepixel+metadatahashing is already a deployment win; incomplete
+smallerfields mustNOT globally blockdeployment. SOL.md now contains the normative
+design: componenthashforest+fullfilehash, opaqueatoms exact/preserved/identity-
+participating, per-operation authority, incrementalrefinement/cachedependency
+invalidation/lazyboundedrehash withvalidsnapshotbindings. Cannotderivechildhash
+fromparentSHA or silentlyignoreunknownfield. CompleteMakerNotegrammar isNOT a
+globaldeploymentgate. Strongerignore/merge/relocation capabilities still require
+their scopedcontracts. Existingprofilesunchanged; implementation remainsopen.
+Expanded architecture/currentSDEmapping `doc/gradual-camera-understanding.md`.
+PhotoRoot consultationrequested userexplicitly viaqueues01a14797-40b2 and
+01a14798-408d, updateduserdirection01a1479a-52e7; feedbacknotyetreceivedatwriting.
+Do not inventRootagreement or makethisconsultation anewapprovalgate.
+
+## Latest camera ACTUAL: model candidate X2D 100C, nine-byte grant consumed
+
+FreshRootadmissiondc44e5ec (2900B) wasfound/revalidated againstfrozenrequest16pins,
+plan/prereqs/interpreter/source8fields/deadline/unusedworkspace, dispatchedONCE.
+Actualexec_command a6a4ce/exit0/NOsession, owner15830/worker15831,
+START1792202424.824716. Exactlyone9bytepread absolute11440:
+583244203130304300 => `X2D 100C`. Workerreaped0/othersabsent/CPU8EXclosed,
+source16postpins/epochunchanged. NoSDK/sourcehash/copy/Photooriginal/serialfields.
+Rawmodeltext narrowsfamilyinvestigation; vendorheader/privategrammar/reference
+closure/semanticeligibility remainFALSE. Source/finalhash hierarchy above means
+thisgrammaruncertainty neednotblockindependentlyqualifiedpartialcoverage.
+Actualterminal immediatelyqueued01a14796-f48b toreleasecoordination. Seal
+`tests/qualification/private-maker-model-actual-20261017.json`2831B
+SHA47363cb0893502338e505f253c67ad93d7b7774a8de6dde63f276041f008fded;
+workspaceOWNERRETURN2500B SHA72cec0b75180f05cc2adab2ca0634dfa1673050651cefd8dfa1d76ebf715f2c3.
+No replay; olderprepared/unadmittedsectionbelow is historicalsameconsumedrun.
+
+Parallel source WIP (not partofcamerarequest16pins): productionhashinternalstate
+nowopaque, opt-in UNISON_SEMANTIC_HASH_OPENSSL branch andsharedEVPheader prepared;
+defaultCommonCrypto/reference behaviorretained. ActualselectedOpenSSL controls
+session35420/839063/0 anddefaultplatform controls77359/5103e3/0 closed; each8
+containedcompile/runtimecalls incl2expectedOxnegativecompilations. Theseuse
+actualproductionSemanticHash objects+commonheader, stock/Ox15vectors andprivate
+domainchecks. No shippingMake/Dunebuild/backenddiscovery/nonApplequalification
+yet. Sourcechangescurrentlyuncommitted intentionallyseparatefromuserdesigndoc;
+nextgoalturn mustfinish/review/versionthem, notclaimshippedbackend. Noactiveowner.
+
+## Latest camera source successor: nine-byte model-field investigation
+
+Prepared, NOT ADMITTED/DISPATCHED: `doc/private-maker-model-request-v1.json`
+5848B SHAc95723a648a0dc87a47dd4c6c61b37afb4a6fc83f15a6f62a1b6c6969ebdd803,
+plan951B SHA1fcacc02e95cf4e97f029392b9b5b62c796b9998c53383bf31527a8fb9e36411.
+Workspace `/private/tmp/unison-private-maker-model-f0c6585afc364ce984c66bba92f1330f`
+and `/private/tmp/unison-private-maker-model-admission-v1.json` absent atfreeze.
+Exact16executionpins/4prerequisites/qualifiedPython frozen; source8fieldlstat
+unchanged withoutpayloadread. One9bytepread absolute11440 (candidateASCII tag21),
+not the earlier34byte prospective set; tags96/97 remain unread. Raw9bytes/hex
+retained, invalidtext notdecoded; string alone neither identifiesvendor nor
+provesprivategrammar. NoSDK/sourcehash/copy/Photooriginal/serial-field reads.
+Newtarget private-maker-model has no CPU-only route. IO→Unison00..07, explicit
+inherited9FD metadata, worker10s/parent60s observation, unknownretainsno broadkill.
+Qualifiedfinallyclose preservesreadfailure+alluncertainidentities/no numericretry;
+parent exactresult/actualPID/readbound audit+freshsourceepoch beforeclose.
+
+Actual41syntheticcontrols686520/0/no session and freshdisposable9FD lifecycle
+1fffe8/0/no session passed/normalworkerreaped0/groupclosed/disposablewhole-set
+reacquired. Exactsource/argv checked_io_request also passed an explicit inert
+metadata doublee0a407/0, NOT a realadmission/lock. Source readiness receipt
+`tests/qualification/private-maker-model-ready-20261017.json`.
+Initialdisposablelifecycle child14181 failedbeforefieldread because shared_binding
+targetallowlist omittednewtarget; retainedidle14180 independently source-bound
+stopped afterSIGTERMignoredbyretain_forever, scopedSIGKILL14180only. Actualouter
+session92188/51d72a/247, direct14180wait-9/groupclosed/CPU8closed. Originalinner
+workerwait4 NOTclaimed; rawerror/originalsources/recoverypreconditions preserved.
+Correctedallowlist qualifiedbyfreshlifecycle, not replay. First7readercontrols
+8aa6e3/0 and intermediate41controls871175/0 alsoclosed; no retainedresources.
+The shared_dispatch/shared_binding source successors postdate consumedSDKV2;
+its181postpins describe its actualrun, not a new current-source match.
+
+## Latest actual: unchanged-file SDK validation and private camera coverage
+
+All-scanned SDK V2 is CONSUMED_ACTUAL_PASS_CLOSED, not pending. Admission
+8dabb077 / workspace `/private/tmp/u-asv-ca5ec3ffcbff` executed once after fresh
+guards. Exact own runtime item_completed event at2026-10-17T01:45:04.471Z,
+CommandExecution exec-dd42cac5-40a9-47f6-b703-0d1bbd41eae3/process98564,
+statuscompleted/exit0 supplies actual parent terminal (not ps or markers).
+Owner11083/worker11084, workerreaped0/groupothersabsent/CPU8+EXglobalclosed.
+Four CLI/four SDK calls: stock/Ox baseline then all-scanned unchanged validation
+on each endpoint; all raw-digestvalid/decodeSUCCESS/errors0/warnings0.
+Independent pure parent audit reparsed four raw proxy receipts, exact commands,
+helper/path/group joins;181postpins unchanged. Seal
+`tests/qualification/all-scanned-sdk-v2-actual-20261017.json` binds10artifacts,
+including recovered exact runtime-event source offset/lineSHA. Root notified
+queue01a1478b-5406 promptly after terminal recovery. No replay or semantic/pixel/
+corpus/timing claim; do not reopen the consumed grant. RequestV1 stays withdrawn.
+
+Camera grammar remains the central open semantic gap. New pure saved-record
+analysis (`doc/private-maker-coverage.md`) proves only declared spatial coverage:
+33entries/17inline/16outlined, no range overlap,6551/6556bytes represented,
+five unclassified one-byte gaps. Seven UNDEFINED values occupy5939bytes;
+their contents and inline pointer semantics remain unknown. Seven original
+synthetic controls actual3ca2ea/0/no session, worker/group/CPU8closed. An earlier
+misplaced -B dispatcher argument refused before child/token entry0a7cc2/1.
+No DNG reread. Three candidate ASCII fields total34prospectivebytes for a future
+identity investigation, **not** a new read grant or vendor recognition. No
+production private allowlist/profile change. Coverage receipt
+`tests/qualification/private-maker-coverage-actual-20261017.json`.
+
+Independent maintained-hash component progress: isolated OpenSSL3 EVP candidate
+in `tools/portable-hash/` passed stock/Ox generated vectors, four private domain
+contexts, GC/state/failure cleanup and expected Ox portability refusals. Final
+actualsession29240/734d79/0/no session; all8containedcalls/outerCPU8closed.
+InstalledOpenSSL3.6.4/macOS only, zeroSDK/media; not production selected and not
+Linux/Windows qualification. Earlier import/Ctestcompiler failures preserved.
+Receipt `tests/qualification/portable-evp-component-actual-20261017.json` and
+component README state remaining production Make/Dune/backend/platform work.
+
+## Latest transport correction and real peer compatibility
+
+SDK requestv1 f06a74ea is WITHDRAWN UNSTARTED (own attestation; no SDK target
+dispatch). Disposition `doc/all-scanned-sdk-request-v1-withdrawn.json` preserves
+original request/plan bytes. Root notices queues01a14778-4910 and01a14779-90d9.
+No crossed old grant may be dispatched. Actual empty-root testing found two
+gaps missed by modeled fixtures: native server receipts do not contain their
+own group-leader fence (server inherits proxy group), and sequential phases
+reused a retained socket pathname. Both are corrected WITHOUT SDK/media reads.
+
+Proxy now observes native PID/PGID and supervisor PID/PGID before native wait4.
+`all_scanned_sdk_groups.py` joins that binding to strict supervisor-group census
+before the GROUP LEADER is reaped. Native server is explicitly not group leader;
+no fictional native-own-group fields. Baseline/validate use separate socket names.
+Current90 inert controls PASS/CLOSED. Four actual current/older-peer empty-root
+calls proved exact capability refusal when required and ordinary off success
+on stock/Ox; actualbatch48099/663fe5/1 retained the first socket fixture failure,
+freshbatch97858/236d74/0 passed. Four ACTUAL current Invoker empty-root calls
+also passed using an inert non-executable SDK sentinel, actual29390/973a1f/0.
+All client/supervisor/native groups/canonicalCPU8 closed; no canonicalEXIO or SDK.
+Receipt `tests/qualification/native-proxy-group-actual-20261017.json`.
+
+First probe wrongly expected native-own-group keys and retained idle6233 despite
+actual client6249reaped3/supervisor6248reaped0/native6256reaped0 and strict proxy
+group closure. Source-bound empty/no-SDK recovery stopped only idle6233; actual
+18796/4fd8fb/247, outerchild6233wait-9/groupclosed/CPU8closed. Runtime nativePGID
+was NOT claimed for that first probe. Recovery and exact old script archived;
+second socket-reuse failure was ordinary known closed, no retained resource.
+
+FRESH successor request `doc/all-scanned-sdk-request-v2.json`
+SHA75d3b9bd03a06a06caf41c5c216ee5dad1ccdc95d5b9138d245fc5316617b03e;
+plan `doc/all-scanned-sdk-plan-v2.json`
+SHAa89b6c1f9a530a282ac749358aef79016b22fb9397400671e8d29380a705de81.
+181sources/6prereqs, metadata checked_plan PASS; borrowed8fields unchanged with
+zero payload opened. Workspace `/private/tmp/u-asv-ca5ec3ffcbff`, admission
+`/private/tmp/unison-all-scanned-sdk-admission-v2-ca5ec3ffcbff.json` absent atprep.
+Same finite4CLI/4singleSDK/8CPU+EXglobal, no18borrow. This request is NOT a grant;
+fresh Root admission/deadline and all source/workspace guards remain mandatory.
+No actual all-scanned SDK run has occurred. Old-peer loopback negotiation does
+not prove arbitrary SSH/network/platform interoperability or close the full goal.
+V2 source/scheduling request queued to Photo Root as
+`01a14780-0c96-7061-9d1d-d68746774a9c` after pushing91e9658.181pins,
+checked_plan/borrowed metadata and absent workspace/admission revalidated first.
+This queue grants nothing; wait a fresh exact Root admission and deadline.
+
+## Latest checkpoint — private helper input observations
+
+Current007 stock/Ox Make AND Dune build-only PASS/CLOSED, actual21013/826fd9/0/no
+session. Current-object endpoint/unchanged/scan controls plus inert SDK controls
+PASS/CLOSED, actual29114/f94d20/0/no session. Four contained controller groups
+and CPU8 sets closed;14nested compiler/test calls and4actual original fake
+helpers reaped/groupclosed. All4 owner-input records bind candidate SHA/size,
+actual helper PID, private stage path and endpoint owner PID. Separate49 inert
+SDK controls passed. Independently checked2451source hashes and1946compiled
+artifact hashes INCLUDING repeated checks. Receipt:
+`tests/qualification/all-scanned-input-current-actual-20261017.json`.
+Prior006 build/current-source qualification below is retained historical evidence.
+
+Production `validation-input` debug adds a separate bounded hex pathname record
+after supervised execution returns; normal behavior, wire format and existing
+process/group framing unchanged. It records the owner context's candidate and
+borrowed-output provenance, not kernel argv tracing or hostile sandbox authority.
+`all_scanned_sdk_paths.py` rejects absent/duplicate paths, wrong helper/owner/hash,
+original-root paths, unavailable/odd/NUL/dot components and unborrowed inputs.
+Future SDK plan explicitly enables this opt-in diagnostic; parent/worker join it.
+No SDK/retainedcamera/EXIO/nativeUI was invoked by this turn. Future SDK executor,
+admission/prefix/FD verification join and real remote run still outstanding.
+
+Outer metadata/failed-prefix checkpoint: `all_scanned_sdk_boundary.py` validates
+the exact finite packet, qualified interpreter/compiler labels, authenticated
+build/tool manifests, copied transport pins and readonly private source metadata.
+`checked_plan` rechecks each captured production source hash; executable hashes
+are deliberately left for after IO acquisition. Its bounded document reader uses
+the qualified close carrier, including original parse failure + uncertain close.
+`all_scanned_sdk_prefix.py` independently audits known failed prefixes without
+inventing helper absence or parent/FD closure; contradictory baseline input
+records and incomplete helper pairs refuse. Neither function grants admission.
+Fifty-nine current inert controls actualb4a9a6/0/no session passed, child/group
+and CPU8 closed; no SDK/CLI/camera/EXIO. Receipt
+`tests/qualification/all-scanned-sdk-boundary-actual-20261017.json`.
+The dispatcher/CLI route, inherited9FD controls and fresh parent verification join
+are still NOT wired. Next implement those before freezing a runtime request;
+no actual all-scanned SDK admission exists and no old grant may be reused.
+
+One-use entry/dispatcher is NOW wired as `all-scanned-sdk-validate` through
+`all_scanned_sdk_entry.py`. No CPU-only route. Exact packet/admission/argv,
+existing EXglobal→CPU00..07, inherited9FD guard, post-IO executable hashes,
+worker/helper/proxy audits and fresh complete-root verification precede grant
+closure. Observation expiry retains the live SDK coordinator; no broad kill.
+Source checks and bounded result/proxy reads use qualified close uncertainty.
+The shared CPU closer/readers now preserve combined rollback+directory close
+identities, original cause and known still-held successful sets; IO preserves
+both precise outer roles and upstream pre-close observations.
+
+Latest88 controls actuald787b5/0/no session passed; actual disposable inherited
+boundary dc9f5c/0/no session passed with2real Python children, both reaped7 and
+groups closed;9FD accepted to deliberate pre-SDK refusal,8FD refused earlier.
+All canonical Unison8 outer groups/tokens closed; canonical EXglobal NOT taken.
+Receipt `tests/qualification/all-scanned-sdk-entry-actual-20261017.json`.
+Preserved failures: first actual launcher used wrong sys.argv offsets, failed
+before document/guard/SDK, and retained idle controller3810. Source/census bound
+recovery stopped ONLY that controller; actualouter0a6f94/247/no session, its
+child3810 wait-9/groupclosed/CPU8closed. Originalinner3811 wait4 NOT claimed.
+Exact old launcher reconstructed and SHA-verified against START before archiving.
+Named argparse correction passed fresh002/003. One common-pool role-label
+regression actual98adf0/1 closed; corrected carrier preserves upstream identity
+plus precise outer IO role and current88 tests pass. No SDK/media/clone executed.
+
+Fresh immutable runtime request prepared: `doc/all-scanned-sdk-request-v1.json`
+SHAf06a74ea8f0ba22f5b1217507906a44bcb5eecf4fce175332e835943baecc26f;
+plan `doc/all-scanned-sdk-plan-v1.json`
+SHA983fe658d65601fcdd02acbc947945d8671124f4c47178a8d824b5717ab3e50d.
+179source pins/6prerequisites; metadata checked_plan passed and borrowed8fields
+unchanged without source payload read. Workspace `/private/tmp/u-asv-30d16e0d4925`
+and admission `/private/tmp/unison-all-scanned-sdk-admission-30d16e0d4925.json`
+were absent at preparation. Request is NOT admission: wait exact fresh Root
+grant/deadline then recheck allpins/workspace and dispatchONCE, no oldslotreuse.
+Scope4CLI/4singleSDK, two clone-only equal-root pairs, off baseline then unchanged
+all-scanned require;16GiB declaredlogicalnotcap,600s observation/unknownretain,
+Unison8+EXglobal/no18borrow. No semantic/pixel/physical sharing/throughput claim.
+Exact readiness/source-review request sent to Photo Root queue
+`01a14774-94d7-78c2-b6ac-8cf4cd00ab25` after pushingc633902; prequeue179source
+pins/checked_plan/source metadata and absent workspace/admission revalidated.
+This queue is a REQUEST, not a grant or resource hold. Continue independent source
+work while awaiting fresh exact scheduling; do not reuse any historical slot.
+
+## Current checkpoint — all-scanned scope implemented
+
+Opt-in `adobevalidatescope = all-scanned` is wired through the existing find RPC,
+with new negotiated `dng-validation-all-scanned-v1` capability. Default
+`adobevalidate = off` / scope received retains no-op behavior. Selected unchanged,
+new, immutable and followed files use the real bounded scanner; ignore rules
+remain in force, and errors/overflow reject coverage. Each endpoint captures validator/tool policy ONCE
+before enumeration. Reentrant policy changes cannot silently skip later files.
+Both started endpoint promises drain on failure. No wire/archive format changed.
+
+`ValidationScanWork` creates a fresh0700 private directory outside supplied local
+roots, resolves existing/followed paths without process CWD changes and checks
+logical bindings before/after each file. Serial snapshot validation retains the
+existing per-file resource envelope. Failed cleanup preserves original errors,
+unrelated entries/replacements and pending borrower ownership. Warnings/rejections
+name the logical file; helpers still get only the isolated pathname.
+
+`ValidationDescriptor` replaces CandidateValidation's temporary descriptor closer:
+one close after actual borrowed work, retained identity/original cause and pending
+admission on uncertainty, no numeric retry. Candidate inspection borrows the held
+stage FD; separate artifact inspection permits driver/limiter hashes but refuses
+original inode aliases. The earlier candidate-only guard was too restrictive for
+driver hashing; it is superseded, not actual SDK evidence. Existing other worker /
+receiving helper-IO close-fault limitations remain open.
+
+FINAL evidence: `tests/qualification/all-scanned-current-v4-actual-20261017.json`.
+Stock/Ox Make AND Dune006 build-only PASS/CLOSED under one sequential controller,
+actual20352/3c91d5/0/no session. Four groups/token sets independently closed.
+Three current-object controllers/14 compiler-or-test calls and FOUR original fake
+protocol-driver subprocesses passed; actual26283/38672b/0/no session. Independent
+readback performed1228production-input,1208prefix-source and1946artifact hash
+checks (including repeated checks) plus current child/group proofs. Our CPU8
+reservations are closed; no EXIO/SDK/Photo-native reservation was taken.
+Tests cover require/warn/unavailable driver, active/off/received/repeated no-ops,
+missing peer capability/late preference checks, source follow-retarget refusal,
+private mutation, captured policy, logical warnings, cleanup residue, cancellation
+and actual fake driver/tool inspection. Two injected close-uncertainty carriers
+and two admitted loans per endpoint control deliberately remain pending until
+that disposable process exits; they are NOT ordinary in-process retirement.
+
+Preserved build005 failure: actual59615/9a9cf0/exit2/no session; Ox guard rejected
+an updated interface comment whose checked template had not yet been refreshed.
+Failed child/group/tokens closed.006 synchronizes the template and passes both
+compilers/build systems. Earlier prototypes/receipts retain their exact sources;
+latest qualification supersedes only their current-source claims, no runtime
+admission/replay is inferred. All fixtures generated; synthetic helper protocol
+raw-digest missing is NOT Adobe raw-digest/decode/pixel evidence.
+
+Next: prepare a fresh source-pinned real SDK all-scanned IO request and qualify
+actual remote-process/old-peer combinations/live watcher scopes. No such SDK or
+private-camera grant currently exists; do NOT reuse consumed grants. Source-only
+MakN vendor/reference grammar work and broader M4-V/M6/corpus/portable-hash work
+continue independently. Full SOL.md goal remains ACTIVE/INCOMPLETE.
+Usage/contracts: `doc/all-scanned-validation.md`. exiftool-rs reuse remains deferred
+until the separate extensions/dng-compare integration is ready; Perl13.59 baseline
+and all historical timing/failedpart3/consumed-admission caveats remain preserved.
+
+Next-step source proposal now exists: `tests/all_scanned_sdk_plan.py` and
+`doc/all-scanned-sdk-qualification.md`. Two calls/compiler establish an off
+baseline then require/all-scanned unchanged validation across the proxy's real
+remote-process boundary; four SDK calls total are proposed, NOT executed.
+Three pure planner controls passed under Unison8; actual680b9e/exit0/no session,
+child93067 reaped0/groupothersabsent and CPU8 closed. No EXIO or SDK was taken.
+Receipt: `tests/qualification/all-scanned-sdk-plan-actual-20261017.json`.
+The first control launcher omitted its output directory and retained idle CPU
+ownership before child construction; source-order/no-child audit preceded exact
+owner92929 recovery, actual89e146/137/no session. No worker wait4 is claimed for
+that pre-child failure. Fresh002 controls passed; failure evidence is preserved.
+Executor/admission/prefix auditor and fresh Root scheduling remain outstanding.
+
+Transport/helper audit checkpoint: `all_scanned_sdk_transport.py` now fences
+artifacts and one-use phase intent/outcome ordering; unknown unreturned calls
+cannot forge finish. `all_scanned_sdk_audit.py` independently joins the exact
+client+server helper pairs and SDK framing while withholding no-transfer,
+private-path and resource-release authority. Twelve inert controls actual
+8cea50/0/no session passed; child/group/CPU8 closed, no SDK/CLI/EXIO/media.
+Receipt `tests/qualification/all-scanned-sdk-transport-actual-20261017.json`.
+First batch import-path failure is preserved as actualc03fdf/1/no session with
+known child/group/tokens closed; fresh002 fixed imports and003 added returned
+failure ordering. Still implement aggregate executor, cloned-root preparation,
+no-op/path-isolation and attempted-prefix joins before fresh runtime request.
+
+Complete-call parent join is now implemented in `all_scanned_sdk_parent.py`:
+strict four-call compiler/phase order, exact argv/server flags/raw proxy binding,
+transport lifetimes, both-endpoint SDK receipts and exact unchanged UI status.
+It does not authenticate records, freshly inspect roots, prove helper path
+isolation or authorize FD release. Partial results remain refused. The common
+journal adds a separate validation profile without relaxing sync profile rules.
+Thirty inert controls including journal regressions actual120cc2/0/no session
+passed; child94218 reaped0/groupothersabsent/CPU8 closed, no CLI/SDK/EXIO/media.
+Receipt `tests/qualification/all-scanned-sdk-parent-actual-20261017.json`.
+Next remains aggregate/root-preparation/path evidence and failed-prefix ownership,
+then fresh exact runtime request. No actual SDK admission exists for this feature.
+
+Caller-admitted aggregate kernel and clone-only pair preparation now implemented
+in `all_scanned_sdk_worker.py` / `all_scanned_sdk_prepare.py`. Source metadata
+fenced/no source hash; distinct clones only/no overwrite/copy fallback; clone
+hashes checked before transport. Worker records helper/CLI settlement before
+verdicts and preserves known failed prefixes separately from retained uncertainty.
+Missing helper/group/outcome and nested uncertain-close cases retain ownership;
+no later call starts. Native-clone runtime is NOT qualified for this new path.
+Forty current inert controls actuala55d9e/0/no session passed, child/group/CPU8
+closed. Receipt `tests/qualification/all-scanned-sdk-worker-actual-20261017.json`.
+Only original tiny files/injected clone and modeled SDK/proxy frames were used;
+no CLI/SDK/EXIO/retained camera access. Earlier001/002 counted imported parent
+tests twice;003 removed duplication;004 adds strict server-group uncertainty.
+Still implement outer CLI/admission, fresh replica verification, private-stage
+path evidence and independently authenticated failed-prefix/FD join; no runtime
+request/grant exists yet. Full goal remains active/incomplete.
+
+Fresh pair verification gap closed in the worker: `all_scanned_sdk_verify.py`
+is mandatory, no caller-supplied Boolean callback. Preparation now captures
+directory epochs; verification joins exact single-file rosters, full file/dir
+epochs, distinct inodes, admitted source SHA/size, both hashes and final cross-pair
+binding checks. It opens only disposable roots and preserves uncertain-close
+carriers; no destructive cleanup. Worker saves initial plus both post-phase proofs.
+Forty-six controls actual18b483/0/no session passed; child95780 reaped0/groupabsent,
+CPU8 closed. Composition uses real tiny files/injected clone/real verifier six
+times with modeled transport/SDK. Receipt
+`tests/qualification/all-scanned-sdk-verify-actual-20261017.json`.
+No CLI/SDK/nativeclone/EXIO/retainedmedia. Outer executor/admission, authenticated
+prefix/verification join, private-stage pathname evidence and fresh exact runtime
+request remain next. Parent audit still withholds fresh-byte/release authority.
+
+
+## Held-output validation checkpoint
+
+Unchanged-file CandidateValidation now borrows the private stage owner's held
+output FD for recognition, reinspection and filesystem admission around execution.
+It does not reopen that path through the legacy temporary-descriptor wrappers.
+Inspection refuses every other pathname, including the original. StageWork lends
+ONLY the disposable output FD, never the original FD; trusted callbacks must read
+it without closing/retaining it beyond their actual returned promise. The stage
+owner/admission stays live throughout callback settlement and final integrity
+checks. Pathname helpers still receive only the private pathname. This is not an
+OS-enforced read-only handle or sandbox. Existing received-file wrapper and worker
+close-fault limitations are not relabeled as fixed by this change.
+
+Current stock/Ox Make builds passed; actual37127/3ba42a/0 and14865/b9ed28/0.
+Two controllers/eight compiler-or-test calls passed under canonical Unison8;
+actual60080/a2dead/exit0/no session, all attempted groups reaped0 and tokens closed.
+Evidence `tests/qualification/validation-borrowed-output-actual-20261017.json`.
+Original fixtures check stage-FD/inode isolation, original-path refusal, held-FD
+inspection while the disposable pathname is temporarily moved then restored,
+filesystem admission around an original fake execution callback, mutation
+rejection, sleeping cancellation and retained uncertainty. The fake execution
+callback launches NO subprocess and provides no SDK/helper protocol acceptance.
+No Photo payload/source mutation/new native admission.
+
+All-scanned endpoint integration remains pending. The lifetime correction was
+needed before enabling it; next implement private endpoint directory ownership,
+non-CWD-changing followed-path resolution/fences, strict scope/capability handling,
+scan-error propagation and awaited endpoint completion. Do not expose the option
+based on the component tests alone. Full SOL.md goal remains active/incomplete.
+
+
+## Current scanner coverage checkpoint
+
+`ValidationPaths` now bounds retained unique endpoint-local file count and total
+pathname bytes. Overflow poisons the collector: no partial prefix can be read
+or resumed. This does not claim a whole-process RSS or traversal-time hard cap.
+`Update.findLocalWithValidation` collects regular files directly during the real
+selected scanner traversal, including NoUpdates children, and disables watcher
+subpath/directory fast-check coverage omissions. Existing immutable subtrees use
+the scanner's same filename/ignore/follow metadata rules to collect coverage
+without changing immutable update detection/archive results. A failing bounded
+scan unwinds watcher bookkeeping and fingerprint cache state. No user-facing
+preference/RPC/feature activates the entry yet.
+
+Current stock/Ox Make002 builds passed and four current-object compiler/test
+calls passed over generated private replicas. Actual owner62296/0ed6c7/exit0/no
+session, all contained groups reaped0 and CPU8 closed. Unchanged nested files,
+modified immutable files, ignored paths, followed file links, overlapping selected
+paths, new/changed files, both resource refusals and a subsequent clean scan are
+covered. Evidence `tests/qualification/validation-scan-actual-20261017.json`.
+Stock001 preceded the watcher cleanup correction and is historical; stock002
+15629/6c0d6b/0 and Ox00224575/0abd92/0 match current production code.
+Watcher hints were supplied with watch=false; no live watcher helper/protocol
+qualification is claimed. Source/fixture only, no Adobe/SDK/Photo payload.
+
+Next endpoint activation must create a private staging directory outside roots,
+resolve/fence followed paths without process-CWD mutation, report existing nested
+scan errors rather than claim complete coverage, and await admitted private-file
+validation before the endpoint scan returns. Add strict received/all-scanned
+scope parsing and negotiated capability only with end-to-end default/off/no-op,
+old-peer, ignore/follow and failure/cancellation tests. All-scanned remains
+unavailable until that integration is qualified; private MakN grammar and broader
+native/resource/corpus requirements remain separately open.
+
+
+## Perl ExifTool baseline upgraded to 13.59
+
+User requested the same Perl13.59 baseline used by the separate exiftool-rs /
+dng-compare work. The current mixed-validation dependency verifier now selects
+the private versioned installation recorded in
+`doc/exiftool-13.59-installation-v1.json`, and exact246-library-file inventory
+`doc/mixed-exiftool-package-inventory-v2.json`. Shared/usr/local/bin/exiftool
+and the old13.10 package are untouched. Historical V1 plans, inventories,
+source reviews and actual receipts remain unchanged; do not replay them or
+relabel13.10 evidence as13.59.
+
+Actual final controls1e11d4/exit0/no session passed16 pure inventory/plan/audit
+tests plus two direct ExifTool calls: version13.59 and readonly generated Unicode
+XMP with the exact mixed-probe argv. Source/fixture/package fences and all
+contained groups settled, CPU8 closed. Evidence:
+`tests/qualification/exiftool-13.59-upgrade-v2-actual-20261017.json`.
+First upgrade controls95afc8/0 also passed; final successor adds exact executable
+path rejection. No SDK, media/photo payload, mixed native rerun or semantic/pixel
+qualification. Future mixed runs require current successor source/binary pins
+and fresh existing IO scheduling. exiftool-rs itself remains deferred until the
+user's extensions and dng-compare integration are ready.
+
+
+## Current source checkpoint — internal unchanged-file validation
+
+The new `CandidateValidation.unchanged_file` entry is implemented and qualified
+against current stock/Ox Make objects. It remains INTERNAL: no all-scanned
+preference, negotiated capability, scan traversal, or production activation yet.
+`SemanticWorkers.recognize` performs bounded recognition without the existing
+Identify operation's whole-file fingerprint. Off opens nothing; a generated
+nonmatch larger than the snapshot budget reads only four recognition bytes and
+skips hashing/copying/validation. A matched file obeys the snapshot byte budget;
+validators receive only its private snapshot. Success, rejection, private
+mutation, cancellation, and retained-uncertainty controls passed for both
+compilers. The canonical staging Fspath is passed in; this entry never changes
+process CWD. The worker Identify fingerprint behavior remains covered.
+
+Actual control owner ec7bac/session38387 -> terminal4df709/exit0/no session;
+three controllers/twelve compile-or-test child calls reaped0, groups settled,
+Unison00..07 released. Evidence:
+`tests/qualification/unchanged-validation-entry-actual-20261017.json`.
+Current Make build005 stock and Ox succeeded; stock's original parent handle
+85221 was missing on continuation, so its parent terminal is NOT reconstructed
+from SHARED-CLOSED. Ox actual47362/ce238f/0/no session. Build004 preceded the
+CWD correction and is historical. The stage-work harness now pins itself;
+older harness receipts are not retroactively described as self-pinned.
+All fixtures generated/private; no SDK, Photo payload, new native sharing,
+all-scanned activation, or general legacy FD-fault qualification follows.
+
+Next: exact scan-selected work coverage, private endpoint staging initialization,
+followed-link/path policy, scope/capability negotiation and default/no-op tests.
+Do not expose all-scanned based only on this internal entry.
+
+User steering: exiftool-rs is being extended separately for dng-compare. Revisit
+reuse here after that work is ready; do not install, switch validators, or add
+an exiftool-rs dependency now. Existing source review remains historical.
+
+
+**LATEST ACTUAL — slice V1 CONSUMED/CLOSED:** fresh Root admission
+/private/tmp/unison-private-maker-slice-admission-v1.json SHA7d914319 was found,
+request45c2b707/plan/13sources/9prereqs/interpreter/sourceepoch/deadline/absent
+workspace revalidated, executed ONCE. Actual initialexec_command d8fe2f/exit0/
+NO session, parent17547/worker17548. Worker reaped0/othersabsent; CPU8+EXglobal
+closed/allsourcepins unchanged. Exactly402B requested/received in2preads,33
+candidate entries, nextIFDzero; all declared out-of-line extents fit6556B.
+No pointed values/inline values/vendor recognition/private closure/semantic
+eligibility claim. Source exact8fields unchanged; no source hash/newclone/SDK.
+Actual terminal immediately queued01a146d8-8baf before sealing. Saved-result
+independent audit rechecked13pins/epoch/recordedcanonical9inodes/unresolvedempty,
+no payloadreread. Seal tests/qualification/private-maker-slice-v1-actual-20261017
+4213B SHA7b012251; OWNERRETURN3673B SHAf8257b68 plus9directartifacts in
+/private/tmp/unison-private-maker-slice-13f46b93c0ed4271af7cc389113808aa.
+Sealed notice01a146d9-2eed. Metadata-only seal construction TypeError19bf7b/1
+(duplicate schema keyword after OWNERRETURN saved) preserved/corrected; no
+runtime/audit/resources repeated. No currenthold; old prepared/pending notes
+below are historical, do not replay. Next: vendor-specific grammar/reference
+closure source work from saved geometry, then separately qualified profile.
+Independent follow-up checked DNG1.7.1 page41: MakerNoteSafety describes EXIF
+MakerNote preservation and does not supply private pointer grammar or identify
+the MakN vendor. Added focused production-linked tests/semantic/private_safety.ml
+and serial stock/Ox runner; four scalar baselines/eight private refusals per
+compiler PASS (both profiles/bothorders, explicit safe flag1). Actualsession
+30095/5049a3/0, four compiler/test groups plusouter18617 reaped0; CPU8 closed.
+Receipt private-safety-actual-20261017.json. No SDK/media/fuzz/production edits.
+Pinned MakerNotes Hasselblad branch is only a special-base/unknown-table source
+example; do NOT identify the sample from its tag-shape resemblance.
+Root actual slice closure and sealed adoption now read/rehashed into
+private-maker-slice-v1-root-adoption-20261017.json: actuald8fe2f/0 was adopted
+from our owner report, not Root tool polling; Root photoIoWaitActiveFALSE,
+33entry/402byte geometry only, no newhold/replay/payload.
+Independent M4 work traced missing all-scanned validation: synchronous
+Update.findLocal +watcher/directory skips +NoUpdates omission prevent a simple
+post-filter hook. Existing CandidateValidation assumes private received stages;
+SemanticWorkers has no isolated snapshot job. Source hashes/findings recorded
+in all-scanned-source-audit-20261017.json and concrete integration plan in
+doc/all-scanned-validation-implementation.md. No new preference or production
+feature exposed. Next implementation work: admitted cancel-aware isolated
+snapshot worker API using existing clone adapter, then exact scan-selected
+coverage and asynchronous endpoint wiring. Keep default received/off/no-op
+behavior and originals untouched; no helper may receive a live unchanged file.
+This is independent of still-open MakN vendor/reference grammar.
+Snapshot kernel implementation checkpoint: src/validationSnapshot.{ml,mli}
+now performs borrowed-FD isolated materialization using an injected existing
+WholeFileClone adapter, strict no-effect-decline fallback, <=64KiB cancel-aware
+copy/short-write+EINTR handling, complete source/output SHA comparison and
+cooperative source metadata fences. Budget/alias/nonempty guards precede effects;
+no path/create/unlink/close/publication. Caller retains exclusive output/name
+ownership and stronger epoch fences; OCaml stat timestamps are not native-ns
+attestation. That kernel-only checkpoint is superseded by worker integration
+below; all-scanned scan/staging-owner integration is still pending.
+Stock/Ox standalone component controls passed (six exact sizes incl0/64KiB
+boundaries, budget/alias/nonempty refusal, native exception+typed failure,
+correct simulated success and wrong-byte success rejection, cancellation).
+Actualsession8225/fd198f/0, outer20205 and four contained calls reaped0/groups
+absent, canonicalCPU8 closed. Receipt validation-snapshot-kernel-v2-actual-20261017
+(preserves prior first-pass receipt). No nativeclone/SDK/media/fullCLI claims.
+Typed worker integration now implemented: SemanticWorkers.snapshot duplicates
+outputFD, admits atomic source/destination filesystem-key union beforeCPU,
+retains bothduplicates through worker settlement and maps Snapshotted response.
+Uses existing unison_clone_file_status nativeprimitive/WholeFileClone decoder,
+not a second clone engine. Added portable WholeFileClone/ValidationSnapshot
+interfaces and Make/Dune preprocessor wiring; Safe.spawn checked Ox builds pass.
+FullMake stock001/244e05/0 +Ox001/4d41bf/0 and Dune stock15d6d4/0+Ox56032a/0
+closed. First stock prefix error e9bda0/2 was preentry/no resources; corrected
+bin prefix then actualbuilt. Final telemetry fix excludes Snapshot from outer
+reader0byte samples; digest observer still131111B. Rebuilt currentMake002
+stock701971/0+Ox1da355/0 bothclosed; earlierDune pair covers pre-fix graph only.
+Allsix build-only slots closedCPU8/no executable selftest or SDK invocation.
+Current production-object stock/Ox worker controls passed: exact3copies each of
+131111B, budget/aliasrefusal, CPUqueuedcancel, observers and emptyIO/CPU/worker
+ledgers. Allsix nativeFDadapter results declined onmacOS; ordinarycopiedbytes
+verified, no APFSsharing claim. Finalactualsession63473/c1af41/0, outer28224+four
+compiler/test groups reaped0/CPU8 closed. Receipts validation-snapshot-workers-
+v2-actual-20261017 and validation-snapshot-builds-actual-20261017; earlier worker
+receipt preserved. No photos/SDK/catalog/publication/nativeUI.
+Next concrete implementation: private staging owner, name/sourcefences and
+bounded outer admission; then scan-selected coverage and negotiated scope.
+Worker close-error/platform fault limits remain explicit; no all-scannedfeature
+or full-goal completion is inferred.
+Private stage owner now implemented in src/validationStage.{ml,mli}: owned0700
+parent, readonlysource name/FD epoch fence (FileObservation native onMac, exact
+unsupported-platformENOSYS fallback only), exclusive0600stage, path identity
+checks and replacement-preserving one-attempt retirement. Close uncertainty
+retains opaqueowner/preclosefacts/originalfailure; getters cannot downgrade it,
+no numericclose/probe retries. Caller mustretain outer admission oncarrier.
+Standalone stock/Ox7groups passed: normalcopy+private mutation cleanup, source/
+stage rebinds, preentry, O_EXCLcollision, external source edit, intentional
+borrow-precondition EBADF+numeric-slot reuse/no retry. It is not a genuine
+ambiguousOSclose or sameUIDsandbox/OOM qualification. Actualsession18118/5cfea1/0,
+outer30366+4containedcompiler/test groups reaped0, canonicalCPU8closed.
+Receipt validation-stage-owner-v2-actual-20261017.json, priorv1preserved. No
+SDK/photo/nativeclone/Main/cache/publish calls. No enabled all-scannedpath.
+That owner-only checkpoint is superseded: ValidationStageWork.run now awaits
+actual snapshot work, validates only privatepath via settled callback, rehashes
+stage against original snapshot SHA and rechecks source/name fences before
+retire. Cancellation never closes sleeping callback borrowers. Cleanupunknown
+stronglyrootsopaqueowner and returns permanentlypending work, retaining caller
+admission; even throwingdiagnostics cannot release it. No numericFDretry or
+callerassertedrecovery. Outer admission is a caller precondition; wrapper does
+not selectformats/scans or enableall-scanned.
+Both owner modules nowexplicitlyMakewired; Dune standard module discovery
+alreadycovers them. Current fullMake stockstage003 actual60053/7cfbba/0 and
+Oxstage003 actual69129/c42aad/0 closed, all currentproductionpinsmatch. Receipt
+validation-stage-work-builds-actual-20261017.json.
+Focused production-object controls initialstockcompile failed Lwt.state API
+(embeddedLwt usespoll); actual9a7e58/1/compiler34415reaped2/controller34414reaped1/
+CPU8closed preserved in validation-stage-work-actual-20261017.json. No runtime
+case executed there. Fixedcontrol only; freshstock/Ox bothPASS actual76318/
+f66e06/0, outer34811+4compile/test groups reaped0/CPU8closed. Receipt
+validation-stage-work-v2-actual-20261017.json. Cases: success, callbackfailure,
+private mutation rejection, sleeping-callback cancellation retaining stage+
+admission untilsettled, injectedcleanupEBADF+throwingdiagnostic retains gate.
+Unknowncase symbolic admission intentionally1untilactualtestprocessexit, NOT
+callbacksettled/creditrelease; all domainworkers joined. No SDK/photos/scan/UI.
+Next: CandidateValidation selected-companion/outeradmission entry; held readonly
+recognition before expensive snapshots avoids failing huge non-DNG on sizecap.
+Then actual scan-selected coverage and negotiatedscope. all-scanned stillOFF/
+unavailable. Fullgoal remainsactive; no new runtimeIO/SDK grant inferred.
+
+
+
+
+**Previous mixed runtime (do not replay):** mixedV1 admission00d8de55dd7548b54ee47c4ce9d159d2dacb95285075410d04e98505da399c69
+was discovered fresh, exact request3e76df16/plan0fd5d23f/326sources/9prereqs/
+interpreter/deadline/unusedworkspace revalidated, then dispatched ONCE. Owning
+session59209 initial87a8e5 terminalcedf13/exit0/NO running session; parent8085,
+worker8086 actuallyreaped0/othergroupmembersabsent-before-reap. Two stock/Ox
+probes/2actualSDKsingle/2readonlyExifTool/32hash tasks passed. Both SDK frames
+rawdigestvalid/decodeSUCCESS/errors0/**warnings4 each retained**. Parent source/
+disposableclone byte checks and backend2192MiB+64credits passed; CPU8+EXglobal
+closed, all326sourcepostpins/borrowed8field epoch unchanged. Actual terminal
+sent immediately in Rootqueue01a146c4-af06, no reportsealing resourcehold.
+Sealed tests/qualification/mixed-validation-v1-actual-20261017.json63631B
+SHAa828f2166927fc5f97b60162850f9f45931973b87ff128a1255b2fb54bdcf20e;
+OWNERRETURN3800B SHAe4f15f69d2a31e96f13a2aaa35b58794d84718089f887d5b6e8228039ee4fe24
+under /private/tmp/unison-mixed-native-v1-e3d4f770baf243db915be0b3fdc0be9d.
+Rawjournal/ownerterminal/parentexit/independentpostaudit+10directpins preserved.
+No camera/pixels/corpus/production, quietthroughput/CPUcomputeoverlap/hardcaps
+inference. Admission CONSUMED, no retry/successor. Root independent adoption
+now verified in mixed-validation-v1-root-adoption-20261017.json: Rootreceipt
+6811B SHA4ae4cfbc49720ea5e32a728a67d77ffb7a7e7266182e946938dda908d757bdc8,
+actualterminal/worker/resultpins rebound,326sources/raw2probeaudit accepted,
+PhotoIOwaitFALSE/no payloadhash byRoot. No currentUnisonresourcehold. Historical pending notes below
+do not authorize another dispatch or claim fresh probes remain unexecuted.
 
 The full SOL.md implementation goal is **active and incomplete**. The user
 requested this handoff because usage limits are approaching, and requested that
 it stay updated. Do not restart completed work or reduce the objective to the
 next test. Do not claim completion from a green build, narrow fixture, or receipt.
 
+**Current independent work after mixed acceptance:** pure
+tests/private_maker_shape.py candidate geometry diagnostic added (no production
+profile change). Saved framing V2 has one6556B payload/originaloffset1404; only
+that JSON was read, no new retained payload. New reader bounds classic candidate
+IFD tables to256entries/3078requestedbytes, emits tags/types/counts/extent geometry
+without inlinevalues/pointedreads, reports outside-payload references. Maker
+recognition/private-reference closure/semanticeligibility stay FALSE always.
+Five authored-byte controls passed, child10346 reaped0/group absent/CPU8 closed,
+actual85eed6/0/no session; receipt private-maker-shape-source-actual-20261017.
+The callable slice reader tests/private_maker_slice.py is now implemented:
+NOFOLLOW read-only open, exact eight-field inode/name epoch fences before/after
+each payload-relative pread, <=3078 requested bytes, sanitized shape output,
+and qualified uncertain-close carrier. Five generated-fixture controls passed
+(child11747 reaped0/group absent, CPU8 closed; actual2a33db/0/no session).
+Receipt: tests/qualification/private-maker-slice-source-actual-20261017.json.
+No retained source was opened. Pure tests/private_maker_plan.py now binds the
+exact historical clone eight-field identity, payload10990/6556/originalbase1404,
+Unison8/EXglobal,10s worker and explicit false semantic/SDK/hash/pointed-read
+flags. Exact nine-word worker argv was specified at that checkpoint; the executor
+and shared dispatcher route are now implemented as described below. No new
+retained-input admission/request has been published. Four plan
+controls plus five slice controls passed (child12267 reaped0/group absent/CPU8
+closed; owning59b0b6/0). Receipt private-maker-plan-source-actual-20261017.json.
+Independent tests/private_maker_audit.py now checks exact report schemas,
+sanitized decline reasons, count/table-only read ranges, exact accounting,
+TIFF-type extent arithmetic, no inline values and false safety claims. It does
+not authenticate payload bytes or confer process/FD release authority. Five
+audit controls plus nine plan/slice controls passed, including the exact256-entry
+3078-byte boundary; child12640 reaped0/group absent/CPU8 closed, actuald927fb/0.
+Receipt private-maker-audit-source-actual-20261017.json.
+The tests/private_maker_execute.py worker and manual private-maker-slice route
+now require exact shared8+EXglobal admission, frozen plan, actual START parent/
+worker IDs and inherited nine canonical descriptor metadata. No external children
+are started. Metadata/source/result descriptor closes use the qualified carrier;
+uncertainty retains the actual worker, never writes an ordinary failed result.
+Parent waits without deadline kill, audits exact worker result and source epoch
+before settlement, checks exit consistency, then closes CPU/IO. Report ceiling
+256KiB accommodates256sanitized entries; plan/START metadata stays64KiB.
+36 disposable/injected controls passed, including combined JSONparse+close
+uncertainty, no retry, failed worker, success/audit/reap/release, live retention
+and complete/failed-exit contradiction. Final child14610 reaped0/group absent/
+CPU8 closed, actual12cea2/0. No canonicalIO acquisition or retained input read.
+Receipts private-maker-entry-{source,parent-source,final-source}-actual-20261017
+preserve the three progressive source checks; final is current.
+Real integrated disposable lifecycle qualification now PASSED: four worker
+processes for candidate, parser decline, stale source and injected close
+uncertainty. Unknown worker remained actually live with all nine inner locks
+busy, no RESULT/SHARED-CLOSED; control-specific acknowledged exit recovered
+without any numeric close retry. All worker groups reaped; all inner locks
+reacquired; canonical Unison8 outer lease closed. Also fixed plan-close
+uncertainty before acquisition to retain the parent; manual argv construction
+is now pure and does not open plan metadata. Final38 controls plus4realworkers
+passed, actualsession42242/ff73f1/0/no session, children16661/16663reaped0.
+Receipt private-maker-integrated-ready-actual-20261017.json includes before/after
+source pins; prior lifecycle receipt preserved. No canonicalIO/media reads.
+Fresh metadata-only retained clone lstat still equals exact eight-field epoch.
+Frozen doc/private-maker-slice-plan-v1.json SHAcd734403 and request-v1.json
+now specify one at-most3078B/two-pread run, Unison8+EXglobal,10s worker/60s
+parent observation (not hard kill),13executionpins+9prereqs. Workspace
+/private/tmp/unison-private-maker-slice-13f46b93c0ed4271af7cc389113808aa and
+/private/tmp/unison-private-maker-slice-admission-v1.json remain absent.
+No grant or dispatch inferred. Exact request45c2b707/7040B was queued to Photo
+01a146d6-31b5; branch pushed throughc7976eb. Pending review is not a resource
+hold. Source-only follow-up rehashed the pinned ExifTool13.10 DNG/MakerNotes/Exif
+modules against the existing package inventory: vendor handler selection,
+LocateIFD and conditional base rules prevent treating a generic in-bounds
+classic table as private closure. Receipt private-makn-source-review-20261017
+and doc/private-makn-source-review.md capture the next explicit vendor grammar/
+reference/overlap requirements. No ExifTool execution/media read, no frozen
+request changes. milestone-next-work lead and acceptance row12 now reflect the
+completed mixed actual result instead of stale pending status.
+That source review/grant subsequently arrived and the slice executed once as
+recorded at the top; no pending slice scheduling remains. Continue independent
+vendor grammar/reference source work; require fresh coordination for any new
+payload scope, then investigate a vendor-specific reference contract from
+actual shape evidence. No camera/private input read/admission exists for this
+new diagnostic; old grants remain consumed. doc/dng-private-data-next-profile.md
+updated. DraftPR2 contains current follow-up; full M1/M4/M6 scope remains open.
+
 Original objective: implement SOL.md by reusing current upstream cloning,
 adding general APFS receiver-basis clone updates, DNG semantic extensions/SDE,
 optional per-file Adobe validation, and qualified OxCaml coordinated workers;
 deliver tested, reviewable code while preserving photos and existing workflows.
 
-**Immediate next task:** source review and fresh scheduling of the exact
-sequential/parallel receiving comparison request described below. Its entry,
-dispatcher, worker, independent auditor and fake-process lifecycle are implemented
-and tested. It has NOT been admitted or executed as an SDK comparison. Continue
-independent useful work while review is pending. No existing native grant is reusable.
+**Latest actual milestone:** SDK receiving comparison V1 PASSED/CLOSED ONCE.
+Actual owning-tool36282/f540b7 -> terminal0f8d61/exit0/no session, owner87016 /
+worker87017. Admissionac55fe28 consumed; never replay. All24CLI/48qualifiedSDK
+helpers independently reparsed with raw proxy/client/server/supervisor/pump and
+worker/group settlement. All172 execution source pins and borrowed8field epochs
+matched; unresolved[]. CPU00..07+EXglobal closed. Actualterminal and post-audit
+queued to Photo01a14685-697f and01a14685-fd19; independent Root actual closure is adopted below; no sealing/resource hold. Sealed actual return:
+`tests/qualification/sdk-receiving-comparison-v1-actual-20261016.json`.
 
-**Current resources:** no Unison job or retained CPU/IO ownership remains from
-our completed work. Latest Photo notices released its relevant window; that is
-not a claim that Photo can never start a new window. Recheck fresh coordination
-before IO/SDK dispatch. Standing sharing is Unison8 / Photo8 / system2.
+Report `bench/sync/results/sdk-receiving-comparison-v1-20261016/` preserves all
+24ordered rows (4warmups/20measured). Five measured samples/configuration:
+stock endpoint1/3 median3.384026/2.503401s; Ox3.364461/2.476375s, descriptive
+ratios1.3518/1.3586. SDK protocols all rawdigestvalid/decodeSUCCESS/errors0,
+FOUR warnings each retained. Generated-input end-to-end receiving only, includes
+hash/transport/staging/startup/SDK; not quiet, causal SDK speedup, pixel/corpus or
+production qualification. Offline report ownerd1500e/0 also closed.
+
+**Immediate next task:** continue remaining SOL acceptance/resource/corpus/platform
+requirements; Root independent actual comparison closure is adopted below. Do not reconstruct this completed run from old absent snapshots.
+
+**Report preparation:** `bench/report_sdk_receiving_comparison.py` now independently
+re-audits comparison receipts before statistics. It preserves exact sample order
+and failed prefixes, withholds ratios on incomplete cohorts, and reads stable
+owned JSON receipts up to16MiB with qualified close-uncertainty propagation.
+Initial five synthetic/disposable controls passed under canonical Unison00..07:
+`tests/qualification/sdk-receiving-comparison-report-controls-20261016.json`,
+actual owning-tool terminal `d7cc17/exit0/no session`, child85163 reaped0 and
+other group members absent before reap; all CPU descriptors closed. Zero SDK,
+CLI, retained-input payload, or canonical IO calls. These report-only files are
+outside the frozen172-source execution closure. At that preparation checkpoint SDK comparison admission was still pending;
+the later actual consumed run is recorded above. These tests grant no execution.
+
+Report successor now exposes callable `main(argv)` and qualifies the complete
+24-call synthetic input-to-JSON/Markdown path, exclusive report creation,
+duplicate-key/symlink/oversize refusals. Seven controls passed; actual owner
+terminal `03792b/exit0/no session`, child85392 reaped0/group others absent,
+CPU8 closed. Receipt `sdk-receiving-comparison-report-entry-controls-20261016.json`
+preserves this successor separately from the first five-test result. The acceptance
+matrix now reflects the already accepted real multi-file SDK run rather than
+its obsolete pending state. Fresh metadata-only rehash atUnix1792184033 found
+all172 comparison execution pins unchanged, admission/workspace absent.
+
+**Additional resource qualification:** admission suite now has28 groups on both
+pinned compilers, including `max_int` saturated ledgers, queued sibling/cancel,
+`min_int` cost rejection and exact source/consumer headroom partition.
+`tests/qualification/admission-integer-boundaries-actual-20261016.json` records
+actual owner88672/1adabb/0/no session; children85752/85812 reaped0 with other
+group members absent before reap and CPU8 closed. Serial compiles only, no SDK,
+Photo payload or EXIO; arithmetic credits are not hard RSS/FD caps. Production
+sources unchanged; test files are outside the frozen172 comparison closure.
+
+**Compact-base recovery qualification:** current production-object storage
+suite passes29 cases/compiler, adding two actual cooperative forked writers
+competing for one remaining quota entry. Exactly one new readable base and an
+exact two-record charge survive; the original base/FD baseline remain intact.
+`tests/qualification/compact-cache-concurrent-quota-actual-20261016.json` retains
+actual owner5065/365df7/0/no session, children86261/86284 reaped0/groups absent,
+CPU8 closed. Production inventory matched each retained build before linking;
+zero SDK/Photo payload/canonicalEXIO. This does not force execution overlap or
+prove crash durability. Current stock probe/compiler-matched build says5.2.0,
+so the current compiler description below is corrected rather than borrowing
+historical5.5.1 wording. Frozen172-source request unchanged.
+
+**Interrupted quota state:** successor storage controls now test all79 incomplete
+ledger prefixes (length0..78), including empty ledger over retained records.
+Every new capture refuses without rewriting the prefix or losing the original
+readable base; descriptor baselines hold. Actual owner13248/060692/0/no session,
+children86696/86712 reaped0/groups absent, CPU8 closed, both stock/Ox pass.
+Receipt `compact-cache-torn-ledger-actual-20261016.json` preserves successor
+sources separately. Controlled corrupt inputs are not actual power-loss testing;
+uncertain-close lifetime remains unqualified beyond prior explicit scopes.
+
+**Latest mixed-work control:** `tests/workers/run.py --shared-mixed-hash-only`
+now uses original actual CPU-hashing helpers (one/two domains) beside parent
+worker hash jobs under one HelperSupervisor, budgets1/2/4/6. Stock/Ox each pass
+64parenthashes/eighthelpers with exact portable-reference transcripts, actual
+helpergroup-before-reap/parentFD baseline closure. Ox test helpers compile through
+Safe.spawn (warning retained); production objects unchanged. Actual owner6607 /
+72ea0f/0/no session, children88355/88378 reaped0/groups absent/CPU8 closed.
+Receipt `shared-mixed-cpu-hash-actual-20261016.json`. No SDK/ExifTool/camera/EXIO,
+OSthread/RSS caps or compute-overlap claim; actual mixed external tools remain open.
+
+Root independent comparison adoption is now durable:
+`tests/qualification/sdk-receiving-comparison-v1-root-adoption-20261016.json`
+binds Root actualclosure04535268. StateCONSUMED_ACTUAL_CLOSED_COORDINATION_RELEASED;
+actualterminal/result/workerclosure pins verified. No renewed run or hold.
+
+**Installed ExifTool bridge:** opt-in `tests/supervised_external/run.py
+--exiftool /usr/local/bin/exiftool --exiftool-only` now qualifies real readonly
+metadata alongside16 worker hashes in each compiler-matched runtime. ExifTool
+13.10/config disabled, Rating3/LabelBlue, privateXMP byte/native8field fence,
+helper/worker ledger settlement pass24assertions/compiler. Actual owner11684 /
+ffac16/0/no session, children89057/89084 reaped0/groups absent, CPU8 closed.
+Receipt `shared-exiftool-hash-actual-20261016.json`; scriptSHA before/after and
+linked production objects pinned. No SDK/Photo/EXIO or installation/prefchange.
+Not full Perl dependency inventory, independently observed ExifTool PID, sampled
+CPU overlap, hardlimits or combined Adobe/ExifTool qualification. Default14
+synthetic helper cases unchanged; newcase requires explicit installed tool.
+
+**Diagnostic consumer:** `tests/supervised_external/external_records.py` now
+strictly bounds log/line/count/UTF8 and canonicalPID/status/CPU/group fields.
+Unknown/unobserved never become zero; duplicatehistoricalPIDs do not establish
+lifetimes. All records have producer_authenticatedFALSE/resource_releaseFALSE
+because helper text can resemble a diagnostic. Six pure groups plus four saved
+real-record reparses passed actual0ba874/0/no session, child94391reaped0/group
+absent/CPU8closed. Receipt `external-process-parser-actual-20261016.json`.
+
+**User clarification:** OxCaml is usable independently of semantic hashing;
+ordinary sync/generic cloning do not require semantic profiles or Adobe.
+`doc/oxcaml.md` now states this, preserves the distinction between full compiled
+feature modules and runtime enablement, and avoids claiming ordinary-sync
+compiler speedup. Shared recipes use ownedUnison8/max2compilerjobs/selftest3
+perendpoint. Current stock5.2.0 evidence is distinct from historical5.5.1.
+
+**Mixed-work integration harness:** new `tests/mixed_validation/probe.ml`
+composes real DngValidation/SupervisedExternal/SemanticWorkers on one six-credit
+runtime, waits all task results, emits raw validator process/group/protocol and
+metadata trace, then checks candidate/CPU/child/worker/FD closure. Fake-only
+`run_controls.py` passes four success/error combinations per compiler,16original
+fake helpers/128workerhashes overall; SDK-error is exit0/errors1 and mustreject,
+metadata-error exit7 retains ordinary status while other work settles. Actual
+30357/a567f6/0/no session, children95446/95485 reaped0/groups absent/CPU8closed.
+Receipt `mixed-validation-fake-controls-actual-20261016.json`. No actual SDK,
+ExifTool, Photo/EXIO/receiving/compute-overlap/hardcap qualification. This has NO
+native admission route yet: next implement independent prefix auditor, exact
+one-use entry/inherited9FD guard and memory/deadline/intent ownership before
+preparing real-tool request. Source/method docs in tests/mixed_validation/README.md.
+
+**Mixed independent auditor integrated:** `tests/mixed_validation/audit.py`
+now joins exact8argv/candidate/build identity, SDK raw protocol+group/wait,
+metadata process and source/version JSON, ownerclosed counters and directprobe
+cleanup. Prefix audit separates complete2probes/knownfailedprefix/precallzero/
+missingoutcome; continued work after failure or unknown groups refuses. Decimal
+metadata versions preserve13.10 versus13.1. No authentication/release authority.
+Eight source groups plus eight fresh fake cases across stock/Ox PASS,16fake
+helpers/128hashes; actual49452/e2115a/0/no session, children96507/96509/96551
+reaped0/groups absent/CPU8closed. Receipt `mixed-validation-audit-integration-actual-20261016.json`;
+initial7group e04faf source predecessor retained. No SDK/ExifTool/Photo/EXIO.
+That predecessor was CPU-only; the memory-admission successor below supersedes
+that limit. Durable nativeentry journal/inherited9FD/oneuse guards and actual
+lifecycle qualification remain before requesting native scheduling.
+
+**Mixed backend admission now qualified:** probe acquires one durable production
+SemanticAdmission envelope BEFOREcandidateopen: checkedBackendResources addition
+SDK2048MiB/8FD +metadata128MiB/8FD +hash/bridge16MiB/48FD =2192MiB/64FD.
+Gate6144MiB/256FD, sixCPU+twoowner. Eachinspection checks owner stillheld;
+retirement follows all helper/hash/fence settlement. Single-attempt descriptor
+close guards prevent numeric retry. Exact held/retired records audited;
+legacyCPU-only receipts do not gain memory-accounting qualification.
+Nineauditgroups +eightfreshfakecases +two private512MiB prehelperrefusals PASS
+stock/Ox; refusal changesonlygate6144->512, zeroledger/FD baseline restored/no
+helperPIDledgers. Actual80121/609ad1/0/no session, children97688/97697/97745
+reaped0/groups absent/CPU8closed. Receipt `mixed-validation-memory-admission-actual-20261016.json`.
+Declaredcredits only, no actualGiBallocation/hardRSS/FD cap/nativeSDK/EXIO grant.
+**Journal worker checkpoint:** `tests/mixed_validation/worker.py` now persists
+INTENT before launch and raw OUTCOME before audit/input fences, stops successors
+after failure, checks deadline headroom before preparation and launch, and turns
+publication failure into retained ownership uncertainty. It owns no release
+authority. Eight actual callback/durable saved-outcome controls passed,
+child99285 reaped0/group absent/Unison8 closed, actual terminal28c503/0/no session.
+Receipt `mixed-validation-journal-actual-20261016.json`. Historical fake outcomes
+were re-audited, not executed again; no SDK/ExifTool/camera/EXglobal operation.
+**Fresh journal/process composition now passed:** `journal_controls.py` uses
+the existing qualified private stock/Ox fake probes, checks source/object ancestry
+and fresh copied hashes, then runs two success probes and one failed-first probe
+through the durable worker. Six fake helpers/48hash tasks; independent actual PID
+ledgers, input hash/epoch fences and exact backend envelopes audited. No Ox
+successor after first functional failure. Actual child99655 reaped0/group absent,
+CPU8 closed; owner session55301/terminal4d83d1/0/no running session. Receipt
+`mixed-validation-journal-process-actual-20261016.json`. No SDK/installed
+ExifTool/Photo/EXglobal operation. The copied private binaries are control
+participants, not a new immutable native build inventory.
+**Exact mixed plan source contract now implemented:** `mixed_validation/plan.py`
+derives stock-then-Ox argv, requires probe/build/tool/metadata-dependency/input/
+ancestry/execution pins and exact eight-field input epoch, fixes Unison8/EXglobal,
+120s probe/10s helper observation/2192MiB+64 backend credits and declared2GiB IO
+(not physical hard cap). `worker.execute_plan` consumes its argv/version/headroom.
+Five plan+eight worker controls actually passed, children404/407 reaped0/groups
+absent/CPU8 closed; actual terminal9e19fe/0/no session. Receipt
+`mixed-validation-plan-actual-20261016.json`. Pure declarations do not verify
+artifact bytes, grant runtime permission or qualify native FD ownership. Prior
+fresh-process receipt remains pinned to its earlier worker version.
+**Mixed artifact preparation implemented:** `artifacts.py` uses bounded
+NOFOLLOW regular/single-link/owned SHA+size+eight-field fences and qualified
+close carriers; source media is metadata-only, never an execution inventory
+artifact. Each row gets a distinct native-clone-only disposable input, no
+fallback/overwrite; clone SHA and identity are checked before/after use.
+Five tiny original controls passed (including real native clone/injected close),
+child1003 reaped0/group absent/CPU8 closed; actualbf3840/0/no session. Receipt
+`mixed-validation-artifacts-actual-20261016.json` preserves initial import
+failure60cbd8/1 closed before controls. No SDK/ExifTool/Photo/camera/EXglobal use.
+Preparation is callable only: no admission authority or lock acquisition.
+**Mixed inherited metadata boundary implemented:** `boundary.py` derives exact
+intended execute.py worker argv and binds plan path/SHA/interpreter/workspace to
+parent START/PIDs and the existing canonical9FD guard's explicit mixed target.
+Shared guard now rejects bool token indexes. Four new injected boundary groups
+plus five existing guard groups passed, actual children1380/1383 reaped0/groups
+absent/CPU8 closed; terminalc976ae/0/no session. Receipt
+`mixed-validation-boundary-actual-20261016.json`. Canonical manifests read only;
+no IO locks/SDK/payload/native launch. This is metadata binding, not lock proof,
+START authentication or settlement.
+**Mixed worker entry now implemented:** execute.py reads bounded SHA-bound plan
+metadata with duplicate-key/fence/qualified-close checks, binds actual START and
+inherited9FD metadata before preparation, verifies interpreter, and connects
+journal/source checks/clone-only inputs/post-fences to actual invoke with nine
+inherited guardian descriptions and private UNISON state. Existing journal is
+not replaced on failure; unknown ownership retains. Three inert-entry/original
+metadata control groups passed, child1778 reaped0/group absent/CPU8 closed;
+actual5723b6/0/no session. Receipt `mixed-validation-entry-actual-20261016.json`.
+No probes/SDK/ExifTool/media/EXglobal use; no standalone parent/admission mode.
+Actual inherited lifecycle and dispatcher qualification remain outstanding.
+**Exact source closure and parent prefix now implemented:** inventory.py binds
+all current mixed Python/probe code, transitive resource/process/clone/persistence
+helpers and production source/build descriptions. execute.checked_plan enforces
+exact paths+hashes. Two inventory+three inert entry groups passed, children2130/
+2132 closed, actual80b051/0/no session. Receipt mixed-validation-inventory-actual.
+parent.py reconstructs exact prefixes/helper settlements/backend envelopes,
+rechecks sources/tools/source epoch and hashes invoked disposable clones under
+retained IO; actual worker exit is separately bound. Offline check_files=False
+explicitly leaves byte verification false; neither mode grants FD release.
+Three parent+two inventory groups passed, children2226/2228 closed,
+actual91e30c/0/no session. Receipt mixed-validation-parent-actual. No SDK/media/
+EXglobal operations; current compiled artifact build linkage remains separate.
+**Mixed dispatcher source wiring now implemented:** target mixed-sdk-metadata-hash
+requires exact Unison8+EXglobal admission and a nine-word worker argv matching
+existing explicit-script conventions (no extra -B position). Parent mode checks
+frozen plan/current source closure/unused workspace, shared dispatch rechecks
+before launch, records9FD identities, observes298s without broadkill, reparses
+prefix/rechecks disposable bytes before reap/close, binds actual worker exit.
+No CPU-only route. Package-qualified imports remove sibling plan.py collisions.
+Initial regression import failures allclosed/preserved; corrected eight suites/
+33groups passed, all8children reaped0/groups absent/CPU8closed, actual session53500/
+8f6368/0/no running session. Receipt mixed-validation-dispatch-source-actual.
+No SDK/camera/canonicalIO acquired. Actual inherited-process qualification and
+immutable compiled-artifact/dependency inventory remain outstanding; no nativegrant.
+**Actual disposable inherited-refusal composition now passed:** lifecycle.py
+starts two real workers via mixed shared dispatch/private inner flock locks.
+Nine descriptors pass guard then deliberately refuse before probe; eight refuse
+guard. Source plan/prefix audit real; admission/entry argv/inventory explicit
+doubles. Parent now persists SHARED-WORKER-EXIT-AUDIT after actual worker reap.
+Workers3552/3554 reaped7/groups absent/inner locks closed+freshly reacquired;
+containing3551 reaped0/group absent/outerCPU8 closed, actual06bb6e/0/no session.
+Receipt mixed-validation-lifecycle-actual preserves predecessor without separate
+exit receipt. No compiledprobe/SDK/ExifTool/Photo/canonicalIO use. Known refusal
+composition only; success-probe inheritance/unknown retention remain open.
+**Successful inherited-probe composition now passed:** lifecycle --success-controls
+uses actual worker/clone-only tiny inputs/compiled stock+Ox probes/four authored
+fake helpers/32hash tasks under disposable inherited locks. Raw helper PID ledgers
+joined to audits, real parent prefix/bytes/source/exit checks run before closure.
+Worker3818/probes/helpers settled; all inner locks closed+reacquired, containing
+3817 reaped0/group absent/outerCPU8 closed. Actual66769/99d55b/0/no running session.
+Receipt mixed-validation-success-lifecycle-actual embeds8raw metadata artifacts
+with pins, preserving true task/parent resource scope. Fake build-id/version are
+protocol text, not actual SDK/ExifTool qualification. Admission/entry/inventory
+doubles remain; no canonicalIO/Photo/nativegrant. Unknown-retention composition
+and compiled/native dependency inventory are still outstanding.
+**Unknown-prefix composition now passed:** lifecycle --unknown-controls uses
+pinned pre-probe replacement to persist INTENT/noOUTCOME. Real parent audit
+refuses and enters retained-owner handler; control intercepts infinite wait only
+after genuine retention marker/all9innerlocksbusy/workerunreaped proof. Separate
+source-bound no-probe recovery then reaps4190/7/group absent, closes/reacquires
+inner locks; containing4189 reaped0/group absent/outerCPU8closed. Actuald81fa2/0/
+no session. Receipt mixed-validation-unknown-lifecycle-actual embeds5raw metadata
+artifacts and preserves predecessor labeling. Original unknown journal remains,
+no normal SHARED-CLOSED/accepted parent proof invented. This is authored-control
+recovery only, not permission to release real unknown SDK/helper/FD ownership.
+No canonicalIO/probe/SDK/ExifTool/Photo. Source lifecycle success/refusal/unknown
+composition now has evidence; fresh compiled/dependency inventory still needed.
+**Fresh compiled probes built, not executed:** build.py validates actual current
+production build/selftest/compiler pins, records compiler intent/outcome, links
+current probe with exact production .cmx/native objects plus .o/.cmi companions,
+and rechecks all inputs after link. Stock output /private/tmp/unison-mixed-build-
+stock-10a96e53e97d4da6acc3fd070fd607d7/probe SHAf9c30d5dcf317e7f359f38e1510d67afccbe3ef2b0e24931e56cc8f0e8668aa6;
+Ox output /private/tmp/unison-mixed-build-ox-a70eace440964e0c8486e65e33647713/probe
+SHA2630d74939e71f9b43016df9e56ee3f1370cec46b3f94075d368ea61d4e3c03b.
+Actual containing4468/4487 and compilerchildren reaped0/groups absent/CPU8closed;
+actual27185/30e59c/0/no running session. Receipt mixed-validation-probe-build-actual.
+Both probes UNEXECUTED. No SDK/ExifTool/media/EXglobal. Complete standard-library
+inventory explicitly false; existing qualified compiler installation reused.
+**Build receipt enforcement now implemented:** build_receipts.py binds planned
+probe executable to completed build-only receipt/actual compiler argv+exit+group,
+current probe source/qualified production build+selftest/matchingcompiler/exact
+declared object+.o+.cmi inventory. Worker checks before probe dispatch; parent
+checks before acceptance/release. Current binary/source/object rehashes passed
+for BOTH new unexecuted probes plus adversarial mutations;2build+3entry+3parent
+groups, actual4897/4899/4901 reaped0/groups absent/CPU8closed, actual3cb65b/0/no
+session. Receipt mixed-validation-build-enforcement-actual. No SDK/media/EXIO.
+Lifecycle control source now explicitly doubles build receipts, alongside prior
+admission/inventory doubles; prior lifecycle evidence remains source-pinned.
+Complete standard-library inventory still false, no new execution authorization.
+**Metadata inventory captured/enforced:** metadata_dependencies.py pins installed
+ExifTool13.10 script+all236packagefiles+root-owned non-writable system Perl5.34
+executable. Worker source checks/parent audit enforce. doc/mixed-exiftool-package-
+inventory-v1.json49424B SHA f918c0425c87adbc2bd26e6f86e30dc5ed77fc8665c5c4aa22d1c80da142f014.
+Actualcapture/recheck child5242/58e027/0 closed;2metadata+3inertentry groups passed
+children5325/5327 closed/CPU8closed, actual491c01/0/no session. Receipts metadata-
+inventory-actual and metadata-enforcement-actual. No ExifTool command/SDK/media/
+EXglobal. Full runtime closure FALSE: OS Perl module search paths/dylibs remain
+trusted, not a hermetic runtime claim. Lifecycle source explicitly doubles
+package verifier alongside prior build/admission/inventory doubles.
+**First mixed native request FROZEN, NOT ADMITTED:** doc/mixed-validation-plan-v1.json
+62317B SHA0fd5d23f038930f1d55e535baeef15e76a316d6eb719d3f7cac3b412e2b3f88d;
+doc/mixed-validation-request-v1.json45039B SHA3e76df160f2248cd401ef5e9eabdbb82f0b819cca2fa2a9af87578dc7e5e4064.
+326executionpins/9prereqs, fresh unexecuted stock/Ox probes, one retained generated
+48005534B uncompressed input metadata-only/two clone-only disposable inputs;
+2serialSDKv1single+2ExifTool+32hash tasks/Unison8+EXglobal. DeclaredIO raised8GiB
+conservatively (not measured/enforced); fivebudget controls actual8c8b0a/0, final
+success+unknown composition/buildrecheck/metadata controls actual27349/9b7c25/0
+allgroups+CPU8closed. Receipts budget-actual and pre-request-actual.
+Workspace /private/tmp/unison-mixed-native-v1-e3d4f770baf243db915be0b3fdc0be9d,
+admission /private/tmp/unison-mixed-validation-admission-v1.json both absent at
+preparation22a98e/0; no currentUnisonresources. Exactrootrequestcommands/pins in
+request. No SDK/ExifTool/media execution. Needs fresh Root review+IO admission,
+never auto-dispatch from absence/resource release. Stdlib/systemPerl trust limits
+remain false for complete closure.
+**User exiftool-rs candidate reviewed source-only:** doc/exiftool-rs-review.md
+and source-review-inputs-v1.json pin commit54a885f85692674f362e6256ba8609808d746d5d
+(Cargo/license/main/lib downloaded, no execution/build/install). ConcreteCLI
+difference: `--` goes through filename fallback rather than ending option parsing;
+current frozen Perl argv cannot be swapped unchanged. Crate0.10.0 targetsExifTool
+13.59 whereas existingPerl is13.10; retain actual backend/version provenance.
+Optional future supervised CLI evaluation described, not a new gate on current
+mixed request. No SDK/image/source bytes opened. Latest source-only scheduling
+readbackccede4 Unix1792188204: admission/workspace bothabsent; no currentresources.
+All326 frozen execution pins remain unchanged by these doc-only artifacts.
+**Hash-backend requirement source audit:** current macOS implementation already
+selects CommonCrypto via private rooted C contexts/64KiB feeds; portable manual
+reference is fallback elsewhere. Fresh source rebind matches all6historical
+checked-hash pins on stock+Ox. Receipt hash-backend-source-audit-20261017.json,
+actualsource15397d/0 (no test/compiler/media execution). Historicalstock5.5.1 is
+not current5.2.0; native+forcedreference controls remain exacthistory, no NIST/
+independentcrypto audit claimed. No macOS backend rewrite needed for this gap;
+non-Apple maintained-library/platformqualification still open. Acceptance and
+next-work docs updated without changing326frozenmixedsources. Latest admission
+readback958179 Unix1792188297 bothadmission/workspaceabsent, no resourcesheld.
+**Independent hash boundary/state controls added during pending review:** only
+tests/checked_hash/test.ml changed (outside326frozenexecutionpins); ten invalid
+ranges/domain/min_int/max_int, zero-length edges, rejected-stream preservation
+and independent contexts. Actual stock5.2.0/Ox5.2.0+ox pass native+forcedreference,
+15vectors/fourdomainsmode, expectedsharedcapture rejections; compilerdo_not_spawn
+alertpreserved. Containing6855/6896reaped0/groupsabsent/outerCPU8closed, actual
+40896/bd9038/0/no running session. Receipt hash-bounds-current-actual-20261017.
+Productionhash unchanged/all326mixedpins verified unchanged. Prior hash source-
+audit test.ml binding nowhistorical; don't relabel old5.5.1 result current5.2.0.
+No SDK/image/EXIO; no currentUnisonresources.
+**Deterministic completed-before-owner worker control passed:** new standalone
+tests/workers/late_cancel.ml outside326frozenpins links actual production objects.
+Atomicbarrier+W.usage mutex proves completion queued/running0 while ownerLwtloop
+stopped; replysleeping/CPU1+IO1+pending1held. Normal delivery succeeds, caller
+cancel/shutdown suppress queuedresult, callerFD/sourcefence and allledgers/FDs
+settle. Threecases/compiler stock5.2/Ox, actual11412/66fb24/0/no running session,
+allcompile/runtimegroupsclosed/CPU8closed. Receipt worker-late-owner-completion-
+actual-20261017. Newcompilercompanions initiallyemittedbesidesource thenretained
+inOxworkdir; no production/buildobject changed. No SDK/media/canonicalIO or
+publicationcommit inference; all326mixedpins reverifiedunchanged.
+Next: reconcile Root review/admission against exact request, then actual
+fake lifecycle; then fresh real-tool review/scheduling. Production core unchanged.
+
+**Current resources:** zero Unison live jobs/retained grants. Full stock build/
+selftests actual87161/b8ddda ->52664d/0/no session and Ox80362/27ce49 ->09fca0/0
+both CLOSED; canonicalCPU00..07 released. No EXIO/SDK/Photo operations.
+
+**Current production change:** `src/supervisedExternal.ml` adds opt-in
+`external-process` diagnostics after supervised helper settlement: historical
+PID/wait/outcome/CPUweight/capturetruncation/retained-group census. No arguments
+or output logged, default no group query, APIs and existing exit/cancel policies
+unchanged. Final16componentcases/compiler pass against explicit unchanged
+production CMI (hash equality checked), actual owner47300/e110a5/0/no session,
+children93360/93444 reaped0/groups absent/CPU8closed. Initial73564/32deca overlay
+inferredCMI remains preserved with that limitation; runner now copies `.mli`.
+Full current Make+CLI selftests pass on stock5.2.0/Ox5.2.0+ox,293production source
+pins match each build/current checkout; binarySHA independently checked.
+Receipts `external-process-current-interface-actual-20261016.json` and
+`external-process-full-cli-actual-20261016.json`. Prior Dune/nativeSDK receipts
+retain their historical sources; no SDK replay or current Dune/GUI claim.
+Initial fullbuild96cbc5/2 refused missingSTOCK_PREFIX before dispatch; corrected
+explicit compiler path used actual87161/newunusednamespace, no startedjobretry.
+
+**Next substantive step:** use these generic helper observations when preparing
+one source-reviewed/admitted actual combined ExifTool/hash/SDK workload; no
+runtime grant exists. Keep exact per-helper/group/FD proof and unknown retention,
+not sampled overlap as settlement. Continue broader SOL/corpus/platform work.
 
 **Git/review:** workspace `/Users/alexy/src/unison`, branch
 `feat/semantic-dng-oxcaml`, fork `git@github.com:querygraph/unison.git`.
@@ -249,7 +2598,7 @@ shared endpoint budgets must be supplied on this shared host.
 
 ## Current build/toolchain evidence
 
-Pinned stock compiler `/Users/alexy/.opam/default/bin/ocamlopt` (5.5.1), SHA256
+Pinned stock compiler `/Users/alexy/.opam/default/bin/ocamlopt` (current retained build and storage probe report5.2.0; earlier5.5.1 evidence is historical), SHA256
 `f183dd4bd5c655b56fb87da2d39e01b843a730b6252e8b92fc6989e6f07cfacf`.
 Ox `/Users/alexy/.opam/5.2.0+ox/bin/ocamlopt`, SHA256
 `e02b8590aa2c05948203befbfef22253282b1799d92f9a32c3878681f1b3e166`.
@@ -496,7 +2845,7 @@ that differs from proving representative supported coverage.
 | M1/M4 | Representative semantic eligibility/private-reference closure and supported corpus strata; preserve exact fallback rather than broadening tags to make one camera pass. |
 | M2-G | Broader property/publication/fault combinations, platform guards and honest generic clone telemetry. Existing exact/cross-volume controls are not physical IO proof. |
 | M3 | Remaining compatibility/disconnect/restart/cancel/failure combinations; actual old-peer/current behavior must keep exact fallback and archive recovery. |
-| M4-V | Execute the freshly admitted comparison only after source review/scheduling; then mixed real helper/hash accounting, resource/cancellation and representative corpus qualification. Current48-call plan is prepared, not run. |
+| M4-V | Comparison V1 now actual24CLI/48SDK PASS/CLOSED with five measurements/configuration; continue mixed real helper/hash accounting, resource/cancellation and representative corpus qualification. No replay. |
 | M5 | Required conservative conflict, stale/missing base, partial-two-replica and fault scopes; do not implement arbitrary RDF/rendering merge merely to avoid conflicts. |
 | M6 | Complete benchmark/resource evidence, actual bounded mixed work and broader cancellation/platform scope. Samples/reservations are not hard RSS/FD/CPU limits or speedup. |
 
@@ -534,6 +2883,18 @@ exact identity and actual terminal, not by repeating them.
 
 ## Fork merge checkpoint
 
+**Current follow-up review:** draft PR2
+https://github.com/querygraph/unison/pull/2 opened after actual mixed qualification
+and independent Root adoption. Base is **querygraph/unison:master**, observed
+4a620ea0160d4ac021c02c8246a3bb41db8acda3; initial PR2 head
+a0e0e961cec47f1072aeae12fe90e81ba66f1de9, draft state independently read back.
+Only production delta since that base is supervisedExternal.ml's opt-in helper
+diagnostics; large remainder is tests/owner harnesses/receipts/reports/docs.
+PR1 remains merged history. PR2 is not merged or submitted upstream, and is not
+full-goal acceptance. Native mixed admission is already consumed/closed, not a
+review prerequisite to rerun. Follow-up work must preserve supported corpus,
+platform/failure/compatibility and resource/benchmark open scopes above.
+
 User explicitly requested merging PR #1 during the handoff turn. Completed:
 
 - Handoff/review-navigation commit `4af7931c041e7592fc178b78fc190923899c995c` pushed.
@@ -548,3 +2909,1124 @@ User explicitly requested merging PR #1 during the handoff turn. Completed:
 Future implementation commits must not be described as updates to an open PR1:
 that PR is now merged. Continue on a suitable branch and use a distinct review
 when appropriate. No upstream submission or full-goal qualification follows.
+
+## Owner-bound worker refresh successor — 2026-10-17
+
+Separate `feat/component-owned-worker-refresh` adds
+`SemanticWorkers.refresh_owned_components`: the worker authenticates a bounded
+UCR record against its trusted UDI entry and derives checkpoint digest and full
+historical decoder inventory there, then runs existing full-input/current-parser
+verification and localized decoder refresh. No independently chosen inventory
+can be substituted through this API. It uses existing CPU/IO/cancellation and
+FD settlement; it does not open/select cache objects or adopt archive state.
+
+Actual owner67532/754d9e/0/no session: stock/Ox Make/fullselftests plus116 original
+worker checks/compiler PASS, all three contained workers/groups/tokens closed.
+Corrupt/foreign record rejection, oversized prequeue refusal and unchanged-view
+reuse pass. Receipt: tests/qualification/component-owned-worker-refresh-actual-20261017.json.
+Dune was not rerun for this successor; no media/SDK/transport. Managed namespace
+opening and automatic capture/selection remain next integration work. Main's
+frozen RPC sources and separate admission requirements remain unchanged.
+
+## Indexed worker routing — 2026-10-17
+
+The same owned-worker successor now adds `components_indexed`: exact immutable
+owner/root/path/generation selection runs inside the worker. Missing/stale entry
+freshly extracts; matching entry authenticates its record and refreshes. A missing
+selected record reports incomplete metadata, corrupt/foreign evidence fails,
+and neither silently triggers extraction. Optional checkpoint capture supports
+both routes without publishing or advancing the index/archive. No managed cache
+loader or normal report-path installation is claimed.
+
+Actual owner19704/4509e5/0/no session: current stock/Ox Make/fullselftests/Dune,
+all five contained workers/groups/tokens closed; current production-source pins
+and linked fixture/control artifacts independently rebound. Exact count and pins
+are in component-indexed-worker-refresh-actual-20261017.json. Contract:
+doc/component-worker-cache-routing.md. Main's reviewed frozen RPC still has no
+fresh admission; observed Photo defer is scheduling evidence, not proof of a
+currently live owner. No RPC retry/dispatch, media/SDK/transport or physical-read
+savings claim follows from these worker controls.
+
+
+## Managed store successor started — 2026-10-17
+
+Active checkout `/Users/alexy/src/unison-component-store-20261017`, branch
+`feat/component-cache-store`, based on PR9 d074fb8b. Source now adds quota-bound
+exclusive stage creation for record/entry/manifest, one attempt per role with
+actual creation state retained. Returned descriptors are caller-owned immediately;
+no post-open allocation/validation/close in the native opener. Added production
+namespace controls for private empty files, creation flags and replay refusal.
+These changes are UNBUILT/UNTESTED; diff whitespace check alone passed. Next qualify
+native/fault paths, then compose owned staging/publication and archive-head CAS.
+No payload/SDK/RPC invocation or new resource grant; no active owned job.
+
+
+Managed-store composition now exists in source: frozen entry/checkpoint/index CAS
+preparation, one-use quota-bound stage ownership, pair publication followed by
+manifest publication, reference/index access only after all owned scopes return.
+Readers retire BEFORE rename; an actual production-linked test caught the initial
+reader-live rename error, fixed without weakening file-change checks. A subsequent
+control corrected its own reuse of a consumed one-shot namespace ticket by making
+an explicit identity-bound fresh read ticket. Failed runs 001/002/003 all closed
+workers/groups/tokens; no payload/SDK/transport was involved. Initial stage-only
+qualification002 passed both compilers (actual1806/89678c/0). Combined run004 is
+being collected; do not infer its result from this preparation note. Fault-injected
+store paths, full builds, guarded archive adoption and automatic routing remain
+unqualified/incomplete. No production activation or new admission.
+
+
+Combined managed-store run004 subsequently PASSED: actual92385/ef8c02/exit0/no
+session; containedworker79464reaped0/othersabsent/tokensclosed/sourceunchanged.
+Both compilers' normal native store publication/cold-load controls pass alongside
+existing loader/namespace suites. Exact evidence and raw pins are in
+`tests/qualification/component-managed-store-normal-actual-20261017.json`.
+No active owned jobs/resources; store fault injection and archive adoption next.
+
+
+## Store failure qualification and archive guard — 2026-10-17
+
+Composed store close uncertainty at entry/record/manifest/namespace passed both
+compilers, then all four open failure positions and every observed sync position
+passed. Actual fault-run002 owner35661/d0009b/0/no session; worker80600reaped0/
+othersabsent/sourceunchanged/tokensclosed. Native fault wrapper now forwards the
+O_CREAT mode argument and accepts managed O_RDWR stages; production has no fault
+switch. Exact evidence: component-managed-store-fault-actual-20261017.json.
+No retry, failed reference adoption or numeric-FD retry; uncertain descriptors and
+known outer scopes remain represented. Tests explicitly close only known retained
+FDs after the disposable wrapper has consumed the uncertain FD.
+
+Update.adopt_component_cache_store source now performs loaded-head expected-value
+comparison and requires a normally settled store before memory adoption. This
+Update integration is NOT compiled/linked/qualified yet; normal archive commit and
+automatic report routing remain outstanding. Contract doc/component-managed-store.md.
+All test owners/groups/tokens currently closed; no new payload or SDK grant.
+
+
+## Managed store production build/archive qualification — 2026-10-17
+
+Current stock Make/fullselftests actual83029/a14d82/0 and Ox Make/fullselftests
+95059/acef23/0 passed; workers81233/82368 genuinelyreaped0/groupsabsent/tokensclosed.
+Production-linked archive controls actual88636/1ca3ca/0, worker83613reaped0/groupsabsent
+passed BOTH compilers: unsettled-store refusal, changed-head CAS refusal preserving
+old hint, normally settled store adoption, normal archive commit, fresh-process
+identity-bound namespace reopening, trusted manifest/entry/record cold reload.
+Exact pins: component-managed-store-archive-actual-20261017.json. No SDK/media/
+transport or source photos; no live owned jobs/resources. Dune and integrated
+normal report automatic capture/reuse remain next work. This supersedes the
+previous note that Update adoption was uncompiled, without changing old evidence.
+
+
+Current stock/Ox Dune compile checks now PASS: actual controller26178/7c4947/0/
+no session, stockworker84057 andOxworker85101reaped0/groupsabsent/tokensclosed.
+Receipt component-managed-store-dune-actual-20261017.json pins both reports.
+Current SemanticRemote inspection still uses fresh uncached components; durable
+namespace identity and owner-loop/asynchronous report routing remain explicit
+implementation work, detailed in doc/component-managed-store.md. SOL status
+updated accordingly. No active owned jobs/resources or payload grant.
+
+
+## Durable namespace identity implemented — 2026-10-17
+
+Optional UAN/0 fixed152B archive tail now binds namespace device/inode to exact
+archive context, owner binding and manifest digest. Normal settled-store adoption
+copies identity+reference together; raw legacy setter clears stale identity;
+clear removes both; neither private key enters legacy serialized properties.
+Missing/malformed/foreign/oversized identity becomes None, not archive reset.
+
+Actual framing/native controls65040/e91a13/0 and full stock/Ox Make+selftests+
+production archive persistence controller67113/1fa76a/0 PASSED. All workers86966,
+88074,89253 and controls86539 reaped0/groupsabsent/tokensclosed. Fresh-process
+store probe now reopens using Update.component_owner_namespace restored FROM
+archive, not a separate identity file. Exact pins component-namespace-archive-
+actual-20261017.json. Retained old-code new-tail compatibility and Dune still
+pending for this successor. Automatic report routing remains incomplete; no
+media/SDK/transport or active owned resources.
+
+
+## Namespace-tail old-code compatibility — 2026-10-17
+
+Actual retained pre-component production Update/Proplist/native objects now read
+current stock/Ox archives containing BOTH UAX/UAN tails byte-exact, rewrite them
+without either optional hint, leave all three published cache payloads unchanged,
+and current code restores the ordinary archive with no manifest/namespace authority.
+Actual30670/a9bf3e/0/no session; worker89496 reaped0/groupsabsent/tokensclosed,
+13 direct calls settled. Original retained CLI was rehashed, not invoked. Exact
+receipt component-store-namespace-legacy-actual-20261017.json. Source/build pins
+unchanged; only fixed probe gained an explicit legacy-missing phase. No all-old-
+versions/network/platform/media claim. No live owned jobs/resources. Next actual
+implementation: endpoint-owner report orchestration with scoped metadata load,
+immutable worker await, source/head recheck and optional capture; no synchronous
+namespace scope may span that await. Automatic routing is still NOT implemented.
+
+
+## Endpoint-owner report orchestration — 2026-10-17
+
+Update.inspect_cached_components now loads scoped authenticated index/record,
+closes all metadata descriptors before the worker await, runs indexed full-input
+inspection with checkpoint capture, rechecks source FD/path and archive head,
+skips unchanged-entry publication, or performs owned store and guarded adoption.
+Legacy no-identity hints stay cold. Exact-key prior-entry reference supports CAS
+across generation changes without granting stale-generation restore authority.
+
+Current stock98891/0a922c/0 andOx40800/3c2be3/0 full Make/selftests PASS; explicit
+owner-path controls39802/dd809c/0 and bothcompiler40800/3c2be3/0 PASS: original
+8192B DNG automatic capture, repeat unchanged-head reuse, normal archive commit,
+fresh-process restore+repeat reuse. All contained workers/groups/tokens closed.
+Receipt component-owner-report-actual-20261017.json. This is NOT yet wired into
+SemanticRemote/UI; private-parent selection/provisioning, failure/cancellation
+race controls and Dune remain. No payload/SDK/transport grant or live resources.
+
+
+## Report cancellation/head-change qualification — 2026-10-17
+
+Owner orchestration now checks cancellation before parent access and after worker
+reply. Original controls prove invalid-parent pre-cancel no access; submitted-job
+cancel returnsNone with unchanged head; another owner head change during await
+refuses stale report adoption. Stock/Ox full Make/selftests and corrected original
+controls PASS; currentactual63987/0e9544/0/no session, worker94018/95262reaped0/
+groupsabsent/tokensclosed; correctedstock16994/ecc9a9/0. Initial60471/4d70d6/1
+preserved: buildpassed, test wrongly injected through diagnostics AFTER reply;
+no production failure relabeled. Receipt component-owner-report-cancellation-
+actual-20261017.json. Allresourcesclosed. Explicit owner API remains separate
+from unwired SemanticRemote/UI; no payload/SDK/newgrant.
+
+
+## Draft review checkpoint — 2026-10-17
+
+Qualified source8e84a6a8 is pushed as draft PR11:
+https://github.com/querygraph/unison/pull/11, base feat/component-cache-namespace
+(PR9). No PR merge/production activation is authorized or claimed. This successor
+contains managed store, archive-owned namespace identity, explicit owner report
+capture/reuse, and cancellation/head-change fences. UI/SemanticRemote route and
+its private-parent asynchronous ownership remain unimplemented; latest Dune does
+not cover later identity/report changes. All actual jobs/resources closed.
+
+
+## Current owner-report Dune gap closed — 2026-10-17
+
+Current-source stock/Ox Dune compile checks PASS actual69606/f7728c/0/no session.
+Workers95833/96873 reaped0/groupsabsent/sourceunchanged/tokensclosed. Evidence
+component-owner-report-dune-actual-20261017.json supersedes pending-Dune notes
+for source8e84a6a8 (later commits metadata only). No report UI activation, media,
+SDK or transport run. Next code: explicit async parent-descriptor owner and
+local report entry-point integration; outer parent must remain retained on
+nested uncertainty. Allactualjobs/resourcesclosed.
+
+
+## Opt-in local report entry wired — 2026-10-17
+
+UI component details now calls SemanticRemote.observe_components_with_worker
+using Update.inspect_configured_components. Existing observe_components API and
+remote wire route remain unchanged. Both componentownercache=true and explicit
+existing absolute private0700 componentcacheparent are required; optional %ROOT%
+root-SHA expansion supports distinct pre-provisioned parents. No recursive mkdir,
+discovery, remote cache, production activation or source permission is implied.
+
+New explicit parent owner records before validation, normal closes once, refuses
+settlement replay, preserves original cause on close uncertainty and retains known
+outer FD on nested uncertainty. No finalizer/numericFDretry. Actual fault/native
+controls75816/bd9a22/0; configured stock64824/d9b260/0; Oxbuild+bothdirect-local-
+entry controls99167/236a7c/0 PASS; all worker/group/tokens closed. Current stock/Ox
+full Make+selftests passed. Direct production SemanticRemote entry (same UIcallback)
+proved exact generatedDNG report/capture/repeat/restart/head/cancellation; no manual
+GUI session claimed. Receipt component-local-report-route-actual-20261017.json.
+
+Initial stock13845/cb14a4/1 failed source build: invalid string preference API;
+fixed send:false and separated observer entry to preserve old caller shape.
+Preserved, no tests/source payloads ran there. Dune for this successor pending.
+Remote routing and parent path replacement/concurrent-owner stress remain open;
+no active owned resources or SDK/media/transport grant.
+
+
+## Review finding: outer report reservation retention — OPEN
+
+While parent-replacement qualification ran, source review found that generic
+SemanticAdmission.with_lease retires on exceptions. A propagated cache ownership
+carrier retains its FDs, but that alone does NOT prove the outer report resource
+reservation stays held. Before claiming UI uncertainty qualification, add a
+component-report-specific held/pending boundary INSIDE with_transaction, retaining
+the carrier and reservation until explicit independent settlement. Test actual
+cache uncertainty from a disposable invalidated owner descriptor; pending promise,
+unchanged admission usage after cancellation, and diagnostic retained carrier.
+Do not describe descriptor-only controls as proving outer admission retention.
+No actual uncertain FD or retained job currently exists; this is a source finding.
+
+
+Parent replacement/permissions source now checks before metadata load, after
+worker await and between completed store and archive adoption. Configured legacy
+no-identity hint bypasses parent opening. Actualstock45168/dc7a41/0; combined
+Ox+bothcontrols+bothDune7405/d32134/0 allPASS, allworkers/groups/tokensclosed.
+Exactreceipt component-local-parent-replacement-actual-20261017.json. This proves
+those refusals/builds, NOT the separately open outer-admission uncertainty issue.
+Next fix that held-boundary before broader activation/remote work.
+
+
+## Outer report admission finding FIXED/QUALIFIED — 2026-10-17
+
+This supersedes the OPEN finding above for the local cache-carrier route. Local
+SemanticRemote now retains Cache_ownership_uncertain INSIDE with_transaction via
+preallocated held promise/node/link and owner diagnostics. The outer lease cannot
+mistake it for an ordinary failed callback and retire credits. Generic admission
+policy unchanged; no automatic recovery/numericFDretry/normal-close assertion.
+
+Original production-linked probe produces actual uncertain close after deliberate
+private owner-FD invalidation, then tests real local report entry: pending promise,
+retained carrier, charged transaction/payload/FD credits unchanged after helper
+cancellation, no archive-head mutation. Application admission remains intentionally
+held until disposable process exit; external direct child/group wait proves OS
+closure, NOT native close or normal application retirement. Both stock/Ox retention
+and normal-report controls PASS; stock/Ox Make+selftests/Dune allPASS. Actual68144/
+6e0d4a/0 and86411/1de5ba/0/no sessions; allcontainedworkers/groups/tokensclosed.
+Receipt component-report-admission-retention-actual-20261017.json. First23717/
+e57c75/1 sourcebuildfailure preserved (bundled Lwt.wait returns promise, notpair).
+No active uncertain descriptor/resource now. Remote cache route and broaderlegacy
+source-FD close audit remain separate; no SDK/media/transport or deployment.
+
+<!-- Parallel historical checkpoint retained from RPC auditor branch. -->
+
+## Isolated implementation pointers — 2026-10-17 storage successor
+
+PR4 https://github.com/querygraph/unison/pull/4 is ready for review on
+`feat/component-cache-input-binding`, qualified source835df2fc. PR5
+https://github.com/querygraph/unison/pull/5 is a draft stacked on PR4, branch
+`feat/component-owner-index`, latest sourcec372213a in sibling
+`/Users/alexy/src/unison-component-index-20261017`. Its own OPUS-HANDOFF.md is
+current for that successor; these implementations are not merged into this tree.
+
+PR5 now provides bounded trusted root/path/generation selection, UIX/0 reference
+manifest import/export and borrowed-FD staging/readback/one-shot macOS immutable
+publication. It does not establish managed namespace installation, referenced
+entry presence, quota admission/FD settlement, a separately trusted durable
+owner-state commit, automatic routing or production activation. Unknown camera
+fields remain exact opaque components; incomplete interpretation is not itself
+a deployment gate. Existing UDI/0 bytes and main's frozen342RPC pins are unchanged.
+
+Latest exact qualification is the isolated
+`tests/qualification/owner-manifest-publication-actual-20261017.json`: focused
+56956/e8cf00/0 and full85962/0cfdd3/0 terminal/no sessions, all7adoptedworkers/groups/
+tokensclosed. Percompiler56component+1005checkpoint+27publicationfault+13readerfault+
+1248DNG+110workerchecks, four current stock/Ox Make/fullselftest/Dune compile builds,
+1272sourcechecks. Framing vectors count as controls, not additional camera fixtures.
+No media/SDK/transport, production writes or new resource grant. The main prepared
+RPC still requires its fresh exact admission; no dispatch follows from this note.
+
+
+## Current archive-reference successor — 2026-10-17
+
+Draft PR6 https://github.com/querygraph/unison/pull/6, sourcef171539b/metadata
+d8cf5566, lives on `feat/component-archive-hints` in sibling
+`/Users/alexy/src/unison-component-archive-20261017`, stacked on PR5. PR4/PR5 are
+ready review levels; none of this successor is merged into main. See that
+branch's current OPUS-HANDOFF.md and `doc/component-archive-hints.md`.
+
+The default-off endpoint-local componentownercache option persists explicit
+normally-published manifest references through the normal archive transaction.
+Its private property key is removed before legacy payload serialization; UAX/0
+is an optional tail after the existing paths map. Archive format23/default-off
+serialization/negotiated features are unchanged. Rename+directoryEIO cannot grant
+an owner reference. Missing/malformed/off hints never promote self-hashed blobs.
+No automatic capture/reuse or managed namespace installation yet; actual old-
+CLI compatibility/hardware power-loss/legacy close-fault qualification remain
+open. Retained old production-object compatibility is now qualified below.
+This is local cache ownership, never common-file reconciliation authority.
+
+Exact isolated evidence `tests/qualification/component-archive-hints-actual-20261017.json`:
+focused63243/2ab595/0, full96641/27b99d/0 terminal/no sessions. Current stock/Ox
+Make/fullselftests/Dune1272SRCchecks,1391DNG+29archive-publication-fault+110worker
+checks/compiler and14linked private archive calls/6phases percompiler pass. All8
+adoptedworkers/groups/tokensclosed. Test-only import/symbol/preference setup
+failures preserved. No source-file payload, SDK/Adobe, remote process or transfer.
+Main frozen342RPC source remains unchanged; exact admission still required.
+
+Archive successor 4d1dcc6f adds actual retained pre-change production-object
+reader/writer compatibility evidence, pushed to PR6. Owner12014/2441f7/0 and all13
+direct calls settled: old reads preserve exact current stock/Ox archive bytes,
+old rewrites drop only the optional hint, the current reader safely misses, and
+the manifest payload stays unchanged. Source/artifact pins were independently
+rechecked. See that branch's component-archive-legacy-actual-20261017.json.
+This does not execute the untouched old CLI or qualify all old releases/network
+transfers. Production source and main's frozen RPC closure remain unchanged.
+
+
+## Integration source checks complete — 2026-10-17
+
+Local mergef5b496f5 combines PR11+PR10 without production source conflicts. All390
+tracked production paths equal6b4d5204 and every SRC pin in the final four
+stock/Ox Make+selftest/Dune reports rebinds to this candidate. Auditor22+8+6groups
+passed actual76033/d65499/0/no session; all3worker/groups/tokensclosed. 46sealed
+metadata references and original exactseal2ce13be0 unchanged. Receipt sol-
+integration-source-actual-20261017.json. First relative-script launch refused
+before worker dispatch; unused output001 preserved, fresh002 ran once.
+
+Updated doc/current-qualification-status.md is current over its historical
+scheduling paragraphs. No GitHub merge, media/SDK/RPC/payload/native/benchmark
+run or new admission. Next concrete work: twelve-row SOL acceptance evidence
+review and material current candidate gaps; do not restart consumed runs or gate
+baseline deployment on exhaustive MakerNote meanings. Zero owned resources now.
+
+
+## Twelve-area acceptance review — 2026-10-17
+
+Created doc/sol-release-readiness-20261017.md and machine-readable selected receipt
+source-pin review. Existing implementations and exact historical/current scopes
+are mapped to all12requirements; no full-goal completion claim. Old merge receipts
+have62changed explicit production bindings, worker scheduling22; no automatic
+current execution inference. Zero extracted pins means not rebound, not pass.
+Concrete nextsafeaction: current-object original worker apply/cancel regression,
+with bounded fixture setup (old driver unconditionally creates unused1GiBsparse
+files). Then fresh pinned current transfer/mixed-peer and retained-camera requests
+as needed, with newRootIO admission before dispatch. Legacy source-FD cleanup
+uncertainty remains a source review item. No camera/SDK/payload opened; no jobs/
+resources held. User excludes autonomous fuzz/sanitizer work and exhaustive
+MakerNotes are not a deployment gate. Allprioradmissionsremainconsumed.
+
+
+## Current worker apply regression closed — 2026-10-17
+
+Actual86836/67c190/0/no session links current compiler-matched production objects
+and passes seeded apply/cancel on stock andOx; workers16370/16398reaped0/groups
+absent/tokensclosed. Sixseeds×4batches×16jobs/compiler; exact completed targets,
+cancelled-stage nonpublication, basis/target preservation, permits/queues/descriptor
+baselines pass. Unused1GiB sparse files are not created. Receipt integration-
+worker-apply-actual-20261017.json has exact observed counts/source/object pins.
+Initialstock001/002/003 compile/link failures preserved/closed before applyjobs:
+record type ambiguity, missing snapshot dependency, then clone dependency. Test
+harness inventory/type/setup changed only; production candidate is unchanged.
+No camera/SDK/transport/bulkIO/native grant. Next prepare finite current transfer/
+mixed-peer request with exact pins, coordinate freshRootIO; no oldadmissionreuse.
+
+
+## Fresh integration property IO request published — 2026-10-17
+
+Immutable doc/sol-properties-request-v1.json 57681B SHAe60975f3dff2fc9f95da6aa254d9726550ffbc30bc258591eb5f2a7679f3a787
+is queued to PhotoRoot as01a14991-ce52-7ef0-9ff0-ef72b31c058c. Existing qualified
+sync-functional property-removal route:18rows/54CLI/generated2MiB inputs/retained
+readers<=36, Unison00..07+EXglobal,300sobservation/30sCLI/unknownretains, declared
+uninstrumented8GiB. No compiler/SDK/camera/Photo payload/mixed-peer/timing claim.
+38execution+318production pins,7prereqs and interpreter/binary/compiler hashes;
+manual.command and checked_build metadata checks passed (no target executed).
+Workspace /private/tmp/u-sol-properties-86df187d7c95 and proposedadmission
+/private/tmp/unison-sol-properties-admission-86df187d7c95.json were absent at
+request publication. Root review/grant is not assumed from queue/resource release.
+Runtime must use fresh published SHA/deadline once and exact request command; no
+oldgrant/retry. No owned jobs/tokens/IO held. Keep this candidate's execution pins
+frozen pending review; independent source work should use a sibling successor.
+
+
+## Independent component source-FD successor — IN PROGRESS 2026-10-17
+
+Checkout /Users/alexy/src/unison-component-source-owner-20261017, branch
+fix/component-source-fd-owner, based on frozen integration72a19d9d. Submitted
+property request in integration checkout remains unchanged. Latest read at
+Unix1792235853 found no admission; no payload/IO run is started or assumed.
+
+Source inspection found legacy held_files cleanup could downgrade source-close
+uncertainty. The component inspector now records explicit regular source ownership
+before validation, waits for worker completion, closes once, and merges nested
+cache uncertainty into retained source ownership. Existing other transfer/inspection
+families are unchanged. The component RPC source scope now also holds its outer
+admission on the same carrier (wire schema unchanged). Carrier origin can be a
+regular file; new cache_origin_descriptor accessor makes that explicit.
+
+Directed stock/Ox native/fault controls actual64616/a62110/0 passed; worker17616
+reaped0/groupabsent/tokensclosed. Source-owner EIO retains regular identity and
+rejects second close. Full stock build/selftests ACTUALtool68157 now started in
+/private/tmp/unison-source-fd-owner-stock-make-20261017-001; collect terminal before
+any competing own8 dispatch. Not yet full-build/route qualified, no new SDK/IOgrant.
+
+
+## Component source owner QUALIFIED — 2026-10-17
+
+Current source successor stock/Ox Make+selftests/Dune, directed regular-source
+close uncertainty and normal/retained report controls PASS. Actual68157/f7fcc6/0,
+86131/980c64/0,55793/0e866e/0 andauditors57596/22ac80/0/no sessions; allcontained
+workers/groups/tokensclosed. All36auditorgroups pass with unchanged wire schema;
+no actual new transport. RPC source scope now holds admission on carrier too.
+Receipt component-source-fd-owner-actual-20261017.json pins exact objects/sources.
+
+Frozen integration property requeste60975f3 andall38execution+318productionpins
+rehashed unchanged AFTER source work; its admission still not inferred. This fix
+remains separate, notmergedintofrozencandidate. Other legacy semantic/transfer
+cleanup families remain outside this scoped fix; no blanket settlement claim.
+Zero owned jobs/resources; no SDK/camera/Photo payload/native/IO dispatch.
+
+
+Review now OPEN/DRAFT PR12 https://github.com/querygraph/unison/pull/12, exact
+qualified sourceecad82f3/base integration/sol-release-candidate. No merge or new
+runtime grant. Frozen propertyrequest remains in integration checkout; current
+XMP kernel controls there separately passed without production changes. All
+owned jobs/resources closed. Continue source work here without modifying the
+submitted candidate's execution pins until that scheduling request is settled.
+
+<!-- Parallel integration history retained. -->
+Independent source-FD cleanup successor now QUALIFIED ecad82f3 in
+/Users/alexy/src/unison-component-source-owner-20261017, branch
+fix/component-source-fd-owner. Component reports record regular source ownership
+before validation and retain close uncertainty/nested source ownership; RPC source
+scope holds admission on the carrier. Current stock/Ox Make+selftests/Dune and
+normal/retained report +36auditorcontrols pass; allactualjobs/resourcesclosed.
+Exact receipt component-source-fd-owner-actual-20261017.json is in that sibling.
+This code has NOT been merged here: property requeste60975f3/all38execution+
+318productionpins reverified unchanged. Runtime request remains separately
+pending, no payload/admission/hold inferred. Other legacy cleanup families still
+require their own scoped review; no blanket source-FD release claim.
+
+
+## Review publication and current XMP kernel — 2026-10-17
+
+Source-FD fix ecad82f3 now OPEN/DRAFT PR12
+https://github.com/querygraph/unison/pull/12, base integration/sol-release-candidate.
+Base branch is published at72a19d9d; no GitHub merge. Submitted propertyrequest
+pins unchanged; latestmetadata atUnix1792236111 had no admission.
+
+Current integration XMP kernel actual65346/7f6982/0/no session PASS stock5.2.0/Ox:
+25scalar+343rating/symmetry+4RDFconflicts; Ox4checked domains+checkedspawn. Both
+workers23127/23166reaped0/groupsabsent/tokensclosed. Driver now copies/pins mandatory
+EVPheader; no production changes. Receipt integration-xmp-kernel-actual-20261017.json.
+This closes current kernel-source reexecution, NOT live merge receiving/SDK.
+No active owned resources, no payload/IO admission or replay.
+
+
+## Current worker pool parity — 2026-10-17
+
+Actual75221/88a8e1/0/no session passes stock/Ox current-production-object64jobs
+atconfigured1/2/4/8, queued cancellation, exact hash/proof parity, descriptor/CPU/
+queue recovery. Executingcredits cap6+owner2 within standing8. Workers23693/23707
+reaped0/groupabsent/tokensclosed. Focusedparity omitsunused1GiBsparsefixtures.
+Receipt integration-worker-parity-actual-20261017.json. No newproduction/source
+pin changes to pendingpropertyrequest. No IO/SDK/camera/transport invoked; no
+speedup/hardthread/RSS/8executing inference. No actualownedjobs/resources now.
+
+
+## Current standalone inspector readiness — 2026-10-17
+
+Build-only actual84256/0cfdfb/0/no session stock/Ox PASS,0inputopens/0inspectorexec
+withinbuild. Mandatory productionEVPheader nowcopied/pinned. Subsequentoriginal
+tiny integration actual8c9c05/0 (16calls) andreuse/refusal29cc1b/0 PASS; allcontained
+workers/groups/tokensclosed. Strict/layout classifications and separate metadata,
+encodedpixels andopaque changes proven by actualJSON/fullhash plusunchangedsource
+epochs/bytes. Receipt integration-inspector-ready-actual-20261017.json pinsbuilds,
+logs/source/artifacts; no realcamera/SDK/pixel/receiving/runtimeIO grant inferred.
+
+This tooling can support a later separatelyadmitted privatecamera exact plan;
+do not use oldconsumedclone/SDK grants or assume profileeligibility. Currentproperty
+requeste60975f3 remainsseparatepending, its38execution/318productionpinsunchanged;
+tool/harness-only edits are outside that closure. Zeroactualownedresources now.
+
+<!-- Main navigation history retained. -->
+## Resume checkpoint — current state on 2026-10-17
+
+This section supersedes earlier pending-RPC and next-step scheduling notes;
+historical receipts and sealed documents remain unchanged. User resumed the goal.
+
+- The single component RPC run is consumed and resource-closed: actual owning
+  tool91491/7ec39a/exit1/no session. All eight commands settled; the original
+  final auditor failed on an invented `cancel_reason` field. Saved-only corrected
+  audit and Root narrow functional adoption are recorded in
+  `doc/component-remote-root-adoption-addendum-20261017.md`. Preserve original
+  exit1 and sealed bytes; do not rerun its admission.
+- PR7 (owned/indexed worker refresh), PR8 (managed read loader), and PR9
+  (private namespace lifecycle) are implemented and qualified in their isolated
+  sibling checkouts. PR9 branch `feat/component-cache-namespace` is at d074fb8b;
+  its handoff contains detailed qualification and limits. These are unmerged.
+- PR10, `feat/component-rpc-producer-audit` at 5f350db6, is a separate draft
+  against this feature branch. It fixes future auditor producer schemas with
+  36 original control groups. Main's frozen342-source runtime and old sealed
+  return remain unchanged. No new RPC runtime is admitted or necessary merely
+  to acknowledge this source correction.
+- The next implementation checkout is
+  `/Users/alexy/src/unison-component-store-20261017`, branch
+  `feat/component-cache-store`, initially at d074fb8b. Only the checkout has
+  been created: no store code, tests, build, runtime, or resource reservation
+  has started there. Planned work composes bounded capture/staging/publication,
+  manifest completion, and guarded archive-head adoption, then automatic
+  capture/report routing. Close uncertainty must retain all ownership.
+- Remaining release work: finish automatic incremental cache capture/report
+  integration; consolidate the unmerged stack into a reviewable candidate;
+  run integrated compatibility/failure and supported-scope acceptance checks.
+  Exhaustive MakerNote interpretation is not a deployment prerequisite:
+  unknown bytes stay exact and hash-covered, with versioned incremental
+  refinements and old views retained.
+- At this checkpoint no known owned job, CPU token, IO barrier, or admission is
+  active. Standing Unison8/Photo8/system2 applies; future payload/SDK/transport
+  work needs its own exact coordinated admission. No old grant is reusable.
+
+Keep this main navigation document and the active successor's handoff updated
+at substantive implementation/qualification checkpoints. No merge authorization
+for PR2 or PR4–PR10 is implied by continuing the goal.
+
+
+## Managed store checkpoint — 2026-10-17
+
+Successor branch `feat/component-cache-store` in
+`/Users/alexy/src/unison-component-store-20261017` is now bf0527b0. Its managed
+store composes quota-bound exclusive stage creation, authenticated record/entry
+and manifest publication, full owned-descriptor settlement, and guarded in-memory
+archive-head adoption. Both stock/Ox Make builds/fullselftests and real production
+archive commit/fresh-process cold load passed. Original tiny failure controls
+cover four close-uncertainty positions, all four opens and every observed sync;
+94 composed failure checks/compiler passed, preserving partial effects and no
+adoptable reference on failure. All actual workers/groups/tokens closed.
+
+See that checkout's current OPUS-HANDOFF.md, doc/component-managed-store.md and
+component-managed-store-{normal,fault,archive}-actual-20261017.json receipts.
+This code remains isolated/unmerged; no PR or production activation is claimed.
+Automatic normal report capture/reuse routing and Dune/integrated release checks
+remain work. This supersedes the earlier checkout-only pointer, not sealed RPC
+or other historical evidence. No payload/SDK/transport/new resource grant occurred.
+
+
+## Current managed-cache draft PR — 2026-10-17
+
+PR11 https://github.com/querygraph/unison/pull/11 is now OPEN/DRAFT, stacked on
+PR9 feat/component-cache-namespace. Qualified source8e84a6a8 in sibling
+`/Users/alexy/src/unison-component-store-20261017` includes archive-bound namespace
+identity, retained-old-code compatibility, explicit endpoint-owner worker/capture/
+reuse orchestration and cancellation/concurrent-head fences. Current source
+stock/Ox Make+selftests and original owner-route controls passed; all processes
+and grants closed. Source before the later identity/report additions also has
+Dune qualification; current-source Dune remains pending. The active successor
+handoff has exact source/receipt pointers and preserved failed-control history.
+
+No default SemanticRemote/UI cache routing yet. Its private-parent ownership and
+loaded-owner integration remain actual implementation gaps, not camera-knowledge
+requirements. No merge, production use, media/SDK read, old admission reuse or
+new resource hold follows from the draft. Main's frozen RPC342 and sealed bytes
+remain untouched.
+
+
+## Local report successor current — 2026-10-17
+
+PR11 source is now6b4d5204 (pushed). UI component details has opt-in local cache
+routing via explicit private componentcacheparent, owned parent lifetime, configured
+path/permission rechecks, capture/reuse/restart and cancellation/head fences. Local
+cache uncertainty now keeps both descriptor carrier AND outer report admission
+held; actual original probes distinguish application retention until exit from OS
+child/group closure. Current stock/Ox Make+selftests/Dune and normal/retained report
+controls pass; exact source evidence in sibling store checkout's currenthandoff.
+No active owned resources. Earlier navigation saying UI remains unwired is now
+historical. Explicit parent provisioning, remote endpoint cache route, broader
+legacy source-FD close audit, stack consolidation and final integrated acceptance
+remain open. No merge/production/media/SDK/transport grant or full-goal claim.
+
+
+## Consolidated local candidate — 2026-10-17
+
+Current integration checkout `/Users/alexy/src/unison-sol-integration-20261017`,
+branch integration/sol-release-candidate, HEADb3d6ef9d, combines PR11 managed/local
+report source6b4d5204 and PR10 independent producer auditor5f350db6. No GitHub PR
+merge. All390 tracked production paths unchanged versus qualified cache branch;
+all production SRC pins in final stock/Ox Make+selftest/Dune reports rebound.
+All36auditorcontrols passed actual76033/d65499/0/no session; allworkers/grants
+closed. 46sealedmetadatareferences and originalseal2ce13be0 unchanged. Candidate
+receipt sol-integration-source-actual-20261017.json and current qualification index
+now replace stale pending-admission/cache-not-wired navigation. Full SOL twelve-row
+acceptance review remains next; no media/SDK/RPC/native/benchmark grant or replay.
+
+
+## Latest review and regression pointers — 2026-10-17
+
+Draft PR12 https://github.com/querygraph/unison/pull/12 now reviews qualified
+component source-FD owner sourceecad82f3, metadata66315d9f, against published
+integration base72a19d9d; no merge. Independent fix checkout and currenthandoff:
+/Users/alexy/src/unison-component-source-owner-20261017. It closes the component
+report source-cleanup gap and holds RPC source admission on uncertainty, with
+stock/Ox Make+selftests/Dune, directed controls and36auditorgroups passing.
+
+IntegrationlocalHEADc49a26fb adds current bounded worker384job/1255checks each and
+current scalar XMP25+343+4controls (Ox4checked domains). Allactualjobs/resources
+closed. Frozen source/IOrequeste60975f3 is queued01a14991-ce52 for18row/54CLI property
+regression; no admission present atlastread, no runtime dispatch or new grant.
+No oldgrantreuse; source/productionpins for that request remain unchanged. The
+release readiness document and activeworktree handoffs retain exact evidence and
+remaining claims. Broader actual transport/camera work remains separatelyadmitted.
+
+
+## Consolidated final review source rebound — 2026-10-17
+
+Both local integration merges changed documentation/harnesses only. Every SRC pin
+in source-owner stock/Ox Make+selftest/Dune receipts matches this tree. Fresh
+standalone inspectors actual46063/73e87f/0/no session built from this tree and all16
+original tiny strict/layout/component integration calls pass. Allworkers25192/
+25244/25306reaped0/groupsabsent/tokensclosed. Receipt consolidated-review-source-
+actual-20261017.json binds exact reports and rebuilt inspector artifacts; no
+newproductionCLI/SDK/transport/camera execution. Rootpropertyrequest remains
+frozen in separate checkout; no substitution or automatic successor.
+
+
+## One consolidated review now open — 2026-10-17
+
+Draft PR13 https://github.com/querygraph/unison/pull/13 is the single consolidated
+candidate against querygraph/unison:master. Initialsourceheadf188a6a6 includes
+qualified sourceowner ecad82f3 and all current integration controls/navigation.
+All prior PRs remain separate; no merge/close/replay or production use occurred.
+Current source build rebind and freshinspector proof are in consolidated-review-
+source-actual-20261017.json. Pending property request remains at its separate
+frozen checkout/requeste60975f3; admission required before actualdispatch. No
+activeownedresources. Review limitations remain explicit; fullgoalnotcomplete.
+
+
+## Cold first-report namespace fix — latest 2026-10-17
+
+Actual before-fix control reproduced cancelled first report creating an unadopted
+namespace (testworker1, expected-counterexample controller81260/106d7b/0). Cold
+NoRef/NoIdentity now inspects with an empty in-memory index first. Cancelled or
+unsupported outcomes leave parentempty/hintNone; only fenced successful capture
+creates/publishes namespace. Existing trustedcache still loads before await.
+Publication-failure orphans remain preserved; no unsafe automatic adoption.
+
+Current stock39713/d7a95e/0 andOx+bothcontrols+bothDune7204/2fd03f/0 PASS, all
+workers/groups/tokensclosed. Receipt component-cold-cache-first-failure-actual-
+20261017.json pins the preserved failure and fresh successes. This supersedes
+source-identical-to-ecad notes for Update; other production files unchanged.
+No IO/camera/SDK/transport dispatch. Frozen property request on integration
+checkout remains untouched and requires its own exact fresh admission.
+
+
+## Portable component source cleanup — latest 2026-10-17
+
+Review found regular source owner accidentally reused macOS-only metadata_close.
+Now source uses a dedicated POSIX close primitive on Unix, MLUnix.close onWin32;
+shared close-once/uncertainty bookkeeping remains, cache publication staysMac-only.
+Validation-failure cleanup also uses the portable source backend. No source-open
+path/permission or wire contract change.
+
+Directed stock/Ox controls actual78381/a36294/0 include C compiled-U__APPLE__ on
+Darwin and6API checks/compiler: normal close, consumed settlement, original cause,
+nonregular validation anddescriptorbaseline. Existing native fault/namespace/
+store controls pass. Full stock/Ox Make+selftests/Dune and normal/retained report
+actual21381/479836/0 PASS; allworkers/groups/tokensclosed. Receipt component-source-
+portable-close-actual-20261017.json. NOTLinux/Windowsruntimequalification; noSDK/
+camera/transport/IOgrant or activeownedresources. Frozenpropertyrequest unchanged.
+
+
+## Current review and next work — 2026-10-17
+
+Active consolidated checkout: /Users/alexy/src/unison-sol-review-20261017,
+branch integration/sol-consolidated-review, qualified source head5362e000,
+draft PR13 against querygraph/unison:master. The portable cleanup and cold-cache
+fix above are implemented and qualified; no current merge authorization.
+
+Latest source review found a pending optional-cache capacity issue: a new key at
+the owner-index entry/byte limit can raise after successful source inspection.
+Next change should preserve the valid report and skip optional capture when the
+index cannot admit it, while retaining CAS/authentication for admitted stores.
+This fix and focused capacity controls are NOT implemented or qualified yet.
+User-facing cache setup/failure documentation also remains to finish.
+
+Frozen property IO request e60975f3 remains in the separate integration checkout;
+no fresh admission was present at the last check. Do not dispatch without its
+exact fresh grant, or substitute this newer source/binaries. All owned jobs and
+resource leases from completed qualification are closed. Standing CPU split8/8/2
+remains authoritative. Handoff entries distinguish plans from actual results.
+
+
+## Optional index capacity — implemented and verified 2026-10-17
+
+This supersedes the pending capacity item above. A pure capacity admission check
+now lets a valid inspection return without optional publication when the index
+is full. Existing same-key replacements remain admissible if byte bounds fit;
+actual stores still require the prior-entry CAS/authentication. Owner API allows
+stricter bounded index limits; configured production defaults remain1024/8MiB.
+
+Stock/Ox Make+selftests and focused production-linked capacity controls actual
+88578/23fdf5/0 pass. One-entry real owner flow captures first file, returns the
+second valid report without changing head/files/reservations. Same-key and byte
+capacity checks pass. Both normal-report and retained-ownership controls actual
+17325/1c568f/0 pass. All workers/groups/leases closed. Exact evidence recorded in
+tests/qualification/component-index-capacity-actual-20261017.json. Manual now
+documents opt-in cache setup, exact opaque coverage, capacity/quota and recovery
+limits. No SDK/camera/transport execution or new admission; frozen property
+request remains separate and unadmitted at last check. Full goal remains active.
+
+
+## Ordinary semantic-report source ownership — 2026-10-17
+
+Source review found inspect_file still using legacy held_files cleanup, where
+an uncertain close could become ordinary Unavailable and retire admission. It
+now uses the portable close-once source owner and the retained report carrier
+inside its existing transaction/RPC scope. The existing component diagnostic API
+also lists these ordinary semantic-report carriers. No wire format change.
+
+Actual58002/c6f825/0/no session: fresh stock/Ox Make+selftests, ordinary semantic
+source normal+injected-close controls, cached report write/read and component
+uncertainty retention controls allPASS. Disposable copied C source alone uses
+close interposition; production has no fault switch. Normal report closes once;
+uncertainty stays pending with outer transaction/FD/payload charges and original
+uncertain identity, no numeric retry. External child/group closure verified;
+retained application reservations intentionally last until disposable exit.
+Exact evidence tests/qualification/semantic-report-source-owner-actual-20261017.json.
+All owned processes/CPU leases closed, no SDK/camera/transport execution. Legacy
+transfer held_files/stage cleanup remains separately to review; do not generalize
+this report-only proof. Property admission still absent at1792238193.2699368;
+separate frozen request unchanged, no replay or replacement. Fullgoalactive.
+
+
+## Transfer-source cleanup in progress — 2026-10-17
+
+Current uncommitted successor factors a shared with_owned_source helper and
+uses it in make_plan as well as ordinary semantic reports. Source planning now
+retains uncertain portable close ownership inside its existing Source RPC scope.
+No new wire/API, transport dispatch or IO admission. Exact current stock/Ox
+build+selftest and shared-helper report controls are running under actual owning
+tool10491; do not infer terminal from logs. Qualification results follow below.
+Receiver held_files and StagePublication cleanup remain a separate concrete gap;
+doc/transfer-source-ownership-review-20261017.md records the precise current flow
+and required combined native/ML evidence. Frozen property request remains separate.
+
+Transfer-source successor qualification now ACTUAL CLOSED10491/286e38/0/no
+session. Fresh stock/Ox Make+selftests, exact shared-helper ordinary report
+normal+uncertain-close controls, cache write/read and component retained-owner
+controls allPASS; every worker/group/CPUlease closed. Receipt semantic-planning-
+source-owner-actual-20261017.json pins exact artifacts. make_plan uses that helper
+and is compiled/source-reviewed, NOT newly remotely executed. Legacy standalone
+source held_files registry removed; receiver candidate registry unchanged.
+Receiver native/ML cleanup gap remains, no full-goal completion or IOgrant.
+
+
+## Native publication explicit-owner backend in progress — 2026-10-17
+
+Current successor adds a distinct StagePublication.owned API; legacy public t
+callers remain unchanged. Native carrier rooted before first descriptor retains
+every uncertain close and remaining known handles, original native cause and
+actual lifecycle phase. Repeated operations refuse with same preallocated carrier;
+normal explicit abort/disarm releases the native root. Strict API is not wired
+into Copy/SemanticSync/SemanticRemote yet; outer admission integration remains.
+Details doc/stage-publication-owned-v1.md.
+
+First controller13859/bfd53d/1 failed after stock owned43checks PASS because the
+legacy runner argument was --compiler instead of --ocamlopt; no unknown process
+left, all groups/CPU closed. Preserved001. Corrected controller17264/30d895/0
+passed43new owned+58legacy tests per stock/Ox compiler, all child/group closures
+verified. Fault wrappers only copied disposable C; native unknown application
+owners intentionally last until process exit, not claimed normally closed.
+Full stock/Ox Make+selftests and Dune are now owned by actualtool23195; final
+terminal/qualification receipt follows. No transport/SDK/camera or bulk IO grant.
+
+Native owned backend qualification ACTUAL CLOSED23195/7fb21f/0/no session:
+stock/Ox Make+selftests and both Dune builds pass; all workers/groups/CPU leases
+closed. Together with corrected17264/30d895/0,43owned+58legacy controls/compiler
+pass. Exact receipt stage-publication-owned-backend-actual-20261017.json retains
+001failure and002success/binaries/current source pins. Backend ONLY: no production
+caller switched and no outer publication-admission qualification yet. Next migrate
+caller transaction owners and non-suppressing cleanup together, with composed
+fault controls; no transport/camera/SDK grant. Full goal remains active.
+
+
+## Bound local publication owner migration in progress — 2026-10-17
+
+SemanticSync's bound producer path now uses StagePublication.owned with a
+preallocated guard inside its actual transaction reservation. Native uncertainty
+retains the original higher-level cause, native carrier and remaining transaction
+or loose descriptors; error/connection cleanup cannot release the guard. Legacy
+Copy/remote/unbound/raw-pair/channel cleanup is not claimed migrated.
+
+Initial11183/10b447/0 passed new normal/adopt/disarm/callback-close controls on
+stock/Ox, but source review then corrected adoption-before-registration ordering
+to preserve name cleanup on record allocation failure. That initial source is
+superseded without changing its receipts. Current002 builds/controls owned by
+actual69137; existing semantic producer handoff harness updated for owned API
+and scope parameter, with actual regression run pending. No new transport/Photo
+IO/camera/SDK grant; generated8192B fixtures only. Source/prior frozen property
+request checkout remains separate, admission still absent at last observation.
+
+Revised local migration002 ACTUAL69137/6e7f13/0: stock/Ox Make+selftests and
+normal/adopt-close/disarm-close/callback-close composed controls allPASS. Native
+uncertainty retains outer admission plus remaining known descriptors even after
+connection cleanup; callback-failure original cause and published output preserved
+where appropriate. Scope diagnostics are observations, no cleanup capabilities.
+Actual5612/96b9cb/0 existing handoff suite32cases/compiler alsoPASS, including
+record/register/adopt-after faults, callback preservation, borrowed cleanup deferral
+and FD reuse. Corrected owned adopt instrumentation and internal scope parameter
+are in test_semantic_handoff.py. No actual remote transport: its remote unit uses
+existing in-process planner delivery. Both tools/groups/CPU leases closed.
+Dune stock/Ox current verification is now actualtool2544, pendingterminal.
+
+Local migration full verification ACTUAL CLOSED2544/c41a6f/0: both Dune builds
+pass. All previous/current test process groups and CPU leases closed; exact pins
+and scope in tests/qualification/local-publication-owned-actual-20261017.json.
+Bound SemanticSync producer family now actually migrated and qualified for native
+publication uncertainty, including guard/descriptor retention through connection
+cleanup. Copy/remote/unbound/raw/channel cleanup remain distinct; no universal
+resource-close proof or fresh transport/camera/SDK admission. Fullgoalactive.
+
+
+## Bound remote receiver migration in progress — 2026-10-17
+
+SemanticRemote bound receiving now mirrors qualified local native ownership:
+owned publication, preallocated scope/pending promise inside receiver admission,
+loose descriptor retention before adoption, candidate publication-pending/retained
+flags, original cause and connection cleanup retention. Copy/unbound/raw/channel
+handling remains separate. Current build+fourcomposedcontrols actualowner99104
+stilllive; do not infer final outcome from intermediate logs. New remote control
+uses two explicit in-process substitutions only (supported predicate and planner
+delivery), no actual transport/SDK/Photo payload. Existing producer-handoff
+internal create_bound_candidate calls now receive an explicit scope.
+Exact new lifecycle and limits: doc/remote-publication-owned-v1.md.
+
+Remote migration ACTUAL99104/933cae/0/no session: stock/Ox Make+selftests and
+fourcomposed receiver cases/compiler allPASS. Private copied source replaces only
+supported predicate and planner delivery; actual native/SDE/worker paths exercised,
+not network transport. Adoption/disarm/callback-close uncertainty stays pending
+with outer transaction charges and remaining known descriptors through connection
+cleanup. Generatedsource/basis unchanged, original callback cause retained. All
+workers/groups/CPU leases for this batch closed. Current handoff32case and both
+Dune verification owned by actual50665; finalterminal follows. No fresh IOgrant.
+
+Remote migration full verification ACTUAL50665/ae2ab3/0/no session:32handoff
+cases/compiler and stock/Ox Dune pass, all workers/groups/CPU leases closed.
+Exact evidence tests/qualification/remote-publication-owned-actual-20261017.json
+binds current native/worker/source/controlled-copy artifacts and actual terminal.
+Remote bound producer is now migrated for native publication uncertainty, not
+actual transport-qualified by these in-process units. Ordinary Copy plus unbound/
+raw/channel ownership remains next; actual transport requires separate admission.
+No replay/SDK/camera/Photo payload or new bulk IO grant. Fullgoalactive.
+
+
+## Ordinary bound local clone migration in progress — 2026-10-17
+
+Copy bound local clone helper (source-clone + local receiver-basis APIs) now uses
+owned native publication. A preallocated producer guard stays INSIDE actual
+TargetBinding.with_producer reservation. Unknown native ownership retains native
+carrier, original cause, loose FDs or channel objects. Physical-identity channel
+registry guards prevent connection cleanup or close-noerr fallback from closing
+those retained objects. Network rsync/native-v0 named/unbound/raw/channel errors
+remain separate; not a universal Copy migration.
+
+Actual28281/a1f9c7/0 stock/Ox Make+selftests+first4composed controls/compilerPASS.
+Actual89368/0da3c2/0 both DunePASS; also source-only final-caller instrumentation
+seam updated so completion log occurs only after known producer success (not
+before uncertain pending guard); no actualCLI dispatch. Current expanded6cases
+adds actual copyByPath/copyLocalCloned APIs under real admittedTargetBinding tickets,
+all8192B original fixtures/source+live metadata fences. Expanded owner terminal
+follows; no new SDK/camera/bulkIO grant.
+
+Ordinary bound local expanded verification ACTUAL15866/017f78/0/no session:
+6cases/compiler allPASS, including actual copyByPath and copyLocalCloned, normal
+guarded producer completion, source/live inode/mode/uid/gid/nlink/size/mtime/ctime
+fences, native uncertainty reservation/channel retention through ticket release
+and connection cleanup. Initial4case source/build batch preserved; production
+source unchanged while expanding controls. All external groups/CPU leases closed.
+Exact evidence tests/qualification/copy-bound-owned-actual-20261017.json.
+Network rsync clone staging, legacy named-source/unbound and raw/channel close
+errors still separate. Future actualCLI instrumentation source-only matched, no
+CLI/transport/SDK/Photo payload executed or new IOadmission. Fullgoalactive.
+
+
+## Guarded rsync receiver ownership — implemented/qualified 2026-10-17
+
+Copy network-rsync staging selects owned publication for modern guarded producer
+tickets; legacy/older peers retain original API. Adapter owns raw clone handles
+then channels, attaches range lease, preserves EOF flush/truncate/check/publish/
+adopt/disarm ordering. New synchronous borrower brackets preprocessing/decoding
+and local clone writes. Connection cleanup invalidates lease immediately, defers
+native/channel closure until borrowers finish; normal EOF close differs from
+interruption. Intrusive active-owner list protects held channel objects and
+unlinks known normal owners without allocation; unknown retains producer scope.
+
+Actual24872/ba2f1b/0 stock/Ox Make+selftests+initial5stream+6localcases/compiler;
+actual96532/7b6734/0 expanded7stream andbothDune; actual98668/b6bdf1/0 final8stream/
+compiler. Source unchanged between control expansions. Normal changed/growth/
+shrink/fullyinherited bytes exact; progress hook proves no native close under
+decoder borrower and range authority already invalidated. Injected native close
+uncertainty retains ticket/channel/resources; nonfaulted cancellation retires
+known reservation normally. Source/live bytes+metadata unchanged, all external
+workers/groups/CPU leases closed. Unknown application/native objects intentionally
+last until disposable process exit, not claimed normally natively closed.
+
+Evidence tests/qualification/rsync-publication-owned-actual-20261017.json and
+doc/rsync-publication-owned-v1.md. Tests replace ONLY compressRemotely delivery
+with actual in-process codec+receiver callback; NOT actual transport/server/pump
+verification. Legacy named/unbound/old-peer and raw/channel close errors remain
+next. No new SDK/Photo/camera/bulkIO grant; frozenproperty request still separate
+and unadmitted atlastread. Fullgoalactive.
+
+
+## Current inspector refresh and pending source changes — 2026-10-17
+
+Active worktree: /Users/alexy/src/unison-sol-review-20261017, branch
+integration/sol-consolidated-review, draft PR13, last committed183844c3.
+Current uncommitted work adds INSPECT_COMPONENTS=1 to the manual inspect-file
+command, eight argv-only controls, and updates semantic-inspect documentation.
+The strict-profile default remains unchanged; component reports are advisory.
+
+Fresh stock/Ox standalone inspector builds and integration ACTUAL49827/a6d1a4/0
+(no session): sixteen complete calls on independent256B original TIFF fixtures
+passed component/role/hash and unchanged-source checks. No camera payload opened.
+Evidence directories: /private/tmp/unison-current-components-stock-inspector-20261017-001,
+/private/tmp/unison-current-components-ox-inspector-20261017-001, and
+/private/tmp/unison-current-components-inspector-integration-20261017-001.
+
+The eight new command controls have SHARED-CLOSED evidence in
+/private/tmp/unison-inspector-component-command-controls-20261017-001; owning-tool
+terminal was truncated from model context and must not be invented from that marker.
+Inspect its recorded child result before marking controls passed. Final qualification
+JSON, release-readiness refresh and commit remain pending. Documentation currently
+references the planned qualification JSON; create it before committing.
+
+Next: finish these source/tiny-fixture controls, refresh the release gap summary,
+then prepare a concrete bounded camera component-observation executor/plan for
+separate admission. No retained camera payload, SDK or transport permission follows
+from the manual flag. Frozen property request remains a separate older-source
+request; no grant known at last check. Full goal active, not complete.
+
+Inspector refresh finalized: eight argv controls passed (child reaped0/tokensclosed); owning-tool terminal unavailable after truncated output, explicitly not inferred. Current inspector evidence JSON now exists and pins four evidence directories. Release checklist refreshed to separate candidate transport, camera observation and remaining legacy limits. No camera payload opened; no goal completion claim.
+
+
+Inspector IO contract source successor: tests/inspector_io_contract.py binds exact
+components argv, successful receipt/binary digest, exact26kernel source list and
+metadata-only eightfield input identity. shared_dispatch inspect-file IO path
+adds these sources to admission and runtime pins. Existing no-IO tiny fixture
+entrypoints unchanged. Seven metadata-only controls actual0a0f7d/0/no session
+passed under Unison00..07; child reaped/tokensclosed. No camera payload/IO lock.
+Evidence inspector-io-contract-controls-20261017.json. NOT ready for payload:
+post-run identity fence/result contract and immutable executor/plan remain next.
+Frozen property admission still absent at this turn's check; no scheduling hold
+inferred and no expired or previous grant reused.
+
+Inspector postcheck now records exact input metadata after worker/group settlement,
+before CPU/IO closure. Changed/missing input => known functional exit3 rather than
+invented process uncertainty; actual close uncertainty retains existing carrier.
+Ten contract/postcheck controls passed actual1e9df2/0/no session under own8, no
+EXIO/camera payload. Source plan doc/component-camera-observation-contract-v1.md
+records remaining composed dispatcher tests before fresh one-input request.
+No camera request/admission issued by this change.
+
+
+Composed dispatcher lifecycle suite25PASS actual61538/fba2a2/0/no session,
+including four inspector cases: unchanged, changed, missing, closeuncertainty.
+Fake owners/leases only; no canonical IO qualification implied. Prepared exact
+doc/camera-components-request-v1.json for one advisory component observation on
+retained Unison clone307228717. Eightfield lstat unchanged; no source payload
+opened/hashed. Current stock inspector+26kernel pins, interpreter, dispatcher
+closure and four prerequisites pinned; Unison8+EXglobal,300s,declared2GiBread/
+16MiBlogs notinstrumented. NO admission/dispatch. Root review/scheduling next.
+
+SOL status consistency review: older checkpoint paragraphs incorrectly still
+called worker/archive/persistent-cache integration unimplemented. Corrected to
+link separately qualified managed store/namespace/archive/worker routing while
+preserving historical receipt scopes and complete-input revalidation limitation.
+Added current release-evidence map and operation-specific gradual camera scope.
+No pinned camera-request source changed; no payload/CPU/IO job launched.
+
+
+Current gradual-refinement suite rebound to CURRENT sources: historical43pins
+had14changed, so fresh stock/Ox tests run. Combinedattempt64542/f30359/exit1
+hit60s wrapper after70recordedcalls; workerTERM/reaped/groupabsent/tokensclosed,
+partialresult preserved. Added --compiler-scope stock|ox|both (defaultboth
+unchanged) to test driver only, then separatebounded compiler runs PASSED
+actual18008/1dfcee/0/no session. Both complete rawRESULTs/current sourcepins
+rehashed. Evidence current-gradual-refinement-actual-20261017.json includes
+commuting independent private upgrades/preservedpixels/unsupported downgrade/
+authenticated restore/archivefault/guard-ablation checks. Generatedtiny only,
+no EXIO/SDK/camera. Camera request executionpins unchanged by test-driver edit.
+
+PR review refresh: current-qualification-status now leads with PR13/current
+source and scoped evidence instead of historical PR4/integration snapshot. PR13
+description refreshed around final behavior/nativeownedcallers/gradualrefinement/
+remainingtransport+camera evidence. Forkmasterbase/draft preserved; no merge.
+No production or camera-request pinned source changed.
+
+Userguide correction: doc/semantic-sync.md previously suggested8workers at EACH
+loopback endpoint (16plusowners), inconsistent with standingUnison8. Example now
+3+3+2, buildjobs<=2, canonicaltokens separate from semanticworkers preference.
+Historical18/36measurements retained with explicit freshborrow coordination.
+Documented actual semanticcomponents/componentownercache/componentcacheparent
+names against productiondefinitions; endpoint-localprivateparent/full-source
+restore/advisoryencodedpixels limits explicit. Documentationonly, no sourcepins
+changed/no camera IO.
+
+Mixed-peer readiness review found test false-positive: --only old-peer without
+--old-peer silentlyskipped, unknown--only couldpasszero. Runner now rejects
+missingpeer/unknownselector/combinednegative-selection BEFOREcompile/workspace;
+main successful result also requires nonempty suite.passed. Seven arg-only
+controls actual3ba54a/0/no session PASS under own8. No CLI/compile/IO/transport.
+Evidence final-publication-selection-controls-20261017.json. Existing oldpeer
+runner subprocess.run(timeout90) lacks current complete client/server/pump/group
+proofs, so do NOTdispatch it as a qualified new mixed-peerwindow yet. Need finite
+owned transport wrapper/rawledgers before exactcurrentcandidate request. Camera
+request sourcepins unchanged; both queuedadmissions absent at turnread.
+
+Mixed-peer source successor begins tests/mixed_peer_compatibility: fixed4directions
+(currentstock/Oxclient orserver versusretainedoldstock),3phasesseed/update/noop,
+12CLI maximum. Current-only flags nevergo tooldpeer;2+2+2 withinUnison8. Five
+command-only controls actualcd7fa7/0/no session passed, inertpaths/no transport.
+README lists executor/journal/proxy/rawbinding/knownfailedprefix/fixture/current
+build/oldbinary/admission work stillrequired. NO runtimegrant or readyclaim.
+Existing camera request pins preserved; no canonicalEXIO/camera/SDK accessed.
+
+Mixed-peer pure auditor implemented: fixed12call prefix/identity/argv/rawproxy/
+client-supervisorreaps/servercommand+group/pump proofs; upstreamold/newRPC
+startupdialects explicit, exactprecreationframe only (notnullPID). Knownfailed
+prefix returnslifecycleonly; nofunctional/parentterminal/FDreleaseauthority.
+Nineinitialcontrols5641e7/0 then11expandedcontrols89353e/0 passed, own8closed,
+no payload/CLI/EXIO. Evidence mixed-peer-audit-controls-20261017.json. Executor/
+rawfileauthentication/functionalchecks/buildpins/admission stillnext. Existing
+camera request pinned sources remain unchanged.
+
+Mixed-peer inactiveworker kernel nowusesretained component_remote.call supervisor,
+4cases12calls/original8KiBTIFFs/sourcefence/exactreceivedbytes/noopidentity.
+JournalINTENTbeforecall/OUTCOMEbeforeaudit, stopsfailedcall, propagatesoriginal
+UnresolvedOwnershipcarrier. Fivefake-call/audit flowcontrols d0932e/0 closed
+(initial3controls36714a/0 preserved); no actualtransport. Includescorruptoutput
+and samebytenoopreplacementnegativechecks. Coordinator/sourcebuildartifactpins/
+rawparentreadaudit/sharedtarget/admissionremainnext. Existing camera request
+pins unchanged; no camera/SDK/EXIO.
+
+Mixed-peer independentparentreadback implemented: reopensrawproxyframes, real
+prefixaudit, complete12call/4case typedstatus/endpointsuccess/exactstagehashes/
+finalleftrightbytes+metadata/noopidentity. Failedprefix lifecycleonly. Seven
+composedworker+REALauditor/readbacktests withONLYnativecallmock passed actual
+37829/9aa4ca/0/no session; own8closed/generated8KiBonly. Evidence mixed-peer-
+parent-controls-20261017.json. No transport/EXIO/camera/SDK. Coordinator/build
+inventory/freshplan/admission remain; camera request sourcepins unchanged.
+
+Mixed-peer retainedsettlement kernel implemented: observewithoutsignals, read
+result+independentrawaudit BEFOREgroupcensus/directwait4; preserveactualnested
+uncertaintycarrier+workerreference; livegroup/timeout refusesreap. Knownclosed
+result/exit contradictionfunctionalfalse. SixfakeOS/ownercontrols c2c5e1/0
+passed; no actualnativewait/census/transport/EXIO. Launch/packet/inheritedFD/
+admission/immutablepersistence integration remainsnext, no runtimegrant. Existing
+camera request sources remainfrozen unchanged.
+
+Mixed-peerentry sourcewired: freshRootplan/admissiononly, existingEXIOthenCPU8,
+oneuseworkspace/packet/snapshots, inherited9canonicalFDverification, artifactSHA
+afterIO and currentstock/Oxbuild/selftest/productioninventorybinding. Prelaunch
+knownrefusal rollsback; unknowncarrier retainsowner/grants; no numericsclose
+retry. WorkerNOcallsframe sourcebound; parentrejectscontradiction. Fakeentry
+4initialccf47d/0 then8expanded4deb84/0 andparent9controls21555/e7f1c9/0 passed.
+Evidence mixed-peer-entry-controls-20261017.json. NO mixed-peer admission/plan
+ortransportexecution yet. Need exactplan/dependency+preflight/persistence/lifecycle
+review beforefreshRootrequest; don't executeentry fromthissourcework. Existing
+camera request pins unchanged.
+
+Mixed-peer worker preflight corrected: ordinarypacket/FDidentity/artifact/source
+refusal before firstJournal now emitsfailedno-call result; closeuncertainty
+retainsactualcarrier/no falseknownclosure. Tenentrycontrols02ca03/0 PASSclosed.
+Oldpeer candidate75fcllxc/6ecf25c6 SOURCEinspection shows semantic-delta-v0 and
+target-binding-producer-v0 PRESENT, semantic-components-v0 absent. Anyselected
+runmustclaim EXACTolderfork interop, NOT arbitraryupstream or capability-absent
+producerfallback. Stillneed exactplan/sourcecurrentbuildbindingreview before
+runtimegrant. No binary executed/payload/EXIO. Camera request unchanged.
+
+Prepared mixed-peer exactplan/requestv1 (notadmitted):383execution/sourcepins,
+14prereqs,currentstock/OxsuccessfulMake/selftest/currentproductionsourcebinding,
+retainedoldstock6ecf25c6,workspace/private/tmp/u-mp-721ec40a absent. PlanSHA
+f3d4f6b471393127bfa890ff05e66b8f440db9033ffd454506e4f827fbf4df37; requestSHA
+3fce1144b998673b7fc8ab175510b1e05a1b21027cbf224449b4689359f941b2.
+Metadataonlychecked_plan passed446d67/0. Source reviewcaughtoldsemanticworkers
+autodefault; OLD_FLAGS nowexplicit2/maxthreads2/validationoff (knownsupported
+bythatretainedfork). Fivecommand+nineparentfake-nativecontrols68341/049cb5/0
+PASS. Plan sourcepins frozen now; no mixedpeeradmission/runtime. Declared8GiB
+IO+1GiBmetadata/logs uninstrumented,4cases12calls/300sobs,8CPU+EXglobal.
+No generalupstreamfallback/semantic/pixel/physicalIO/throughputclaim.
+
+Finalverificationpreflight7e5703/0 source/metadatasonly:318currentproductionpins
+perstock/Ox build allmatch, recordedbuild/selftest0; camera34executionpins and
+mixedpeer383executionpins+allprereqs match. Bothproposedadmissions/workspaces
+absent atUnix1792245411.314545; thisownerhasnotdispatched either. Exactrecord
+doc/sol-final-verification-state-20261017.json, goal_completeFALSE. No ownedjob/
+CPU/IO/nativegrant. Remainingactualtransport/property, exactretainedforkinterop,
+cameraadvisorycoverage need freshRootreview/admissions. Do not inventnewsource
+work or repeatpassingtests justtostaybusy whilepinsarefrozen; noMakerNotecomplete
+interpretation/decodepixels/universalOSRSSclaim isareleaseblocker.

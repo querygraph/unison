@@ -10,19 +10,37 @@ type reconciliation = { merge_plan : (SemanticDelta.t, string) result;
                         stats : Unix.LargeFile.stats }
 type identification = { formats : string list; fingerprint : fingerprint option;
                         stats : Unix.LargeFile.stats }
+type recognition = { formats : string list; stats : Unix.LargeFile.stats }
+type component_summary = { full_sha256 : string; layout_sha256 : string;
+  projections : (ComponentHash.role * ComponentHash.projection option) list;
+  refinements : DngComponents.outcome list; hash_bytes_requested : int64;
+  checkpoint : ComponentHash.checkpoint option;
+  reused_components : string list; invalidated_components : string list }
+type component_inspection = { components : (component_summary, string) result;
+                              stats : Unix.LargeFile.stats }
 type usage = { workers : int; pending : int; running : int; peak_running : int }
 exception Failed of string
 exception Cancelled_job
 type response = Hashed of fingerprint | Inspected of inspection
   | Observed of observation
   | Identified of identification
+  | Recognized of recognition
+  | Component_inspected of component_inspection
   | Reconciled of reconciliation
-  | Applied of SemanticDelta.application | Cancelled | Error of string
+  | Applied of SemanticDelta.application
+  | Snapshotted of ValidationSnapshot.report | Cancelled | Error of string
 type operation = Digest | Inspect of FormatExtension.handle
   | Reconcile of FormatExtension.handle * string * SemanticDelta.proof * SemanticDelta.proof * SemanticDelta.proof
   | Observe of FormatExtension.handle
+  | Components of DngComponents.decoders * int64 * bool
+  | Refresh_owned_components of DngComponents.owner_entry * string * DngComponents.decoders * int64 * bool
+  | Indexed_components of DngComponents.owner_index * string * string * string * string option * DngComponents.decoders * int64 * bool
+  | Restore_components of string * string * int64
+  | Refresh_components of DngComponents.outcome list * DngComponents.decoders * string * string * int64 * bool
   | Identify of (FormatRecognition.handle * bool) list
+  | Recognize of (FormatRecognition.handle * bool) list
   | Apply of FormatExtension.handle * SemanticDelta.t * Unix.file_descr
+  | Snapshot of int64 * Unix.file_descr
 type job = { id : int; fd : Unix.file_descr; cancelled : bool Atomic.t;
              operation : operation; measure_reads : bool }
 type shared = {
@@ -44,12 +62,15 @@ type t = {
   mutable read_observer : (int -> SemanticFile.read_stats -> unit) option;
 }
 let close_noerr fd = try Unix.close fd with Unix.Unix_error _ -> ()
-let close_operation = function Apply (_, _, fd) -> close_noerr fd | _ -> ()
+let close_operation = function Apply (_, _, fd) | Snapshot (_,fd) -> close_noerr fd | _ -> ()
 let duplicate_operation = function
   | Apply (extension, plan, fd) ->
       let owned = Unix.dup ~cloexec:true fd in
       (try Apply (extension, plan, owned)
        with error -> close_noerr owned; raise error)
+  | Snapshot (limit,fd) ->
+      let owned=Unix.dup ~cloexec:true fd in
+      (try Snapshot (limit,owned) with error -> close_noerr owned;raise error)
   | operation -> operation
 let locked shared f =
   Mutex.lock shared.mutex;
@@ -84,7 +105,7 @@ let execute job =
     let operation file =
       match job.operation with
       | Digest -> Hashed {digest = SemanticFile.digest file; stats}
-      | Identify recognizers ->
+      | Identify recognizers | Recognize recognizers ->
         let formats = List.filter_map (fun (recognizer,claimed) ->
           check_cancel ();
           let selected = claimed || match FormatRecognition.identify recognizer file with
@@ -94,17 +115,64 @@ let execute job =
           recognizers in
         check_cancel ();
         SemanticFile.check file;
-        let fingerprint = match formats with
-          | [] -> None
+        let fingerprint = match formats,job.operation with
+          | _,Recognize _ -> None
+          | [],_ -> None
           | _ -> Some {digest=SemanticFile.digest file;stats} in
         check_cancel ();
         SemanticFile.check file;
-        Identified {formats;fingerprint;stats}
+        (match job.operation with Recognize _ -> Recognized {formats;stats}
+         | _ -> Identified {formats;fingerprint;stats})
       | Inspect extension ->
-        Inspected {proof = SemanticDelta.inspect ~max_payload:(FormatExtension.payload_limit extension)
+        Inspected {proof = SemanticDelta.inspect ~span_semantics:(FormatExtension.span_semantics extension)
+          ~max_payload:(FormatExtension.payload_limit extension)
           (FormatExtension.implementation extension) file; stats}
+      | (Components _ | Restore_components _ | Refresh_components _ | Refresh_owned_components _ | Indexed_components _) as operation ->
+        let summarize session refined outcomes capture reused invalidated =
+            check_cancel ();
+            let projections=List.map (fun role -> role,ComponentHash.projection refined role)
+              [ComponentHash.Encoded_pixels;ComponentHash.Standard_metadata;
+               ComponentHash.Private_metadata;ComponentHash.Structural;ComponentHash.Opaque] in
+            {full_sha256=ComponentHash.full_sha256 refined;
+             layout_sha256=ComponentHash.layout_sha256 refined;projections;
+             refinements=outcomes;hash_bytes_requested=ComponentHash.bytes_requested session;
+             checkpoint=(if capture then Some(ComponentHash.checkpoint session refined) else None);
+             reused_components=reused;invalidated_components=invalidated} in
+        let refresh_owned entry record decoders max_read_bytes capture =
+          let checkpoint=DngComponents.checkpoint_for_owner_entry entry record in
+          check_cancel ();
+          DngComponents.with_refreshed_checkpoint
+            ~previous:(DngComponents.owner_entry_outcomes entry) ~decoders
+            ~expected_checkpoint_sha256:(ComponentHash.checkpoint_sha256 checkpoint)
+            ~max_read_bytes file (ComponentHash.checkpoint_bytes checkpoint)
+            (fun session result -> summarize session result.snapshot result.outcomes
+              capture result.reused result.invalidated) in
+        let components=match operation with
+          | Components (decoders,max_read_bytes,capture) ->
+            DngComponents.with_snapshot ~decoders ~max_read_bytes file
+              (fun session ~initial:_ ~refined outcomes -> summarize session refined outcomes capture [] [])
+          | Refresh_owned_components (entry,record,decoders,max_read_bytes,capture) ->
+            refresh_owned entry record decoders max_read_bytes capture
+          | Indexed_components (index,root_identity,path,generation_sha256,record,decoders,max_read_bytes,capture) ->
+            (match DngComponents.select_owner_entry index ~root_identity ~path ~generation_sha256 with
+             | None -> DngComponents.with_snapshot ~decoders ~max_read_bytes file
+                 (fun session ~initial:_ ~refined outcomes -> summarize session refined outcomes capture [] [])
+             | Some entry -> match record with
+               | None -> Error "selected component owner entry has no retained record"
+               | Some record -> refresh_owned entry record decoders max_read_bytes capture)
+          | Restore_components (expected_checkpoint_sha256,encoded,max_read_bytes) ->
+            DngComponents.with_checkpoint ~expected_checkpoint_sha256 ~max_read_bytes file encoded
+              (fun session snapshot -> summarize session snapshot [] false [] [])
+          | Refresh_components (previous,decoders,expected_checkpoint_sha256,encoded,max_read_bytes,capture) ->
+            DngComponents.with_refreshed_checkpoint ~previous ~decoders ~expected_checkpoint_sha256
+              ~max_read_bytes file encoded (fun session result ->
+                summarize session result.snapshot result.outcomes capture result.reused result.invalidated)
+          | _ -> assert false in
+        check_cancel ();SemanticFile.check file;
+        Component_inspected {components;stats}
       | Observe extension ->
-        let proof = SemanticDelta.inspect ~max_payload:(FormatExtension.payload_limit extension)
+        let proof = SemanticDelta.inspect ~span_semantics:(FormatExtension.span_semantics extension)
+          ~max_payload:(FormatExtension.payload_limit extension)
           (FormatExtension.implementation extension) file in
         check_cancel ();
         let meaning = match proof with
@@ -121,8 +189,14 @@ let execute job =
         let report = SemanticDelta.apply_report_with_extension ~check_cancel
           ~max_payload:(FormatExtension.payload_limit extension) (FormatExtension.implementation extension)
           plan ~basis:file ~output in
-        Applied report in
-    let result,reads = if job.measure_reads then
+        Applied report
+      | Snapshot (max_bytes,output) ->
+        Snapshotted (ValidationSnapshot.materialize ~check_cancel ~max_bytes
+          ~clone:ValidationSnapshot.existing_clone ~source:job.fd ~output) in
+    (* Snapshot owns independent source/output readers. The outer reader's
+       zero counter would not measure that job; do not emit a false sample. *)
+    let measured = job.measure_reads && (match job.operation with Snapshot _ -> false | _ -> true) in
+    let result,reads = if measured then
         let result,reads = SemanticFile.with_read_stats ~check_cancel job.fd operation in
         result,Some reads
       else SemanticFile.with_fd ~check_cancel job.fd operation,None in
@@ -131,7 +205,7 @@ let execute job =
     else result,reads
   with
   | Cancelled_job -> Cancelled,None
-  | SemanticFile.Invalid reason | Invalid_argument reason -> Error reason,None
+  | SemanticFile.Invalid reason | ComponentHash.Invalid reason | Invalid_argument reason -> Error reason,None
   | Unix.Unix_error (err, operation, _) -> Error (operation ^ ": " ^ Unix.error_message err),None
   | _ -> Error "unexpected digest worker failure",None
 let rec worker shared () =
@@ -341,15 +415,15 @@ let submit t cancellation fd requested_operation =
           end)) (function
         | None | Some Cancelled -> return None
         | Some (Error reason) -> fail (Failed reason)
-        | Some ((Hashed _ | Inspected _ | Observed _ | Identified _ | Reconciled _ | Applied _) as result) ->
+        | Some ((Hashed _ | Inspected _ | Observed _ | Identified _ | Recognized _ | Component_inspected _ | Reconciled _ | Applied _ | Snapshotted _) as result) ->
           if t.closing || H.is_cancelled cancellation then return None
           else return (Some result)) fail in
     let admitted_execution () = match t.io with
       | None -> execute ()
       | Some io ->
           let descriptors = match !operation with
-            | Apply (_, _, output) -> [!owned;output]
-            | Digest | Inspect _ | Observe _ | Identify _ | Reconcile _ -> [!owned] in
+            | Apply (_, _, output) | Snapshot (_,output) -> [!owned;output]
+            | Digest | Inspect _ | Observe _ | Identify _ | Recognize _ | Components _ | Restore_components _ | Refresh_components _ | Refresh_owned_components _ | Indexed_components _ | Reconcile _ -> [!owned] in
           let devices = IoAdmission.devices_of_fds descriptors in
           BorrowedWork.try_bind
             (fun () -> IoAdmission.with_devices io admission_cancel ~devices execute)
@@ -387,11 +461,49 @@ let digest t cancellation fd =
   | Some (Hashed result) -> return (Some result)
   | Some _ -> fail (Failed "unexpected digest response")) fail
 
+let snapshot t cancellation ~max_bytes ~source ~output =
+  if max_bytes<0L then invalid_arg "SemanticWorkers.snapshot byte limit";
+  BorrowedWork.try_bind (fun () -> submit t cancellation source (Snapshot (max_bytes,output))) (function
+  | None -> return None
+  | Some (Snapshotted report) -> return (Some report)
+  | Some _ -> fail (Failed "unexpected snapshot response")) fail
+
 let inspect t cancellation ~extension fd =
   BorrowedWork.try_bind (fun () -> submit t cancellation fd (Inspect extension)) (function
   | None -> return None
   | Some (Inspected result) -> return (Some result)
   | Some _ -> fail (Failed "unexpected inspection response")) fail
+
+let components t cancellation ?(capture_checkpoint=false) ~decoders ~max_read_bytes fd =
+  if max_read_bytes<0L then invalid_arg "SemanticWorkers.components read limit";
+  BorrowedWork.try_bind (fun () -> submit t cancellation fd (Components(decoders,max_read_bytes,capture_checkpoint))) (function
+  | None -> return None
+  | Some (Component_inspected result) -> return (Some result)
+  | Some _ -> fail (Failed "unexpected component inspection response")) fail
+
+let restore_components t cancellation ~expected_checkpoint_sha256 ~encoded ~max_read_bytes fd =
+  if max_read_bytes<0L || String.length expected_checkpoint_sha256<>32 ||
+    String.length encoded>ComponentHash.max_checkpoint_size then
+    invalid_arg "SemanticWorkers.restore_components bounds";
+  BorrowedWork.try_bind
+    (fun () -> submit t cancellation fd (Restore_components(expected_checkpoint_sha256,encoded,max_read_bytes)))
+    (function
+      | None -> return None
+      | Some (Component_inspected result) -> return (Some result)
+      | Some _ -> fail (Failed "unexpected restored component response")) fail
+
+let refresh_components t cancellation ~previous ~decoders ?(capture_checkpoint=false)
+    ~expected_checkpoint_sha256 ~encoded ~max_read_bytes fd =
+  if max_read_bytes<0L || List.length previous>64 || String.length expected_checkpoint_sha256<>32 ||
+    String.length encoded>ComponentHash.max_checkpoint_size then
+    invalid_arg "SemanticWorkers.refresh_components bounds";
+  BorrowedWork.try_bind
+    (fun () -> submit t cancellation fd
+      (Refresh_components(previous,decoders,expected_checkpoint_sha256,encoded,max_read_bytes,capture_checkpoint)))
+    (function
+      | None -> return None
+      | Some (Component_inspected result) -> return (Some result)
+      | Some _ -> fail (Failed "unexpected refreshed component response")) fail
 
 let reconcile_xmp t cancellation ~extension ~nonce ~base ~left ~right fd =
   BorrowedWork.try_bind
@@ -400,12 +512,20 @@ let reconcile_xmp t cancellation ~extension ~nonce ~base ~left ~right fd =
     | Some(Reconciled result) -> return(Some result)
     | Some _ -> fail(Failed "unexpected reconciliation response")) fail
 
-let identify t cancellation ~recognizers fd =
+let check_recognizers recognizers =
   if List.length recognizers > FormatRecognition.max_recognizers then
     invalid_arg "candidate recognition limit";
   let ids = List.map (fun (handle,_) -> FormatRecognition.format handle) recognizers in
   if List.length (List.sort_uniq String.compare ids) <> List.length ids then
-    invalid_arg "duplicate candidate recognition format";
+    invalid_arg "duplicate candidate recognition format"
+let recognize t cancellation ~recognizers fd =
+  check_recognizers recognizers;
+  BorrowedWork.try_bind (fun () -> submit t cancellation fd (Recognize recognizers)) (function
+  | None -> return None
+  | Some (Recognized result) -> return (Some result)
+  | Some _ -> fail (Failed "unexpected recognition response")) fail
+let identify t cancellation ~recognizers fd =
+  check_recognizers recognizers;
   BorrowedWork.try_bind (fun () -> submit t cancellation fd (Identify recognizers)) (function
   | None -> return None
   | Some (Identified result) -> return (Some result)
@@ -455,3 +575,29 @@ let shutdown t = match t.shutdown_result with
       (fun () -> Lwt.wakeup result (); return ())
       (fun exn -> Lwt.wakeup_exn result exn; return ()));
     result
+
+let refresh_owned_components t cancellation ~entry ~record ~decoders
+    ?(capture_checkpoint=false) ~max_read_bytes fd =
+  if max_read_bytes<0L || String.length record>ComponentHash.max_checkpoint_size+80 then
+    invalid_arg "SemanticWorkers.refresh_owned_components bounds";
+  BorrowedWork.try_bind
+    (fun () -> submit t cancellation fd
+      (Refresh_owned_components(entry,record,decoders,max_read_bytes,capture_checkpoint)))
+    (function
+      | None -> return None
+      | Some (Component_inspected result) -> return (Some result)
+      | Some _ -> fail (Failed "unexpected owner-bound refreshed component response")) fail
+
+let components_indexed t cancellation ~index ~root_identity ~path ~generation_sha256
+    ~record ~decoders ?(capture_checkpoint=false) ~max_read_bytes fd =
+  if max_read_bytes<0L || String.length root_identity>4096 || String.length path>4096 ||
+    String.length generation_sha256<>32 ||
+    (match record with Some bytes -> String.length bytes>ComponentHash.max_checkpoint_size+80 | None -> false)
+  then invalid_arg "SemanticWorkers.components_indexed bounds";
+  BorrowedWork.try_bind
+    (fun () -> submit t cancellation fd
+      (Indexed_components(index,root_identity,path,generation_sha256,record,decoders,max_read_bytes,capture_checkpoint)))
+    (function
+      | None -> return None
+      | Some (Component_inspected result) -> return (Some result)
+      | Some _ -> fail (Failed "unexpected indexed component response")) fail
